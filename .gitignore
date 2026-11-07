@@ -1,0 +1,16 @@
+# Research images, annotations and review records are for internal use only.
+/data/
+/cache/
+/ratings/
+
+# Generated runs, model weights and downloaded pretrained models.
+/outputs/
+/pretrained/
+/reports/lan5/
+*.pt
+*.pth
+*.joblib
+*.npz
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
