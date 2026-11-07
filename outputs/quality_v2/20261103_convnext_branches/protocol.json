@@ -1,0 +1,25 @@
+{
+  "architecture": "convnext_tiny",
+  "seeds": [
+    20261103,
+    20261113
+  ],
+  "epochs": 60,
+  "loss": "L1 + global L2 + .5 conditional L2 + .5 evidence; blank L2 masked",
+  "data": "same fixed train/val/test; train-only sqrt inverse-frequency sampler; 384 full body",
+  "gate_min_precision": 0.925,
+  "promotion": "same constraints as quality_v2, no test selection",
+  "ensemble_weights": [
+    0.0,
+    0.25,
+    0.5
+  ],
+  "ensemble": "all declared seeds equally weighted",
+  "model_run": "outputs\\quality_v2\\20261103_convnext",
+  "calibration": [
+    "global",
+    "four_parent_branches"
+  ],
+  "baseline_gate_ablation": true,
+  "prior_test_metrics_used": false
+}

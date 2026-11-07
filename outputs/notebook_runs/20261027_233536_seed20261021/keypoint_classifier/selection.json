@@ -1,0 +1,67 @@
+{
+  "model": "random_forest",
+  "class_weight_rule": "normalized inverse-frequency power 0.5, computed from train only",
+  "l2_training": "separate classifier within each L1 branch",
+  "feature_schema": "raw COCO-17 + body-centered geometry + joint angles; one jittered training copy",
+  "training_class_weights": {
+    "l1": {
+      "C1.1": 0.4837233216621573,
+      "C1.2": 1.0241181226761755,
+      "C1.3": 0.8961857311394414,
+      "C1.4": 1.595972824522226
+    },
+    "l2_by_parent": {
+      "C1.1": {
+        "C2.1": 0.4432049592375977,
+        "C2.2": 1.263328507011935,
+        "C2.3": 0.6834629720294425,
+        "C2.4": 1.3195035912158941,
+        "C2.5": 1.290499970505131
+      },
+      "C1.2": {
+        "C2.6": 0.8901030026132012,
+        "C2.7": 0.8511012591821957,
+        "C2.8": 1.2587957382046036
+      },
+      "C1.3": {
+        "C2.10": 1.0322917017419806,
+        "C2.9": 0.9677082982580197
+      },
+      "C1.4": {
+        "C2.11": 1.0
+      }
+    }
+  },
+  "validation_selection_score": 0.7580847664842831,
+  "l1_rejection_threshold": 0.5024,
+  "l1_threshold_choice": {
+    "threshold": 0.5024,
+    "accepted": 121,
+    "rejected": 15,
+    "coverage": 0.8897058823529411,
+    "selective_accuracy": 0.9008264462809917,
+    "selective_risk": 0.09917355371900827,
+    "accuracy_95ci_wilson": [
+      0.8346292610982092,
+      0.9423553337804208
+    ],
+    "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+  },
+  "l2_fallback_threshold": 0.5121,
+  "threshold_choice": {
+    "threshold": 0.5121,
+    "accepted_total": 88,
+    "accepted_on_labeled_l2": 76,
+    "accepted_on_blank_l2": 12,
+    "coverage_of_labeled_l2": 0.7169811320754716,
+    "exact_accuracy_on_accepted_labeled_l2": 0.9342105263157895,
+    "precision_including_blank_l2_abstention_examples": 0.8068181818181818,
+    "recall_of_gold_l2": 0.6698113207547169,
+    "selective_f1": 0.7319587628865978,
+    "selection_rule": "maximum labeled-L2 coverage subject to validation precision >= 0.80"
+  },
+  "temperature_scaling": {
+    "l1_temperature": 1.040892243385315,
+    "l2_temperature": 0.7332043051719666
+  }
+}

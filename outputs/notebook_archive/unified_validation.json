@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "run": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261103_101214_seed20261021_unified_smoke",
+  "architectures": [
+    "resnet18",
+    "mobilenet_v2",
+    "convnext_tiny"
+  ],
+  "full_backward_batches_per_model": 1,
+  "smoke_only": true,
+  "test_rows": 125,
+  "test_not_read_in_image_selection": true,
+  "convnext_batch_demo_parity": true,
+  "cold_demo_passed": true,
+  "trimmed_analysis_passed": true
+}

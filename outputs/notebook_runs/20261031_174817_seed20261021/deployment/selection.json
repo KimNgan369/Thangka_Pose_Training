@@ -1,0 +1,1584 @@
+{
+  "selected": {
+    "image_weight": 1.0,
+    "l1_threshold": 0.4267,
+    "l2_threshold": 0.0,
+    "evidence_threshold": 0.5,
+    "class_thresholds": {
+      "C2.1": 0.8424416506474687,
+      "C2.2": 1.0001,
+      "C2.3": 0.6729900438586809,
+      "C2.4": 1.0001,
+      "C2.5": 1.0001,
+      "C2.6": 0.6059472968962741,
+      "C2.7": 1.0001,
+      "C2.8": 0.22926941522779,
+      "C2.9": 1.0001,
+      "C2.10": 1.0001,
+      "C2.11": 0.0
+    },
+    "l1_choice": {
+      "threshold": 0.4267,
+      "accepted": 134,
+      "rejected": 2,
+      "coverage": 0.9852941176470589,
+      "selective_accuracy": 0.9104477611940298,
+      "selective_risk": 0.08955223880597019,
+      "accuracy_95ci_wilson": [
+        0.8499868912578767,
+        0.948030543246656
+      ],
+      "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+    },
+    "threshold_choice": {
+      "evidence_threshold": 0.5,
+      "per_class": {
+        "C2.1": {
+          "threshold": 0.8424416506474687,
+          "accepted": 17,
+          "correct": 17,
+          "precision": 1.0,
+          "recall": 0.4146341463414634,
+          "support": 41,
+          "precision_95ci_wilson": [
+            0.8156763396284354,
+            1.0
+          ]
+        },
+        "C2.2": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4,
+          "precision_95ci_wilson": null
+        },
+        "C2.3": {
+          "threshold": 0.6729900438586809,
+          "accepted": 12,
+          "correct": 11,
+          "precision": 0.9166666666666666,
+          "recall": 0.5789473684210527,
+          "support": 19,
+          "precision_95ci_wilson": [
+            0.6461140782014047,
+            0.9851352905492264
+          ]
+        },
+        "C2.4": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4,
+          "precision_95ci_wilson": null
+        },
+        "C2.5": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 6,
+          "precision_95ci_wilson": null
+        },
+        "C2.6": {
+          "threshold": 0.6059472968962741,
+          "accepted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 0.6,
+          "support": 5,
+          "precision_95ci_wilson": [
+            0.43849391955098227,
+            1.0
+          ]
+        },
+        "C2.7": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 7,
+          "precision_95ci_wilson": null
+        },
+        "C2.8": {
+          "threshold": 0.22926941522779,
+          "accepted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 3,
+          "precision_95ci_wilson": [
+            0.43849391955098227,
+            1.0
+          ]
+        },
+        "C2.9": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 5,
+          "precision_95ci_wilson": null
+        },
+        "C2.10": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 6,
+          "precision_95ci_wilson": null
+        },
+        "C2.11": {
+          "threshold": 0.0,
+          "accepted": 6,
+          "correct": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6,
+          "precision_95ci_wilson": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        }
+      },
+      "macro_recall": 0.3266892286147742,
+      "accepted": 41,
+      "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+      "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+    },
+    "quality": {
+      "score": 0.6157910874431681,
+      "l1_macro_f1": 0.8637745098039216,
+      "l2_end_to_end_macro_f1": 0.36780766508241475,
+      "per_class": [
+        {
+          "code": "C2.1",
+          "support": 41,
+          "predicted": 17,
+          "correct": 17,
+          "precision": 1.0,
+          "recall": 0.4146341463414634,
+          "f1": 0.5862068965517241
+        },
+        {
+          "code": "C2.2",
+          "support": 4,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.3",
+          "support": 19,
+          "predicted": 12,
+          "correct": 11,
+          "precision": 0.9166666666666666,
+          "recall": 0.5789473684210527,
+          "f1": 0.7096774193548387
+        },
+        {
+          "code": "C2.4",
+          "support": 4,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.5",
+          "support": 6,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.6",
+          "support": 5,
+          "predicted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.7499999999999999
+        },
+        {
+          "code": "C2.7",
+          "support": 7,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.8",
+          "support": 3,
+          "predicted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "code": "C2.9",
+          "support": 5,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.10",
+          "support": 6,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.11",
+          "support": 6,
+          "predicted": 6,
+          "correct": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ]
+    }
+  },
+  "trials": [
+    {
+      "image_weight": 0.0,
+      "l1_threshold": 0.5992,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9655990000597261,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 1.0001,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.5992,
+        "accepted": 119,
+        "rejected": 17,
+        "coverage": 0.875,
+        "selective_accuracy": 0.907563025210084,
+        "selective_risk": 0.09243697478991597,
+        "accuracy_95ci_wilson": [
+          0.8420348151936627,
+          0.9475999665089527
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9655990000597261,
+            "accepted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.6755843804891231,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 3,
+            "precision_95ci_wilson": null
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.0934959349593496,
+        "accepted": 13,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+      },
+      "quality": {
+        "score": 0.4603429795937866,
+        "l1_macro_f1": 0.8083567299752271,
+        "l2_end_to_end_macro_f1": 0.1123292292123461,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "f1": 0.326530612244898
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.25,
+      "l1_threshold": 0.5246,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9353788680761582,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.3165804552127213,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.5246,
+        "accepted": 126,
+        "rejected": 10,
+        "coverage": 0.9264705882352942,
+        "selective_accuracy": 0.9047619047619048,
+        "selective_risk": 0.09523809523809523,
+        "accuracy_95ci_wilson": [
+          0.8408936424953803,
+          0.9446789320878042
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9353788680761582,
+            "accepted": 9,
+            "correct": 9,
+            "precision": 1.0,
+            "recall": 0.21951219512195122,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.7008472464490407,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.3165804552127213,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.18662232076866223,
+        "accepted": 17,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+      },
+      "quality": {
+        "score": 0.5091832677510577,
+        "l1_macro_f1": 0.8120855437665783,
+        "l2_end_to_end_macro_f1": 0.20628099173553718,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 9,
+            "correct": 9,
+            "precision": 1.0,
+            "recall": 0.21951219512195122,
+            "f1": 0.36
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.5,
+      "l1_threshold": 0.4323,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9060670821071239,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.4323,
+        "accepted": 131,
+        "rejected": 5,
+        "coverage": 0.9632352941176471,
+        "selective_accuracy": 0.9007633587786259,
+        "selective_risk": 0.0992366412213741,
+        "accuracy_95ci_wilson": [
+          0.837605768331011,
+          0.9410856740725202
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9060670821071239,
+            "accepted": 11,
+            "correct": 11,
+            "precision": 1.0,
+            "recall": 0.2682926829268293,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.7411599827511859,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.0,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.19105691056910568,
+        "accepted": 19,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+      },
+      "quality": {
+        "score": 0.5275441561442737,
+        "l1_macro_f1": 0.8430730548187445,
+        "l2_end_to_end_macro_f1": 0.2120152574698029,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 11,
+            "correct": 11,
+            "precision": 1.0,
+            "recall": 0.2682926829268293,
+            "f1": 0.4230769230769231
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.75,
+      "l1_threshold": 0.4354,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.8742543663772963,
+        "C2.2": 1.0001,
+        "C2.3": 0.6974055398588066,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.4354,
+        "accepted": 134,
+        "rejected": 2,
+        "coverage": 0.9852941176470589,
+        "selective_accuracy": 0.9029850746268657,
+        "selective_risk": 0.09701492537313428,
+        "accuracy_95ci_wilson": [
+          0.8410824796166514,
+          0.9424255469877991
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.8742543663772963,
+            "accepted": 12,
+            "correct": 12,
+            "precision": 1.0,
+            "recall": 0.2926829268292683,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.7574992425007574,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 0.6974055398588066,
+            "accepted": 10,
+            "correct": 9,
+            "precision": 0.9,
+            "recall": 0.47368421052631576,
+            "support": 19,
+            "precision_95ci_wilson": [
+              0.5958436145024278,
+              0.9821242504842788
+            ]
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.0,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.23633640642626522,
+        "accepted": 30,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+      },
+      "quality": {
+        "score": 0.568693563437385,
+        "l1_macro_f1": 0.8662406947890819,
+        "l2_end_to_end_macro_f1": 0.271146432085688,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 12,
+            "correct": 12,
+            "precision": 1.0,
+            "recall": 0.2926829268292683,
+            "f1": 0.45283018867924524
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 10,
+            "correct": 9,
+            "precision": 0.9,
+            "recall": 0.47368421052631576,
+            "f1": 0.6206896551724138
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 1.0,
+      "l1_threshold": 0.4267,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.8424416506474687,
+        "C2.2": 1.0001,
+        "C2.3": 0.6729900438586809,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 0.6059472968962741,
+        "C2.7": 1.0001,
+        "C2.8": 0.22926941522779,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.4267,
+        "accepted": 134,
+        "rejected": 2,
+        "coverage": 0.9852941176470589,
+        "selective_accuracy": 0.9104477611940298,
+        "selective_risk": 0.08955223880597019,
+        "accuracy_95ci_wilson": [
+          0.8499868912578767,
+          0.948030543246656
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.8424416506474687,
+            "accepted": 17,
+            "correct": 17,
+            "precision": 1.0,
+            "recall": 0.4146341463414634,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.8156763396284354,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 0.6729900438586809,
+            "accepted": 12,
+            "correct": 11,
+            "precision": 0.9166666666666666,
+            "recall": 0.5789473684210527,
+            "support": 19,
+            "precision_95ci_wilson": [
+              0.6461140782014047,
+              0.9851352905492264
+            ]
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 0.6059472968962741,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 0.6,
+            "support": 5,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.22926941522779,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.6096569663469354,
+              0.9999999999999999
+            ]
+          }
+        },
+        "macro_recall": 0.3266892286147742,
+        "accepted": 41,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+      },
+      "quality": {
+        "score": 0.6157910874431681,
+        "l1_macro_f1": 0.8637745098039216,
+        "l2_end_to_end_macro_f1": 0.36780766508241475,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 17,
+            "correct": 17,
+            "precision": 1.0,
+            "recall": 0.4146341463414634,
+            "f1": 0.5862068965517241
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 12,
+            "correct": 11,
+            "precision": 0.9166666666666666,
+            "recall": 0.5789473684210527,
+            "f1": 0.7096774193548387
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 0.6,
+            "f1": 0.7499999999999999
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "image_members": [
+    {
+      "architecture": "resnet18",
+      "seed": 20261021,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 0.8990404605865479,
+        "l2_temperature": 0.9507384896278381,
+        "evidence_temperature": 2.107914924621582
+      },
+      "best_epoch": 51
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 20261031,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 1.0,
+        "l2_temperature": 1.0989813804626465,
+        "evidence_temperature": 2.613272190093994
+      },
+      "best_epoch": 53
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 20261107,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 1.0,
+        "l2_temperature": 1.009543776512146,
+        "evidence_temperature": 2.268244504928589
+      },
+      "best_epoch": 47
+    }
+  ],
+  "keypoint_classifier": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174817_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib",
+  "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+  "model_schema": 4
+}

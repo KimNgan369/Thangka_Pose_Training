@@ -1,0 +1,170 @@
+{
+  "input": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\reports\\lan5\\52300129_52300131_BaoCaoTienDo_Lan5_Tuan8_9_10_Thangka_20261101.docx",
+  "fonts_by_char_count": {
+    "Times New Roman": 1778
+  },
+  "direct_run_formatting_runs": 1400,
+  "direct_paragraph_formatting_paragraphs": 988,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 3,
+      "text": "TR\u1ea6N TH\u1ea2O MY \u2013 52300129\nTR\u1ea6N TH\u1eca KIM NG\u00c2N \u2013 52300131\n",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "B\u00c1O C\u00c1O TI\u1ebeN \u0110\u1ed8 L\u1ea6N 5",
+      "style": "Title"
+    },
+    {
+      "para_index": 5,
+      "text": "PH\u00c2N T\u00cdCH T\u01af TH\u1ebe PH\u00c2N C\u1ea4P C\u1ee6A NH\u00c2N V\u1eacT\nTRONG \u1ea2NH NGH\u1ec6 THU\u1eacT PH\u1eacT GI\u00c1O",
+      "style": "Normal"
+    },
+    {
+      "para_index": 226,
+      "text": "Thu\u1eadt ng\u1eef",
+      "style": "Normal"
+    },
+    {
+      "para_index": 227,
+      "text": "Gi\u1ea3i th\u00edch",
+      "style": "Normal"
+    },
+    {
+      "para_index": 246,
+      "text": "H\u1ea1ng m\u1ee5c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 247,
+      "text": "K\u1ebft qu\u1ea3 c\u00f3 b\u1eb1ng ch\u1ee9ng",
+      "style": "Normal"
+    },
+    {
+      "para_index": 248,
+      "text": "Gi\u1edbi h\u1ea1n c\u00f2n l\u1ea1i",
+      "style": "Normal"
+    },
+    {
+      "para_index": 267,
+      "text": "M\u1ed1c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 268,
+      "text": "C\u00f4ng vi\u1ec7c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 269,
+      "text": "S\u1ea3n ph\u1ea9m ki\u1ec3m ch\u1ee9ng",
+      "style": "Normal"
+    },
+    {
+      "para_index": 282,
+      "text": "Thu\u1ed9c t\u00ednh",
+      "style": "Normal"
+    },
+    {
+      "para_index": 283,
+      "text": "B\u00e1o c\u00e1o l\u1ea7n 4",
+      "style": "Normal"
+    },
+    {
+      "para_index": 284,
+      "text": "B\u00e1o c\u00e1o l\u1ea7n 5",
+      "style": "Normal"
+    },
+    {
+      "para_index": 306,
+      "text": "T\u1eadp con",
+      "style": "Normal"
+    },
+    {
+      "para_index": 307,
+      "text": "Train",
+      "style": "Normal"
+    },
+    {
+      "para_index": 308,
+      "text": "Validation",
+      "style": "Normal"
+    },
+    {
+      "para_index": 309,
+      "text": "Test",
+      "style": "Normal"
+    },
+    {
+      "para_index": 310,
+      "text": "T\u1ed5ng",
+      "style": "Normal"
+    },
+    {
+      "para_index": 341,
+      "text": "L\u1edbp",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "T\u1ed4NG LI\u00caN \u0110O\u00c0N LAO \u0110\u1ed8NG VI\u1ec6T NAM",
+        "style": "Normal"
+      },
+      {
+        "para_index": 1,
+        "run_text": "\nTR\u01af\u1edcNG \u0110\u1ea0I H\u1eccC T\u00d4N \u0110\u1ee8C TH\u1eaeNG",
+        "style": "Normal"
+      },
+      {
+        "para_index": 1,
+        "run_text": "\nKHOA C\u00d4NG NGH\u1ec6 TH\u00d4NG TIN",
+        "style": "Normal"
+      },
+      {
+        "para_index": 1,
+        "run_text": "\n",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "TR\u1ea6N TH\u1ea2O MY \u2013 52300129",
+        "style": "Normal"
+      }
+    ],
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 2,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "TR\u1ea6N TH\u1ea2O MY \u2013 52300129\nTR\u1ea6N TH\u1eca KIM NG\u00c2N \u2013 52300131\n",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "B\u00c1O C\u00c1O TI\u1ebeN \u0110\u1ed8 L\u1ea6N 5",
+        "style": "Title"
+      },
+      {
+        "para_index": 5,
+        "text": "PH\u00c2N T\u00cdCH T\u01af TH\u1ebe PH\u00c2N C\u1ea4P C\u1ee6A NH\u00c2N V\u1eacT\nTRONG \u1ea2NH NGH\u1ec6 THU\u1eacT PH\u1eacT GI\u00c1O",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "text": "Ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

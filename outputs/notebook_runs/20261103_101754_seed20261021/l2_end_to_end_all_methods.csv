@@ -1,0 +1,34 @@
+﻿method,code,label,support,predicted,correct,precision,recall,f1
+Ảnh,C2.1,Ngồi bắt chéo khóa kín,37,18,18,1.0,0.4864864864864865,0.6545454545454545
+Ảnh,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Ảnh,C2.3,"Ngồi một chân co, một chân thả",17,10,8,0.8,0.47058823529411764,0.5925925925925926
+Ảnh,C2.4,Ngồi hai chân thả,6,0,0,0.0,0.0,0.0
+Ảnh,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Ảnh,C2.6,"Đứng thẳng, hai chân trụ",3,0,0,0.0,0.0,0.0
+Ảnh,C2.7,Đứng lệch trọng tâm,7,0,0,0.0,0.0,0.0
+Ảnh,C2.8,"Một chân trụ, chân kia co/nâng",3,3,2,0.6666666666666666,0.6666666666666666,0.6666666666666666
+Ảnh,C2.9,Bước/chuyển hướng,8,0,0,0.0,0.0,0.0
+Ảnh,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Ảnh,C2.11,Nằm nghiêng,8,7,7,1.0,0.875,0.9333333333333333
+Keypoint,C2.1,Ngồi bắt chéo khóa kín,37,4,4,1.0,0.10810810810810811,0.1951219512195122
+Keypoint,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Keypoint,C2.3,"Ngồi một chân co, một chân thả",17,0,0,0.0,0.0,0.0
+Keypoint,C2.4,Ngồi hai chân thả,6,0,0,0.0,0.0,0.0
+Keypoint,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Keypoint,C2.6,"Đứng thẳng, hai chân trụ",3,0,0,0.0,0.0,0.0
+Keypoint,C2.7,Đứng lệch trọng tâm,7,0,0,0.0,0.0,0.0
+Keypoint,C2.8,"Một chân trụ, chân kia co/nâng",3,0,0,0.0,0.0,0.0
+Keypoint,C2.9,Bước/chuyển hướng,8,0,0,0.0,0.0,0.0
+Keypoint,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Keypoint,C2.11,Nằm nghiêng,8,7,6,0.8571428571428571,0.75,0.8
+Phương án sử dụng,C2.1,Ngồi bắt chéo khóa kín,37,18,18,1.0,0.4864864864864865,0.6545454545454545
+Phương án sử dụng,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.3,"Ngồi một chân co, một chân thả",17,10,8,0.8,0.47058823529411764,0.5925925925925926
+Phương án sử dụng,C2.4,Ngồi hai chân thả,6,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.6,"Đứng thẳng, hai chân trụ",3,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.7,Đứng lệch trọng tâm,7,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.8,"Một chân trụ, chân kia co/nâng",3,3,2,0.6666666666666666,0.6666666666666666,0.6666666666666666
+Phương án sử dụng,C2.9,Bước/chuyển hướng,8,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.11,Nằm nghiêng,8,7,7,1.0,0.875,0.9333333333333333

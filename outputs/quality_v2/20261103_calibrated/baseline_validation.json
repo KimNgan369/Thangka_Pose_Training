@@ -1,0 +1,114 @@
+{
+  "l1_accuracy": 0.8970588235294118,
+  "l1_selective_accuracy": 0.9104477611940298,
+  "l1_coverage": 0.9852941176470589,
+  "macro_f1": 0.3333920806668304,
+  "macro_recall": 0.27820438012992565,
+  "precision": 0.9743589743589743,
+  "blank_acceptance": 0.0,
+  "exact_recall": 0.3584905660377358,
+  "accepted": 39,
+  "correct": 38,
+  "nonzero_classes": 5,
+  "per_class": [
+    {
+      "code": "C2.1",
+      "support": 41,
+      "predicted": 17,
+      "correct": 17,
+      "precision": 1.0,
+      "recall": 0.4146341463414634,
+      "f1": 0.5862068965517241
+    },
+    {
+      "code": "C2.2",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.3",
+      "support": 19,
+      "predicted": 12,
+      "correct": 11,
+      "precision": 0.9166666666666666,
+      "recall": 0.5789473684210527,
+      "f1": 0.7096774193548387
+    },
+    {
+      "code": "C2.4",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.5",
+      "support": 6,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.6",
+      "support": 5,
+      "predicted": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285714
+    },
+    {
+      "code": "C2.7",
+      "support": 7,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.8",
+      "support": 3,
+      "predicted": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8
+    },
+    {
+      "code": "C2.9",
+      "support": 5,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.10",
+      "support": 6,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.11",
+      "support": 6,
+      "predicted": 6,
+      "correct": 6,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ]
+}

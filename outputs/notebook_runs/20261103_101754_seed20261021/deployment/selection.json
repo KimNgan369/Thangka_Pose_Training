@@ -1,0 +1,3276 @@
+{
+  "selected": {
+    "image_weight": 1.0,
+    "l1_threshold": 0.0,
+    "l2_threshold": 0.0,
+    "evidence_threshold": 0.5,
+    "class_thresholds": {
+      "C2.1": 0.8477060390090492,
+      "C2.2": 1.0001,
+      "C2.3": 0.6694448752609096,
+      "C2.4": 1.0001,
+      "C2.5": 1.0001,
+      "C2.6": 1.0001,
+      "C2.7": 1.0001,
+      "C2.8": 0.0,
+      "C2.9": 1.0001,
+      "C2.10": 1.0001,
+      "C2.11": 0.0
+    },
+    "l1_choice": {
+      "threshold": 0.0,
+      "accepted": 136,
+      "rejected": 0,
+      "coverage": 1.0,
+      "selective_accuracy": 0.9044117647058824,
+      "selective_risk": 0.09558823529411764,
+      "accuracy_95ci_wilson": [
+        0.8433188415060294,
+        0.9432854307563016
+      ],
+      "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+    },
+    "threshold_choice": {
+      "evidence_threshold": 0.5,
+      "per_class": {
+        "C2.1": {
+          "threshold": 0.8477060390090492,
+          "accepted": 17,
+          "correct": 17,
+          "precision": 1.0,
+          "recall": 0.4146341463414634,
+          "support": 41,
+          "precision_95ci_wilson": [
+            0.8156763396284354,
+            1.0
+          ]
+        },
+        "C2.2": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4,
+          "precision_95ci_wilson": null
+        },
+        "C2.3": {
+          "threshold": 0.6694448752609096,
+          "accepted": 12,
+          "correct": 11,
+          "precision": 0.9166666666666666,
+          "recall": 0.5789473684210527,
+          "support": 19,
+          "precision_95ci_wilson": [
+            0.6461140782014047,
+            0.9851352905492264
+          ]
+        },
+        "C2.4": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 4,
+          "precision_95ci_wilson": null
+        },
+        "C2.5": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 6,
+          "precision_95ci_wilson": null
+        },
+        "C2.6": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 5,
+          "precision_95ci_wilson": null
+        },
+        "C2.7": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 7,
+          "precision_95ci_wilson": null
+        },
+        "C2.8": {
+          "threshold": 0.0,
+          "accepted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 3,
+          "precision_95ci_wilson": [
+            0.43849391955098227,
+            1.0
+          ]
+        },
+        "C2.9": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 5,
+          "precision_95ci_wilson": null
+        },
+        "C2.10": {
+          "threshold": 1.0001,
+          "accepted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 6,
+          "precision_95ci_wilson": null
+        },
+        "C2.11": {
+          "threshold": 0.0,
+          "accepted": 6,
+          "correct": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 6,
+          "precision_95ci_wilson": [
+            0.6096569663469354,
+            0.9999999999999999
+          ]
+        }
+      },
+      "macro_recall": 0.2721437740693196,
+      "accepted": 38,
+      "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+      "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+      "calibration": "per_class",
+      "branch_validation": {
+        "l1_accuracy": 0.9044117647058824,
+        "l1_macro_f1": 0.876969696969697,
+        "l1_confusion_matrix": [
+          [
+            84,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            13,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "l1_selective_accuracy": 0.9044117647058824,
+        "l1_coverage": 1.0,
+        "macro_f1": 0.3758154990549356,
+        "macro_recall": 0.3017060389332533,
+        "precision": 0.9259259259259259,
+        "blank_acceptance": 0.1,
+        "exact_recall": 0.4716981132075472,
+        "accepted": 54,
+        "correct": 50,
+        "nonzero_classes": 7,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 30,
+            "correct": 28,
+            "precision": 0.9333333333333333,
+            "recall": 0.6829268292682927,
+            "f1": 0.7887323943661971
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 11,
+            "correct": 10,
+            "precision": 0.9090909090909091,
+            "recall": 0.5263157894736842,
+            "f1": 0.6666666666666666
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 2,
+            "correct": 2,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "f1": 0.25
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 2,
+            "correct": 2,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      "branch_crossfit": {
+        "l1_accuracy": 0.9044117647058824,
+        "l1_macro_f1": 0.876969696969697,
+        "l1_confusion_matrix": [
+          [
+            84,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            13,
+            3,
+            0
+          ],
+          [
+            3,
+            3,
+            19,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            7
+          ]
+        ],
+        "l1_selective_accuracy": 0.9029850746268657,
+        "l1_coverage": 0.9852941176470589,
+        "macro_f1": 0.3389238732522315,
+        "macro_recall": 0.2992092203902217,
+        "precision": 0.8113207547169812,
+        "blank_acceptance": 0.16666666666666666,
+        "exact_recall": 0.4056603773584906,
+        "accepted": 53,
+        "correct": 43,
+        "nonzero_classes": 6,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 26,
+            "correct": 23,
+            "precision": 0.8846153846153846,
+            "recall": 0.5609756097560976,
+            "f1": 0.6865671641791045
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 8,
+            "correct": 7,
+            "precision": 0.875,
+            "recall": 0.3684210526315789,
+            "f1": 0.5185185185185185
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 5,
+            "correct": 3,
+            "precision": 0.6,
+            "recall": 0.6,
+            "f1": 0.6
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 5,
+            "correct": 3,
+            "precision": 0.6,
+            "recall": 0.42857142857142855,
+            "f1": 0.5
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 7,
+            "correct": 6,
+            "precision": 0.8571428571428571,
+            "recall": 1.0,
+            "f1": 0.9230769230769231
+          }
+        ]
+      }
+    },
+    "quality": {
+      "score": 0.5882977719351468,
+      "l1_macro_f1": 0.876969696969697,
+      "l2_end_to_end_macro_f1": 0.2996258469005966,
+      "per_class": [
+        {
+          "code": "C2.1",
+          "support": 41,
+          "predicted": 17,
+          "correct": 17,
+          "precision": 1.0,
+          "recall": 0.4146341463414634,
+          "f1": 0.5862068965517241
+        },
+        {
+          "code": "C2.2",
+          "support": 4,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.3",
+          "support": 19,
+          "predicted": 12,
+          "correct": 11,
+          "precision": 0.9166666666666666,
+          "recall": 0.5789473684210527,
+          "f1": 0.7096774193548387
+        },
+        {
+          "code": "C2.4",
+          "support": 4,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.5",
+          "support": 6,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.6",
+          "support": 5,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.7",
+          "support": 7,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.8",
+          "support": 3,
+          "predicted": 3,
+          "correct": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        {
+          "code": "C2.9",
+          "support": 5,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.10",
+          "support": 6,
+          "predicted": 0,
+          "correct": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "code": "C2.11",
+          "support": 6,
+          "predicted": 6,
+          "correct": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      ]
+    }
+  },
+  "trials": [
+    {
+      "image_weight": 0.0,
+      "l1_threshold": 0.5992,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9655990000597261,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 1.0001,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.5992,
+        "accepted": 119,
+        "rejected": 17,
+        "coverage": 0.875,
+        "selective_accuracy": 0.907563025210084,
+        "selective_risk": 0.09243697478991597,
+        "accuracy_95ci_wilson": [
+          0.8420348151936627,
+          0.9475999665089527
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9655990000597261,
+            "accepted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.6755843804891231,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 3,
+            "precision_95ci_wilson": null
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.0934959349593496,
+        "accepted": 13,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+        "calibration": "per_class",
+        "branch_validation": {
+          "l1_accuracy": 0.8455882352941176,
+          "l1_macro_f1": 0.8083567299752271,
+          "l1_confusion_matrix": [
+            [
+              80,
+              2,
+              6,
+              0
+            ],
+            [
+              3,
+              11,
+              2,
+              0
+            ],
+            [
+              2,
+              6,
+              17,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.907563025210084,
+          "l1_coverage": 0.875,
+          "macro_f1": 0.12809917355371903,
+          "macro_recall": 0.10679970436067997,
+          "precision": 0.95,
+          "blank_acceptance": 0.03333333333333333,
+          "exact_recall": 0.1792452830188679,
+          "accepted": 20,
+          "correct": 19,
+          "nonzero_classes": 2,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 15,
+              "correct": 14,
+              "precision": 0.9333333333333333,
+              "recall": 0.34146341463414637,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 5,
+              "correct": 5,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            }
+          ]
+        },
+        "branch_crossfit": {
+          "l1_accuracy": 0.8455882352941176,
+          "l1_macro_f1": 0.8083567299752271,
+          "l1_confusion_matrix": [
+            [
+              80,
+              2,
+              6,
+              0
+            ],
+            [
+              3,
+              11,
+              2,
+              0
+            ],
+            [
+              2,
+              6,
+              17,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9051724137931034,
+          "l1_coverage": 0.8529411764705882,
+          "macro_f1": 0.17470156106519744,
+          "macro_recall": 0.13569844789356986,
+          "precision": 0.75,
+          "blank_acceptance": 0.13333333333333333,
+          "exact_recall": 0.16981132075471697,
+          "accepted": 24,
+          "correct": 18,
+          "nonzero_classes": 4,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 13,
+              "correct": 12,
+              "precision": 0.9230769230769231,
+              "recall": 0.2926829268292683,
+              "f1": 0.4444444444444444
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 1,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 3,
+              "correct": 1,
+              "precision": 0.3333333333333333,
+              "recall": 0.2,
+              "f1": 0.25
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 1,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 5,
+              "correct": 4,
+              "precision": 0.8,
+              "recall": 0.6666666666666666,
+              "f1": 0.7272727272727273
+            }
+          ]
+        }
+      },
+      "quality": {
+        "score": 0.4603429795937866,
+        "l1_macro_f1": 0.8083567299752271,
+        "l2_end_to_end_macro_f1": 0.1123292292123461,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "f1": 0.326530612244898
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.25,
+      "l1_threshold": 0.5351,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9375095705061046,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.30136265758973463,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.5351,
+        "accepted": 125,
+        "rejected": 11,
+        "coverage": 0.9191176470588235,
+        "selective_accuracy": 0.904,
+        "selective_risk": 0.09599999999999997,
+        "accuracy_95ci_wilson": [
+          0.8396789770994196,
+          0.9442293258089579
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9375095705061046,
+            "accepted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.6755843804891231,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.30136265758973463,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.1844050258684405,
+        "accepted": 16,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+        "calibration": "per_class",
+        "branch_validation": {
+          "l1_accuracy": 0.8676470588235294,
+          "l1_macro_f1": 0.8392292089249493,
+          "l1_confusion_matrix": [
+            [
+              81,
+              1,
+              6,
+              0
+            ],
+            [
+              3,
+              12,
+              1,
+              0
+            ],
+            [
+              2,
+              5,
+              18,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.904,
+          "l1_coverage": 0.9191176470588235,
+          "macro_f1": 0.23415977961432508,
+          "macro_recall": 0.18165091220290194,
+          "precision": 0.9375,
+          "blank_acceptance": 0.03333333333333333,
+          "exact_recall": 0.2830188679245283,
+          "accepted": 32,
+          "correct": 30,
+          "nonzero_classes": 5,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 22,
+              "correct": 21,
+              "precision": 0.9545454545454546,
+              "recall": 0.5121951219512195,
+              "f1": 0.6666666666666666
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 2,
+              "correct": 1,
+              "precision": 0.5,
+              "recall": 0.05263157894736842,
+              "f1": 0.09523809523809523
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 5,
+              "correct": 5,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            }
+          ]
+        },
+        "branch_crossfit": {
+          "l1_accuracy": 0.8676470588235294,
+          "l1_macro_f1": 0.8392292089249493,
+          "l1_confusion_matrix": [
+            [
+              81,
+              1,
+              6,
+              0
+            ],
+            [
+              3,
+              12,
+              1,
+              0
+            ],
+            [
+              2,
+              5,
+              18,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9105691056910569,
+          "l1_coverage": 0.9044117647058824,
+          "macro_f1": 0.27376623376623377,
+          "macro_recall": 0.22963228470288802,
+          "precision": 0.78,
+          "blank_acceptance": 0.16666666666666666,
+          "exact_recall": 0.36792452830188677,
+          "accepted": 50,
+          "correct": 39,
+          "nonzero_classes": 6,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 29,
+              "correct": 27,
+              "precision": 0.9310344827586207,
+              "recall": 0.6585365853658537,
+              "f1": 0.7714285714285715
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 6,
+              "correct": 3,
+              "precision": 0.5,
+              "recall": 0.15789473684210525,
+              "f1": 0.24
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 4,
+              "correct": 2,
+              "precision": 0.5,
+              "recall": 0.4,
+              "f1": 0.4444444444444444
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 2,
+              "correct": 1,
+              "precision": 0.5,
+              "recall": 0.14285714285714285,
+              "f1": 0.2222222222222222
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 2,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 6,
+              "correct": 5,
+              "precision": 0.8333333333333334,
+              "recall": 0.8333333333333334,
+              "f1": 0.8333333333333334
+            }
+          ]
+        }
+      },
+      "quality": {
+        "score": 0.5212337645231931,
+        "l1_macro_f1": 0.8392292089249493,
+        "l2_end_to_end_macro_f1": 0.203238320121437,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "f1": 0.326530612244898
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.5,
+      "l1_threshold": 0.4541,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9021115755206008,
+        "C2.2": 1.0001,
+        "C2.3": 1.0001,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.4541,
+        "accepted": 133,
+        "rejected": 3,
+        "coverage": 0.9779411764705882,
+        "selective_accuracy": 0.9022556390977443,
+        "selective_risk": 0.09774436090225569,
+        "accuracy_95ci_wilson": [
+          0.839940215343511,
+          0.9419857486908175
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.9021115755206008,
+            "accepted": 11,
+            "correct": 11,
+            "precision": 1.0,
+            "recall": 0.2682926829268293,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.7411599827511859,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 19,
+            "precision_95ci_wilson": null
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.0,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.19105691056910568,
+        "accepted": 19,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+        "calibration": "per_class",
+        "branch_validation": {
+          "l1_accuracy": 0.8823529411764706,
+          "l1_macro_f1": 0.8497393176923949,
+          "l1_confusion_matrix": [
+            [
+              82,
+              1,
+              5,
+              0
+            ],
+            [
+              2,
+              12,
+              2,
+              0
+            ],
+            [
+              1,
+              5,
+              19,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9022556390977443,
+          "l1_coverage": 0.9779411764705882,
+          "macro_f1": 0.293204110810555,
+          "macro_recall": 0.24361846967751974,
+          "precision": 0.9272727272727272,
+          "blank_acceptance": 0.06666666666666667,
+          "exact_recall": 0.4811320754716981,
+          "accepted": 55,
+          "correct": 51,
+          "nonzero_classes": 5,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 38,
+              "correct": 36,
+              "precision": 0.9473684210526315,
+              "recall": 0.8780487804878049,
+              "f1": 0.9113924050632911
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 9,
+              "correct": 7,
+              "precision": 0.7777777777777778,
+              "recall": 0.3684210526315789,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.2,
+              "f1": 0.3333333333333333
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 5,
+              "correct": 5,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            }
+          ]
+        },
+        "branch_crossfit": {
+          "l1_accuracy": 0.8823529411764706,
+          "l1_macro_f1": 0.8497393176923949,
+          "l1_confusion_matrix": [
+            [
+              82,
+              1,
+              5,
+              0
+            ],
+            [
+              2,
+              12,
+              2,
+              0
+            ],
+            [
+              1,
+              5,
+              19,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.8984375,
+          "l1_coverage": 0.9411764705882353,
+          "macro_f1": 0.28682615629984054,
+          "macro_recall": 0.23256922794791857,
+          "precision": 0.8181818181818182,
+          "blank_acceptance": 0.13333333333333333,
+          "exact_recall": 0.42452830188679247,
+          "accepted": 55,
+          "correct": 45,
+          "nonzero_classes": 6,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 35,
+              "correct": 33,
+              "precision": 0.9428571428571428,
+              "recall": 0.8048780487804879,
+              "f1": 0.868421052631579
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 6,
+              "correct": 4,
+              "precision": 0.6666666666666666,
+              "recall": 0.21052631578947367,
+              "f1": 0.32
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 4,
+              "correct": 2,
+              "precision": 0.5,
+              "recall": 0.4,
+              "f1": 0.4444444444444444
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 2,
+              "correct": 1,
+              "precision": 0.5,
+              "recall": 0.14285714285714285,
+              "f1": 0.2222222222222222
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 3,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 4,
+              "correct": 4,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8
+            }
+          ]
+        }
+      },
+      "quality": {
+        "score": 0.5308772875810989,
+        "l1_macro_f1": 0.8497393176923949,
+        "l2_end_to_end_macro_f1": 0.2120152574698029,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 11,
+            "correct": 11,
+            "precision": 1.0,
+            "recall": 0.2682926829268293,
+            "f1": 0.4230769230769231
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 0.75,
+      "l1_threshold": 0.4842,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.8689939281767177,
+        "C2.2": 1.0001,
+        "C2.3": 0.6588551320537339,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.4842,
+        "accepted": 131,
+        "rejected": 5,
+        "coverage": 0.9632352941176471,
+        "selective_accuracy": 0.9083969465648855,
+        "selective_risk": 0.09160305343511455,
+        "accuracy_95ci_wilson": [
+          0.8467012569932881,
+          0.9468224033607864
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.8689939281767177,
+            "accepted": 13,
+            "correct": 13,
+            "precision": 1.0,
+            "recall": 0.3170731707317073,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.7718981569447083,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 0.6588551320537339,
+            "accepted": 10,
+            "correct": 9,
+            "precision": 0.9,
+            "recall": 0.47368421052631576,
+            "support": 19,
+            "precision_95ci_wilson": [
+              0.5958436145024278,
+              0.9821242504842788
+            ]
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.0,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.5655085052479191,
+              1.0
+            ]
+          }
+        },
+        "macro_recall": 0.23855370132648696,
+        "accepted": 31,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+        "calibration": "per_class",
+        "branch_validation": {
+          "l1_accuracy": 0.875,
+          "l1_macro_f1": 0.8460206718346253,
+          "l1_confusion_matrix": [
+            [
+              81,
+              3,
+              4,
+              0
+            ],
+            [
+              0,
+              13,
+              3,
+              0
+            ],
+            [
+              3,
+              4,
+              18,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9083969465648855,
+          "l1_coverage": 0.9632352941176471,
+          "macro_f1": 0.38440912321509335,
+          "macro_recall": 0.31230904311777224,
+          "precision": 0.9361702127659575,
+          "blank_acceptance": 0.03333333333333333,
+          "exact_recall": 0.41509433962264153,
+          "accepted": 47,
+          "correct": 44,
+          "nonzero_classes": 7,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 26,
+              "correct": 26,
+              "precision": 1.0,
+              "recall": 0.6341463414634146,
+              "f1": 0.7761194029850746
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 6,
+              "correct": 5,
+              "precision": 0.8333333333333334,
+              "recall": 0.2631578947368421,
+              "f1": 0.4
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 5,
+              "correct": 4,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 5,
+              "correct": 4,
+              "precision": 0.8,
+              "recall": 0.5714285714285714,
+              "f1": 0.6666666666666666
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.16666666666666666,
+              "f1": 0.2857142857142857
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            }
+          ]
+        },
+        "branch_crossfit": {
+          "l1_accuracy": 0.875,
+          "l1_macro_f1": 0.8460206718346253,
+          "l1_confusion_matrix": [
+            [
+              81,
+              3,
+              4,
+              0
+            ],
+            [
+              0,
+              13,
+              3,
+              0
+            ],
+            [
+              3,
+              4,
+              18,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.8872180451127819,
+          "l1_coverage": 0.9779411764705882,
+          "macro_f1": 0.3840679522497705,
+          "macro_recall": 0.3212187897682121,
+          "precision": 0.8076923076923077,
+          "blank_acceptance": 0.13333333333333333,
+          "exact_recall": 0.39622641509433965,
+          "accepted": 52,
+          "correct": 42,
+          "nonzero_classes": 8,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 25,
+              "correct": 23,
+              "precision": 0.92,
+              "recall": 0.5609756097560976,
+              "f1": 0.696969696969697
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 5,
+              "correct": 4,
+              "precision": 0.8,
+              "recall": 0.21052631578947367,
+              "f1": 0.3333333333333333
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 6,
+              "correct": 3,
+              "precision": 0.5,
+              "recall": 0.6,
+              "f1": 0.5454545454545454
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 4,
+              "correct": 3,
+              "precision": 0.75,
+              "recall": 0.42857142857142855,
+              "f1": 0.5454545454545454
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 4,
+              "correct": 2,
+              "precision": 0.5,
+              "recall": 0.4,
+              "f1": 0.4444444444444444
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 2,
+              "correct": 1,
+              "precision": 0.5,
+              "recall": 0.16666666666666666,
+              "f1": 0.25
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 5,
+              "correct": 5,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            }
+          ]
+        }
+      },
+      "quality": {
+        "score": 0.5598858834511674,
+        "l1_macro_f1": 0.8460206718346253,
+        "l2_end_to_end_macro_f1": 0.2737510950677095,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 13,
+            "correct": 13,
+            "precision": 1.0,
+            "recall": 0.3170731707317073,
+            "f1": 0.48148148148148145
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 10,
+            "correct": 9,
+            "precision": 0.9,
+            "recall": 0.47368421052631576,
+            "f1": 0.6206896551724138
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      }
+    },
+    {
+      "image_weight": 1.0,
+      "l1_threshold": 0.0,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.8477060390090492,
+        "C2.2": 1.0001,
+        "C2.3": 0.6694448752609096,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 1.0001,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      },
+      "l1_choice": {
+        "threshold": 0.0,
+        "accepted": 136,
+        "rejected": 0,
+        "coverage": 1.0,
+        "selective_accuracy": 0.9044117647058824,
+        "selective_risk": 0.09558823529411764,
+        "accuracy_95ci_wilson": [
+          0.8433188415060294,
+          0.9432854307563016
+        ],
+        "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+      },
+      "threshold_choice": {
+        "evidence_threshold": 0.5,
+        "per_class": {
+          "C2.1": {
+            "threshold": 0.8477060390090492,
+            "accepted": 17,
+            "correct": 17,
+            "precision": 1.0,
+            "recall": 0.4146341463414634,
+            "support": 41,
+            "precision_95ci_wilson": [
+              0.8156763396284354,
+              1.0
+            ]
+          },
+          "C2.2": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.3": {
+            "threshold": 0.6694448752609096,
+            "accepted": 12,
+            "correct": 11,
+            "precision": 0.9166666666666666,
+            "recall": 0.5789473684210527,
+            "support": 19,
+            "precision_95ci_wilson": [
+              0.6461140782014047,
+              0.9851352905492264
+            ]
+          },
+          "C2.4": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 4,
+            "precision_95ci_wilson": null
+          },
+          "C2.5": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.6": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.7": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 7,
+            "precision_95ci_wilson": null
+          },
+          "C2.8": {
+            "threshold": 0.0,
+            "accepted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 3,
+            "precision_95ci_wilson": [
+              0.43849391955098227,
+              1.0
+            ]
+          },
+          "C2.9": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 5,
+            "precision_95ci_wilson": null
+          },
+          "C2.10": {
+            "threshold": 1.0001,
+            "accepted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 6,
+            "precision_95ci_wilson": null
+          },
+          "C2.11": {
+            "threshold": 0.0,
+            "accepted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "support": 6,
+            "precision_95ci_wilson": [
+              0.6096569663469354,
+              0.9999999999999999
+            ]
+          }
+        },
+        "macro_recall": 0.2721437740693196,
+        "accepted": 38,
+        "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+        "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals.",
+        "calibration": "per_class",
+        "branch_validation": {
+          "l1_accuracy": 0.9044117647058824,
+          "l1_macro_f1": 0.876969696969697,
+          "l1_confusion_matrix": [
+            [
+              84,
+              1,
+              3,
+              0
+            ],
+            [
+              0,
+              13,
+              3,
+              0
+            ],
+            [
+              3,
+              3,
+              19,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9044117647058824,
+          "l1_coverage": 1.0,
+          "macro_f1": 0.3758154990549356,
+          "macro_recall": 0.3017060389332533,
+          "precision": 0.9259259259259259,
+          "blank_acceptance": 0.1,
+          "exact_recall": 0.4716981132075472,
+          "accepted": 54,
+          "correct": 50,
+          "nonzero_classes": 7,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 30,
+              "correct": 28,
+              "precision": 0.9333333333333333,
+              "recall": 0.6829268292682927,
+              "f1": 0.7887323943661971
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 1,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 11,
+              "correct": 10,
+              "precision": 0.9090909090909091,
+              "recall": 0.5263157894736842,
+              "f1": 0.6666666666666666
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.16666666666666666,
+              "f1": 0.2857142857142857
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.14285714285714285,
+              "f1": 0.25
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 2,
+              "correct": 2,
+              "precision": 1.0,
+              "recall": 0.4,
+              "f1": 0.5714285714285714
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 6,
+              "correct": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            }
+          ]
+        },
+        "branch_crossfit": {
+          "l1_accuracy": 0.9044117647058824,
+          "l1_macro_f1": 0.876969696969697,
+          "l1_confusion_matrix": [
+            [
+              84,
+              1,
+              3,
+              0
+            ],
+            [
+              0,
+              13,
+              3,
+              0
+            ],
+            [
+              3,
+              3,
+              19,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              7
+            ]
+          ],
+          "l1_selective_accuracy": 0.9029850746268657,
+          "l1_coverage": 0.9852941176470589,
+          "macro_f1": 0.3389238732522315,
+          "macro_recall": 0.2992092203902217,
+          "precision": 0.8113207547169812,
+          "blank_acceptance": 0.16666666666666666,
+          "exact_recall": 0.4056603773584906,
+          "accepted": 53,
+          "correct": 43,
+          "nonzero_classes": 6,
+          "per_class": [
+            {
+              "code": "C2.1",
+              "support": 41,
+              "predicted": 26,
+              "correct": 23,
+              "precision": 0.8846153846153846,
+              "recall": 0.5609756097560976,
+              "f1": 0.6865671641791045
+            },
+            {
+              "code": "C2.2",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.3",
+              "support": 19,
+              "predicted": 8,
+              "correct": 7,
+              "precision": 0.875,
+              "recall": 0.3684210526315789,
+              "f1": 0.5185185185185185
+            },
+            {
+              "code": "C2.4",
+              "support": 4,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.5",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.6",
+              "support": 5,
+              "predicted": 5,
+              "correct": 3,
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6
+            },
+            {
+              "code": "C2.7",
+              "support": 7,
+              "predicted": 5,
+              "correct": 3,
+              "precision": 0.6,
+              "recall": 0.42857142857142855,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.8",
+              "support": 3,
+              "predicted": 1,
+              "correct": 1,
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1": 0.5
+            },
+            {
+              "code": "C2.9",
+              "support": 5,
+              "predicted": 1,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.10",
+              "support": 6,
+              "predicted": 0,
+              "correct": 0,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            {
+              "code": "C2.11",
+              "support": 6,
+              "predicted": 7,
+              "correct": 6,
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.9230769230769231
+            }
+          ]
+        }
+      },
+      "quality": {
+        "score": 0.5882977719351468,
+        "l1_macro_f1": 0.876969696969697,
+        "l2_end_to_end_macro_f1": 0.2996258469005966,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 17,
+            "correct": 17,
+            "precision": 1.0,
+            "recall": 0.4146341463414634,
+            "f1": 0.5862068965517241
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 12,
+            "correct": 11,
+            "precision": 0.9166666666666666,
+            "recall": 0.5789473684210527,
+            "f1": 0.7096774193548387
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "image_members": [
+    {
+      "architecture": "resnet18",
+      "seed": 20261021,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 0.8701950907707214,
+        "l2_temperature": 0.8963469862937927,
+        "evidence_temperature": 2.2955777645111084
+      },
+      "best_epoch": 43
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 20261031,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 0.9054093956947327,
+        "l2_temperature": 1.1528890132904053,
+        "evidence_temperature": 3.352246046066284
+      },
+      "best_epoch": 55
+    },
+    {
+      "architecture": "resnet18",
+      "seed": 20261107,
+      "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt",
+      "temperatures": {
+        "l1_temperature": 1.0,
+        "l2_temperature": 1.044656753540039,
+        "evidence_temperature": 2.8576295375823975
+      },
+      "best_epoch": 51
+    }
+  ],
+  "keypoint_classifier": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261103_101754_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib",
+  "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+  "model_schema": 4
+}

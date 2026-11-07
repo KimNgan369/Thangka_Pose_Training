@@ -1,0 +1,13 @@
+{
+  "signature": {
+    "seed": 20261103,
+    "epochs": 60,
+    "smoke": false,
+    "batch": 2,
+    "accumulation": 8,
+    "manifest": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+    "source": "87a2b5dd689c21d1c520fba3d5f79bce77c61c71de044d429589046f8b93cd81"
+  },
+  "epochs": 52,
+  "best": 0.7893020306646851
+}

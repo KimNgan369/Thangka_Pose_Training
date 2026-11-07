@@ -1,0 +1,11 @@
+{
+  "mode": "smoke",
+  "state": "completed",
+  "pid": 27292,
+  "started_at": "2026-10-31T10:42:25.031454+00:00",
+  "cell": 31,
+  "updated_at": "2026-10-31T10:46:10.741748+00:00",
+  "run_root": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke",
+  "demo_check": "Không xác định – độ tin cậy L1 cao nhất 39%",
+  "completed_at": "2026-10-31T10:46:10.741748+00:00"
+}

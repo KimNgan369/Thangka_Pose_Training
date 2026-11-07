@@ -1,0 +1,8 @@
+{
+  "image_minus_keypoint_accuracy_difference": 0.048184000000000025,
+  "bootstrap_95ci": [
+    -0.008000000000000007,
+    0.11199999999999999
+  ],
+  "bootstrap_resamples": 2000
+}

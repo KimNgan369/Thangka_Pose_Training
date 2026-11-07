@@ -1,0 +1,141 @@
+{
+  "l1_accuracy": 0.888,
+  "l1_macro_f1": 0.8385968852949985,
+  "l1_confusion_matrix": [
+    [
+      76,
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      9,
+      2,
+      0
+    ],
+    [
+      2,
+      5,
+      17,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ]
+  ],
+  "l1_selective_accuracy": 0.888,
+  "l1_coverage": 1.0,
+  "macro_f1": 0.4368978847239717,
+  "macro_recall": 0.3949855126325714,
+  "precision": 0.8333333333333334,
+  "blank_acceptance": 0.0,
+  "exact_recall": 0.5339805825242718,
+  "accepted": 66,
+  "correct": 55,
+  "nonzero_classes": 9,
+  "per_class": [
+    {
+      "code": "C2.1",
+      "support": 37,
+      "predicted": 32,
+      "correct": 31,
+      "precision": 0.96875,
+      "recall": 0.8378378378378378,
+      "f1": 0.8985507246376812
+    },
+    {
+      "code": "C2.2",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.3",
+      "support": 17,
+      "predicted": 9,
+      "correct": 7,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529,
+      "f1": 0.5384615384615384
+    },
+    {
+      "code": "C2.4",
+      "support": 6,
+      "predicted": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1": 0.2857142857142857
+    },
+    {
+      "code": "C2.5",
+      "support": 6,
+      "predicted": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1": 0.2857142857142857
+    },
+    {
+      "code": "C2.6",
+      "support": 3,
+      "predicted": 6,
+      "correct": 3,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666
+    },
+    {
+      "code": "C2.7",
+      "support": 7,
+      "predicted": 6,
+      "correct": 3,
+      "precision": 0.5,
+      "recall": 0.42857142857142855,
+      "f1": 0.46153846153846156
+    },
+    {
+      "code": "C2.8",
+      "support": 3,
+      "predicted": 2,
+      "correct": 1,
+      "precision": 0.5,
+      "recall": 0.3333333333333333,
+      "f1": 0.4
+    },
+    {
+      "code": "C2.9",
+      "support": 8,
+      "predicted": 4,
+      "correct": 3,
+      "precision": 0.75,
+      "recall": 0.375,
+      "f1": 0.5
+    },
+    {
+      "code": "C2.10",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.11",
+      "support": 8,
+      "predicted": 5,
+      "correct": 5,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693
+    }
+  ]
+}

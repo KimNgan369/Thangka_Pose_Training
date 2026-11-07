@@ -1,0 +1,56 @@
+{
+  "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+  "manifest_sha256": "2ec24fef466d2dc56a079d6495fb398384b263f1670eeacd939a256c1bd8e0c3",
+  "architecture": "resnet18",
+  "seed": 20261021,
+  "image_size": 224,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "l1_codes": [
+    "C1.1",
+    "C1.2",
+    "C1.3",
+    "C1.4"
+  ],
+  "l2_codes": [
+    "C2.1",
+    "C2.2",
+    "C2.3",
+    "C2.4",
+    "C2.5",
+    "C2.6",
+    "C2.7",
+    "C2.8",
+    "C2.9",
+    "C2.10",
+    "C2.11"
+  ],
+  "l2_parent": {
+    "C2.1": "C1.1",
+    "C2.2": "C1.1",
+    "C2.3": "C1.1",
+    "C2.4": "C1.1",
+    "C2.5": "C1.1",
+    "C2.6": "C1.2",
+    "C2.7": "C1.2",
+    "C2.8": "C1.2",
+    "C2.9": "C1.3",
+    "C2.10": "C1.3",
+    "C2.11": "C1.4"
+  },
+  "l2_fallback_threshold": 0.9504,
+  "threshold_selected_on": "validation only; maximize labeled-L2 coverage subject to >=0.80 precision counting blank L2 as abstention targets; min 30% coverage and 15 accepted labeled examples",
+  "best_epoch": 7,
+  "l1_ood_rejection_calibrated": false,
+  "model_scope": "internal noncommercial course training/report only; do not distribute weights"
+}

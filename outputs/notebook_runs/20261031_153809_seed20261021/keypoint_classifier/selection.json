@@ -1,0 +1,87 @@
+{
+  "model": "logistic_regression",
+  "class_weight_rule": "normalized inverse-frequency power 0.5, computed from train only",
+  "l2_training": "separate classifier within each L1 branch",
+  "feature_schema": "raw COCO-17 + body-centered geometry + joint angles; targeted C2.2 jitter augmentation",
+  "l2_evidence_model": "binary classifier trained from labeled-versus-blank L2 records",
+  "training_class_weights": {
+    "l1": {
+      "C1.1": 0.48788840890225915,
+      "C1.2": 1.0274997210649348,
+      "C1.3": 0.8833692050376815,
+      "C1.4": 1.6012426649951248
+    },
+    "l2_by_parent": {
+      "C1.1": {
+        "C2.1": 0.4365146111689414,
+        "C2.2": 1.3197349898033726,
+        "C2.3": 0.67314583753081,
+        "C2.4": 1.2995851807399328,
+        "C2.5": 1.2710193807569432
+      },
+      "C1.2": {
+        "C2.6": 0.8901030026132012,
+        "C2.7": 0.8511012591821957,
+        "C2.8": 1.2587957382046036
+      },
+      "C1.3": {
+        "C2.10": 1.0322917017419806,
+        "C2.9": 0.9677082982580197
+      },
+      "C1.4": {
+        "C2.11": 1.0
+      }
+    },
+    "l2_evidence": {
+      "0": 1.4078337858323502,
+      "1": 0.5921662141676499
+    }
+  },
+  "validation_selection_score": 0.7414250781560756,
+  "l1_rejection_threshold": 0.603,
+  "l1_threshold_choice": {
+    "threshold": 0.603,
+    "accepted": 115,
+    "rejected": 21,
+    "coverage": 0.8455882352941176,
+    "selective_accuracy": 0.9130434782608695,
+    "selective_risk": 0.08695652173913049,
+    "accuracy_95ci_wilson": [
+      0.8473013610685256,
+      0.952082019835131
+    ],
+    "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+  },
+  "l2_fallback_threshold": 0.7142,
+  "l2_evidence_threshold": 0.8837,
+  "class_specific_thresholds": {
+    "C2.2": 1.0001
+  },
+  "c2_2_threshold_choice": {
+    "threshold": 1.0001,
+    "accepted": 0,
+    "correct": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "selection_rule": "insufficient validation evidence for C2.2; always fallback to L1"
+  },
+  "threshold_choice": {
+    "threshold": 0.7142,
+    "l2_confidence_threshold": 0.7142,
+    "l2_evidence_threshold": 0.8837,
+    "accepted_total": 40,
+    "accepted_on_labeled_l2": 38,
+    "accepted_on_blank_l2": 2,
+    "blank_l2_acceptance_rate": 0.06666666666666667,
+    "coverage_of_labeled_l2": 0.3584905660377358,
+    "exact_accuracy_on_accepted_labeled_l2": 0.9473684210526315,
+    "precision_including_blank_l2_abstention_examples": 0.9,
+    "recall_of_gold_l2": 0.33962264150943394,
+    "selective_f1": 0.4931506849315068,
+    "selection_rule": "maximum validation L2 coverage subject to precision >= 0.90 and blank acceptance <= 0.10"
+  },
+  "temperature_scaling": {
+    "l1_temperature": 1.2755218744277954,
+    "l2_temperature": 1.668501377105713
+  }
+}

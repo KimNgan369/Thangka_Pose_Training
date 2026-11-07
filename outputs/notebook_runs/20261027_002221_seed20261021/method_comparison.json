@@ -1,0 +1,20 @@
+{
+  "direct_image": {
+    "l1_accuracy": 0.84,
+    "l1_macro_f1": 0.7892993630573248,
+    "l2_oracle_accuracy": 0.7572815533980582,
+    "l2_oracle_macro_f1": 0.6110802476656135,
+    "l2_coverage": 0.3786407766990291,
+    "l2_selective_accuracy": 0.9487179487179487,
+    "l2_exact_over_all": 0.3592233009708738
+  },
+  "predicted_keypoints": {
+    "l1_accuracy": 0.872,
+    "l1_macro_f1": 0.8144837552855537,
+    "l2_oracle_accuracy": 0.7378640776699029,
+    "l2_oracle_macro_f1": 0.5907281979052313,
+    "l2_coverage": 0.5631067961165048,
+    "l2_selective_accuracy": 0.8620689655172413,
+    "l2_exact_over_all": 0.4854368932038835
+  }
+}

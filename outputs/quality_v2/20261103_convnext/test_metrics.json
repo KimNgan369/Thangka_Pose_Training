@@ -1,0 +1,114 @@
+{
+  "l1_accuracy": 0.888,
+  "l1_selective_accuracy": 0.888,
+  "l1_coverage": 1.0,
+  "macro_f1": 0.35771097589279405,
+  "macro_recall": 0.28218277482983367,
+  "precision": 0.8947368421052632,
+  "blank_acceptance": 0.0,
+  "exact_recall": 0.49514563106796117,
+  "accepted": 57,
+  "correct": 51,
+  "nonzero_classes": 8,
+  "per_class": [
+    {
+      "code": "C2.1",
+      "support": 37,
+      "predicted": 33,
+      "correct": 32,
+      "precision": 0.9696969696969697,
+      "recall": 0.8648648648648649,
+      "f1": 0.9142857142857143
+    },
+    {
+      "code": "C2.2",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.3",
+      "support": 17,
+      "predicted": 9,
+      "correct": 7,
+      "precision": 0.7777777777777778,
+      "recall": 0.4117647058823529,
+      "f1": 0.5384615384615384
+    },
+    {
+      "code": "C2.4",
+      "support": 6,
+      "predicted": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1": 0.2857142857142857
+    },
+    {
+      "code": "C2.5",
+      "support": 6,
+      "predicted": 1,
+      "correct": 1,
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1": 0.2857142857142857
+    },
+    {
+      "code": "C2.6",
+      "support": 3,
+      "predicted": 3,
+      "correct": 1,
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1": 0.3333333333333333
+    },
+    {
+      "code": "C2.7",
+      "support": 7,
+      "predicted": 2,
+      "correct": 2,
+      "precision": 1.0,
+      "recall": 0.2857142857142857,
+      "f1": 0.4444444444444444
+    },
+    {
+      "code": "C2.8",
+      "support": 3,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.9",
+      "support": 8,
+      "predicted": 3,
+      "correct": 2,
+      "precision": 0.6666666666666666,
+      "recall": 0.25,
+      "f1": 0.36363636363636365
+    },
+    {
+      "code": "C2.10",
+      "support": 4,
+      "predicted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "code": "C2.11",
+      "support": 8,
+      "predicted": 5,
+      "correct": 5,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693
+    }
+  ]
+}

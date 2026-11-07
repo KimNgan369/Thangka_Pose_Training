@@ -1,0 +1,6 @@
+﻿code,label,support,old_l2_exact_recall,new_l2_exact_recall,old_wrong_or_rejected_l1,new_wrong_or_rejected_l1
+C2.3,"Ngồi một chân co, một chân thả",17,0.058823529411764705,0.4117647058823529,3,1
+C2.5,Quỳ/ngồi trên gót,6,0.0,0.0,2,1
+C2.11,Nằm nghiêng,8,0.25,0.875,0,0
+C2.10,Động/múa,4,0.0,0.0,3,2
+C2.7,Đứng lệch trọng tâm,7,0.0,0.0,3,2

@@ -1,0 +1,25 @@
+{
+  "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+  "records": 873,
+  "split_counts": {
+    "val": 136,
+    "train": 612,
+    "test": 125
+  },
+  "l2_labeled": 729,
+  "l2_unlabeled": 144,
+  "full_keypoint_records": 612,
+  "full_keypoint_by_split": {
+    "val": 88,
+    "train": 442,
+    "test": 82
+  },
+  "partial_keypoint_records": 823,
+  "partial_keypoint_by_split": {
+    "val": 128,
+    "train": 578,
+    "test": 117
+  },
+  "artifact_leakage_groups": 0,
+  "exact_hash_leakage_groups": 0
+}

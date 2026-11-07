@@ -1,0 +1,3 @@
+﻿architecture,best_epoch,selection_score_validation,val_l1_macro_f1,val_l2_oracle_macro_f1,checkpoint
+resnet18,7,0.7856591548985228,0.7951211219719507,0.7761971878250947,I:\nam4\phan tich anh phat giao\training\thangka_pose_v1.1.0\outputs\runs\20261021_formal_baseline_seed20261021\resnet18\best_model.pt
+mobilenet_v2,11,0.7850510443710901,0.8129287406597412,0.7571733480824391,I:\nam4\phan tich anh phat giao\training\thangka_pose_v1.1.0\outputs\runs\20261021_formal_baseline_seed20261021\mobilenet_v2\best_model.pt

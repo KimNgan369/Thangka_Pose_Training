@@ -1,0 +1,9 @@
+{
+  "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+  "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+  "seed": 20261021,
+  "epochs": 50,
+  "imgsz": 416,
+  "batch": 2,
+  "base_weights": "yolo11n-pose.pt"
+}

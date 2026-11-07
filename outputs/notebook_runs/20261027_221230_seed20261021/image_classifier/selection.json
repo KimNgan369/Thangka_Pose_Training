@@ -1,0 +1,22 @@
+{
+  "source": "trained_in_notebook",
+  "architecture": "resnet18",
+  "threshold": 0.8427,
+  "best_epoch": 8,
+  "validation_selection_score": 0.7901609074022331,
+  "l1_rejection_threshold": 0.6921,
+  "l1_threshold_choice": {
+    "threshold": 0.6921,
+    "accepted": 125,
+    "rejected": 11,
+    "coverage": 0.9191176470588235,
+    "selective_accuracy": 0.904,
+    "selective_risk": 0.09599999999999997,
+    "accuracy_95ci_wilson": [
+      0.8396789770994196,
+      0.9442293258089579
+    ],
+    "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+  },
+  "l2_fallback_threshold": 0.8427
+}

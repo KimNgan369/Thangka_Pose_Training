@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+  "ontology_version": "1.1",
+  "annotation_schema_version": 4,
+  "created_at": "2026-10-20T17:22:58+00:00",
+  "scope": "approved",
+  "images_included": true,
+  "crops_included": true,
+  "records": 873,
+  "unapproved_records": 0,
+  "ready_for_training": true,
+  "quality_blockers": [],
+  "release_records": 0,
+  "rights_research_only_records": 832
+}

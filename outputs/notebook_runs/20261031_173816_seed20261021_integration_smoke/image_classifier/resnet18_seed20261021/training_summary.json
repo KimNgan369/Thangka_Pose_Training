@@ -1,0 +1,52 @@
+{
+  "architecture": "resnet18",
+  "seed": 20261021,
+  "best_epoch": 1,
+  "best_validation_selection_score": 0.22559832998962745,
+  "epochs_completed": 2,
+  "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_173816_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\best_model.pt",
+  "image_size": 384,
+  "model_schema": 4,
+  "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+  "selection_metric": "0.35 L1 macro-F1 + 0.40 L2 end-to-end macro-F1 + 0.15 oracle L2 macro-F1 + 0.10 evidence macro-F1",
+  "training": "full-body resize; joint hierarchical loss; evidence head; progressive full fine-tuning; frozen BN statistics",
+  "batch_size": 4,
+  "accumulation_steps": 4,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 4.655397325754166,
+      "val_l1_macro_f1": 0.2636764643806897,
+      "val_l2_oracle_macro_f1": 0.24362226920366456,
+      "selection_score": 0.22559832998962745,
+      "training_stage": "head"
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.494569659233093,
+      "val_l1_macro_f1": 0.2630434782608696,
+      "val_l2_oracle_macro_f1": 0.305526418026418,
+      "selection_score": 0.2174602255593413,
+      "training_stage": "full"
+    }
+  ],
+  "training_signature": {
+    "architecture": "resnet18",
+    "seed": 20261021,
+    "epochs": 2,
+    "patience": 2,
+    "batch_size": 4,
+    "image_size": 384,
+    "model_schema": 4,
+    "backbone_lr": 2e-05,
+    "head_lr": 0.0002,
+    "weight_decay": 0.0005,
+    "min_epochs": 2,
+    "accumulation": 4,
+    "full_finetune_start": 2,
+    "train_max_batches": 8,
+    "head_only_epochs": 1,
+    "source_sha256": "75c76743ae3ffff6bbb1d22818299291332a661e92cdfdc58a4c9a3382c78faa",
+    "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "run_id": "20261029_223959_seed20261021",
+  "created_at": "2026-10-29T16:00:51.935889+00:00",
+  "dataset_audit": {
+    "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+    "records": 873,
+    "split_counts": {
+      "val": 136,
+      "train": 612,
+      "test": 125
+    },
+    "l2_labeled": 729,
+    "l2_unlabeled": 144,
+    "full_keypoint_records": 612,
+    "full_keypoint_by_split": {
+      "val": 88,
+      "train": 442,
+      "test": 82
+    },
+    "partial_keypoint_records": 823,
+    "partial_keypoint_by_split": {
+      "val": 128,
+      "train": 578,
+      "test": 117
+    },
+    "artifact_leakage_groups": 0,
+    "exact_hash_leakage_groups": 0
+  },
+  "inter_rater_agreement": {
+    "annotators": [
+      "Ngan",
+      "My"
+    ],
+    "n_paired": 873,
+    "hierarchical_exact_agreement": 0.9702176403207331,
+    "hierarchical_cohen_kappa": 0.9652345724394614,
+    "l1_agreement": 1.0,
+    "l1_cohen_kappa": 1.0,
+    "pairing_key": "image_id"
+  },
+  "image_selection": {
+    "source": "trained_in_notebook",
+    "architecture": "resnet18",
+    "best_epoch": 17,
+    "validation_selection_score": 0.8033273889679422,
+    "l1_rejection_threshold": 0.5698,
+    "l1_threshold_choice": {
+      "threshold": 0.5698,
+      "accepted": 122,
+      "rejected": 14,
+      "coverage": 0.8970588235294118,
+      "selective_accuracy": 0.9016393442622951,
+      "selective_risk": 0.09836065573770492,
+      "accuracy_95ci_wilson": [
+        0.8359212414818843,
+        0.9428355448272535
+      ],
+      "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+    },
+    "threshold": 1.0001,
+    "l2_fallback_threshold": 1.0001,
+    "l2_evidence_threshold": 0.0,
+    "class_specific_thresholds": {
+      "C2.2": 1.0001
+    },
+    "c2_2_threshold_choice": {
+      "threshold": 1.0001,
+      "accepted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "selection_rule": "insufficient validation evidence for C2.2; always fallback to L1"
+    },
+    "temperature_scaling": {
+      "l1_temperature": 0.7853937149047852,
+      "l2_temperature": 0.4659232795238495
+    }
+  },
+  "image_test": {
+    "l1_accuracy": 0.872,
+    "l1_macro_f1": 0.8149284992055468,
+    "l1_ece": 0.048439511537551896,
+    "l1_brier": 0.1885614994957108,
+    "l1_selective_coverage": 0.92,
+    "l1_selective_accuracy": 0.9217391304347826,
+    "unknown_rate": 0.07999999999999996,
+    "l2_oracle_accuracy": 0.7281553398058253,
+    "l2_oracle_macro_f1": 0.6235902235902235,
+    "l2_coverage": 0.0,
+    "l2_selective_accuracy": 0.0,
+    "l2_exact_over_all": 0.0,
+    "l2_blank_abstention": 1.0,
+    "l2_evidence_accuracy": NaN
+  },
+  "pose_geometry_test": {
+    "training_source": "cached_formal_pose_baseline",
+    "checkpoint": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\pose_baseline\\best.pt",
+    "pose_map50_95": 0.826106899816657,
+    "pose_map50": 0.9736798301421105,
+    "pose_map75": 0.9066286921497951,
+    "box_map50_95": 0.9714339398104592,
+    "test_full_keypoint_images": 82,
+    "test_detection_rate": 1.0,
+    "mean_bbox_iou": 0.892391237359342,
+    "pck_at_0_05_bbox_diagonal": 0.8371592539454806,
+    "pck_visible_keypoints": 1394,
+    "mean_oks": 0.8032537567795781,
+    "oks_definition": "COCO sigmas; normalized coordinates; visible ground-truth keypoints only"
+  },
+  "keypoint_selection": {
+    "model": "random_forest",
+    "class_weight_rule": "normalized inverse-frequency power 0.5, computed from train only",
+    "l2_training": "separate classifier within each L1 branch",
+    "feature_schema": "raw COCO-17 + body-centered geometry + joint angles; targeted C2.2 jitter augmentation",
+    "l2_evidence_model": "binary classifier trained from labeled-versus-blank L2 records",
+    "training_class_weights": {
+      "l1": {
+        "C1.1": 0.4837233216621573,
+        "C1.2": 1.0241181226761755,
+        "C1.3": 0.8961857311394414,
+        "C1.4": 1.595972824522226
+      },
+      "l2_by_parent": {
+        "C1.1": {
+          "C2.1": 0.4365146111689414,
+          "C2.2": 1.3197349898033726,
+          "C2.3": 0.67314583753081,
+          "C2.4": 1.2995851807399328,
+          "C2.5": 1.2710193807569432
+        },
+        "C1.2": {
+          "C2.6": 0.8901030026132012,
+          "C2.7": 0.8511012591821957,
+          "C2.8": 1.2587957382046036
+        },
+        "C1.3": {
+          "C2.10": 1.0322917017419806,
+          "C2.9": 0.9677082982580197
+        },
+        "C1.4": {
+          "C2.11": 1.0
+        }
+      },
+      "l2_evidence": {
+        "0": 1.4078337858323502,
+        "1": 0.5921662141676499
+      }
+    },
+    "validation_selection_score": 0.7374551975571354,
+    "l1_rejection_threshold": 0.5101,
+    "l1_threshold_choice": {
+      "threshold": 0.5101,
+      "accepted": 121,
+      "rejected": 15,
+      "coverage": 0.8897058823529411,
+      "selective_accuracy": 0.9008264462809917,
+      "selective_risk": 0.09917355371900827,
+      "accuracy_95ci_wilson": [
+        0.8346292610982092,
+        0.9423553337804208
+      ],
+      "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+    },
+    "l2_fallback_threshold": 0.4445,
+    "l2_evidence_threshold": 0.8714,
+    "class_specific_thresholds": {
+      "C2.2": 1.0001
+    },
+    "c2_2_threshold_choice": {
+      "threshold": 1.0001,
+      "accepted": 0,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "selection_rule": "insufficient validation evidence for C2.2; always fallback to L1"
+    },
+    "threshold_choice": {
+      "threshold": 0.4445,
+      "l2_confidence_threshold": 0.4445,
+      "l2_evidence_threshold": 0.8714,
+      "accepted_total": 65,
+      "accepted_on_labeled_l2": 62,
+      "accepted_on_blank_l2": 3,
+      "blank_l2_acceptance_rate": 0.1,
+      "coverage_of_labeled_l2": 0.5849056603773585,
+      "exact_accuracy_on_accepted_labeled_l2": 0.9516129032258065,
+      "precision_including_blank_l2_abstention_examples": 0.9076923076923077,
+      "recall_of_gold_l2": 0.5566037735849056,
+      "selective_f1": 0.6900584795321637,
+      "selection_rule": "maximum validation L2 coverage subject to precision >= 0.90 and blank acceptance <= 0.10"
+    },
+    "temperature_scaling": {
+      "l1_temperature": 1.0,
+      "l2_temperature": 0.7140798568725586
+    }
+  },
+  "keypoint_test": {
+    "l1_accuracy": 0.864,
+    "l1_macro_f1": 0.7986122751145379,
+    "l1_ece": 0.06674588364592203,
+    "l1_brier": 0.19998464274716574,
+    "l1_selective_coverage": 0.904,
+    "l1_selective_accuracy": 0.911504424778761,
+    "unknown_rate": 0.09599999999999997,
+    "l2_oracle_accuracy": 0.7864077669902912,
+    "l2_oracle_macro_f1": 0.6699396563032926,
+    "l2_coverage": 0.5533980582524272,
+    "l2_selective_accuracy": 0.8771929824561403,
+    "l2_exact_over_all": 0.4854368932038835,
+    "l2_blank_abstention": 0.8636363636363636,
+    "l2_evidence_accuracy": 0.848
+  },
+  "paired_uncertainty": {
+    "image_minus_keypoint_accuracy_difference": 0.008312000000000005,
+    "bootstrap_95ci": [
+      -0.05600000000000005,
+      0.07200000000000006
+    ],
+    "bootstrap_resamples": 2000
+  },
+  "limitations": [
+    "Một seed; chưa phải ước lượng độ ổn định đa seed.",
+    "Một số lớp L2 chỉ có 3-4 mẫu test.",
+    "Không xác định hiện là cơ chế từ chối theo validation trong phân phối; chưa có tập âm/OOD để đánh giá phát hiện ngoài phân phối.",
+    "Phạm vi sử dụng nội bộ, không phát hành dữ liệu hoặc trọng số."
+  ]
+}

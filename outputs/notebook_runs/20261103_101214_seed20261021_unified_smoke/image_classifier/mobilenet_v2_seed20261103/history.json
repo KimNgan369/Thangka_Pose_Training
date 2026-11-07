@@ -1,0 +1,10 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 5.106714248657227,
+    "val_l1_macro_f1": 0.09351771482679713,
+    "val_l2_oracle_macro_f1": 0.28434255138800596,
+    "selection_score": 0.13947518354520447,
+    "training_stage": "full"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "annotators": [
+    "Ngan",
+    "My"
+  ],
+  "n_paired": 873,
+  "hierarchical_exact_agreement": 0.9702176403207331,
+  "hierarchical_cohen_kappa": 0.9652345724394614,
+  "l1_agreement": 1.0,
+  "l1_cohen_kappa": 1.0,
+  "pairing_key": "image_id"
+}

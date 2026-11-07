@@ -1,0 +1,101 @@
+[
+  {
+    "code": "C2.1",
+    "train": 195,
+    "validation": 41,
+    "wrong_l1": 1,
+    "wrong_l2_candidate": 3,
+    "correct_candidate_rejected": 2,
+    "correct": 31
+  },
+  {
+    "code": "C2.2",
+    "train": 24,
+    "validation": 4,
+    "wrong_l1": 0,
+    "wrong_l2_candidate": 3,
+    "correct_candidate_rejected": 1,
+    "correct": 0
+  },
+  {
+    "code": "C2.3",
+    "train": 82,
+    "validation": 19,
+    "wrong_l1": 1,
+    "wrong_l2_candidate": 3,
+    "correct_candidate_rejected": 6,
+    "correct": 7
+  },
+  {
+    "code": "C2.4",
+    "train": 22,
+    "validation": 4,
+    "wrong_l1": 0,
+    "wrong_l2_candidate": 4,
+    "correct_candidate_rejected": 1,
+    "correct": 1
+  },
+  {
+    "code": "C2.5",
+    "train": 23,
+    "validation": 6,
+    "wrong_l1": 1,
+    "wrong_l2_candidate": 3,
+    "correct_candidate_rejected": 1,
+    "correct": 1
+  },
+  {
+    "code": "C2.6",
+    "train": 32,
+    "validation": 5,
+    "wrong_l1": 0,
+    "wrong_l2_candidate": 0,
+    "correct_candidate_rejected": 0,
+    "correct": 3
+  },
+  {
+    "code": "C2.7",
+    "train": 35,
+    "validation": 7,
+    "wrong_l1": 2,
+    "wrong_l2_candidate": 2,
+    "correct_candidate_rejected": 0,
+    "correct": 3
+  },
+  {
+    "code": "C2.8",
+    "train": 16,
+    "validation": 3,
+    "wrong_l1": 2,
+    "wrong_l2_candidate": 0,
+    "correct_candidate_rejected": 0,
+    "correct": 1
+  },
+  {
+    "code": "C2.9",
+    "train": 33,
+    "validation": 5,
+    "wrong_l1": 1,
+    "wrong_l2_candidate": 0,
+    "correct_candidate_rejected": 4,
+    "correct": 3
+  },
+  {
+    "code": "C2.10",
+    "train": 29,
+    "validation": 6,
+    "wrong_l1": 3,
+    "wrong_l2_candidate": 1,
+    "correct_candidate_rejected": 0,
+    "correct": 0
+  },
+  {
+    "code": "C2.11",
+    "train": 29,
+    "validation": 6,
+    "wrong_l1": 0,
+    "wrong_l2_candidate": 0,
+    "correct_candidate_rejected": 3,
+    "correct": 5
+  }
+]

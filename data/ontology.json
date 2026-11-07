@@ -1,0 +1,331 @@
+{
+  "ontology_version": "1.1",
+  "annotation_schema_version": 4,
+  "level_1": [
+    {
+      "code": "C1.1",
+      "index": 0,
+      "slug": "seated",
+      "vi": "Ngồi"
+    },
+    {
+      "code": "C1.2",
+      "index": 1,
+      "slug": "standing",
+      "vi": "Đứng"
+    },
+    {
+      "code": "C1.3",
+      "index": 2,
+      "slug": "motion",
+      "vi": "Chuyển động"
+    },
+    {
+      "code": "C1.4",
+      "index": 3,
+      "slug": "reclining",
+      "vi": "Nằm/nghỉ"
+    }
+  ],
+  "level_2": [
+    {
+      "code": "C2.1",
+      "index": 0,
+      "parent": "C1.1",
+      "slug": "seated_cross_legged_locked",
+      "vi": "Ngồi bắt chéo khóa kín"
+    },
+    {
+      "code": "C2.2",
+      "index": 1,
+      "parent": "C1.1",
+      "slug": "seated_cross_legged_open",
+      "vi": "Ngồi bắt chéo không khóa kín"
+    },
+    {
+      "code": "C2.3",
+      "index": 2,
+      "parent": "C1.1",
+      "slug": "seated_one_leg_bent_one_leg_pendant",
+      "vi": "Ngồi một chân co, một chân thả"
+    },
+    {
+      "code": "C2.4",
+      "index": 3,
+      "parent": "C1.1",
+      "slug": "seated_two_legs_pendant",
+      "vi": "Ngồi hai chân thả"
+    },
+    {
+      "code": "C2.5",
+      "index": 4,
+      "parent": "C1.1",
+      "slug": "kneeling_or_sitting_on_heels",
+      "vi": "Quỳ/ngồi trên gót"
+    },
+    {
+      "code": "C2.6",
+      "index": 5,
+      "parent": "C1.2",
+      "slug": "standing_two_feet_support",
+      "vi": "Đứng thẳng, hai chân trụ"
+    },
+    {
+      "code": "C2.7",
+      "index": 6,
+      "parent": "C1.2",
+      "slug": "standing_weight_shifted",
+      "vi": "Đứng lệch trọng tâm"
+    },
+    {
+      "code": "C2.8",
+      "index": 7,
+      "parent": "C1.2",
+      "slug": "standing_one_leg_support_other_bent",
+      "vi": "Một chân trụ, chân kia co/nâng"
+    },
+    {
+      "code": "C2.9",
+      "index": 8,
+      "parent": "C1.3",
+      "slug": "walking_or_stepping",
+      "vi": "Bước/chuyển hướng"
+    },
+    {
+      "code": "C2.10",
+      "index": 9,
+      "parent": "C1.3",
+      "slug": "dynamic_or_dancing",
+      "vi": "Động/múa"
+    },
+    {
+      "code": "C2.11",
+      "index": 10,
+      "parent": "C1.4",
+      "slug": "reclining_lateral",
+      "vi": "Nằm nghiêng"
+    }
+  ],
+  "level_1_index": {
+    "C1.1": 0,
+    "C1.2": 1,
+    "C1.3": 2,
+    "C1.4": 3
+  },
+  "level_2_index": {
+    "C2.1": 0,
+    "C2.2": 1,
+    "C2.3": 2,
+    "C2.4": 3,
+    "C2.5": 4,
+    "C2.6": 5,
+    "C2.7": 6,
+    "C2.8": 7,
+    "C2.9": 8,
+    "C2.10": 9,
+    "C2.11": 10
+  },
+  "level_2_parent": {
+    "C2.1": "C1.1",
+    "C2.2": "C1.1",
+    "C2.3": "C1.1",
+    "C2.4": "C1.1",
+    "C2.5": "C1.1",
+    "C2.6": "C1.2",
+    "C2.7": "C1.2",
+    "C2.8": "C1.2",
+    "C2.9": "C1.3",
+    "C2.10": "C1.3",
+    "C2.11": "C1.4"
+  },
+  "level_2_branch_index": {
+    "C1.1": {
+      "C2.1": 0,
+      "C2.2": 1,
+      "C2.3": 2,
+      "C2.4": 3,
+      "C2.5": 4
+    },
+    "C1.2": {
+      "C2.6": 0,
+      "C2.7": 1,
+      "C2.8": 2
+    },
+    "C1.3": {
+      "C2.9": 0,
+      "C2.10": 1
+    },
+    "C1.4": {
+      "C2.11": 0
+    }
+  },
+  "inference_rejection_level_1_codes": [
+    "C1.5"
+  ],
+  "keypoints": [
+    "nose",
+    "left_eye",
+    "right_eye",
+    "left_ear",
+    "right_ear",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle"
+  ],
+  "skeleton": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      6,
+      12
+    ],
+    [
+      7,
+      13
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      14
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      15,
+      17
+    ]
+  ],
+  "visibility": {
+    "0": "not_labeled",
+    "1": "occluded_but_locatable",
+    "2": "visible"
+  },
+  "decision_rules": {
+    "laterality": "Left/right is anatomical from the depicted figure's body, not the viewer's side.",
+    "lying_side": "For a reclining figure, left/right is the anatomical side in contact with the support surface; use unclear when contact cannot be determined.",
+    "C1.1_vs_C1.3": "Use C1.1 when the pelvis is supported and locomotion/dance is not dominant. Use C1.3 when a step, directional transfer, dance, jump or other dynamic action is the dominant posture.",
+    "C2.1_vs_C2.2": "Use C2.1 only when the crossed legs form a visibly closed/locked configuration. Use C2.2 when the legs cross but remain open or are not visibly locked; leave L2 blank when the evidence is insufficient.",
+    "C2.6_vs_C2.7_vs_C2.8": "Use C2.6 for two-foot support without a clear weight shift, C2.7 for two-foot support with clear asymmetric weight, and C2.8 when one leg is the support while the other is bent or raised.",
+    "C2.9_vs_C2.10": "Use C2.9 for a visible step or directional locomotion. Use C2.10 for dance or another dynamic pose where stepping is not the defining action.",
+    "insufficient_l2_evidence": "Leave Level 2 blank rather than choosing the nearest class.",
+    "multi_limb": "Retain the record and provenance, but set eligibility=exclude and exclusion_reason=multi_limb; exclude it from L1, L2 and keypoint pilot tasks."
+  },
+  "changelog": [
+    {
+      "version": "1.1",
+      "date": "2026-09-14",
+      "changes": [
+        "Frozen the pilot scope at 157 reviewed images in the 100-200 band.",
+        "Defined anatomical left/right and reclining side by contact with the support surface.",
+        "Added decision rules for the main ambiguous L1/L2 class pairs.",
+        "Excluded multi-limb figures from every current pilot task while retaining their records.",
+        "Confirmed 156 usable images and internal/research-only use with no public dataset release.",
+        "Documented the current pre-label pipeline and separated it from planned baselines."
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-09-03",
+      "changes": [
+        "Initial posture ontology."
+      ]
+    }
+  ],
+  "pilot_policy": {
+    "scope_band": "100-200",
+    "frozen_reviewed_count": 157,
+    "frozen_usable_count": 156,
+    "primary_report_count": 150,
+    "appendix_report_count": 157,
+    "dataset_version": "pilot-v1.1",
+    "multi_limb_policy": "retain_record_exclude_all_pilot_tasks"
+  },
+  "ai_pipeline_policy": {
+    "geometry_primary": "custom_thangka_pose_model",
+    "geometry_bootstrap": "yolo11n-pose",
+    "geometry_fallback": "manual_annotation",
+    "semantic_primary": "manual_review",
+    "semantic_fallback": "manual_review",
+    "historical_normalization_assumption": "For retrospective correction-rate reporting only, earlier Gemini predictions are treated as equivalent outputs of the current geometry pipeline plus manual semantic review. Original provider metadata is retained and is not rewritten.",
+    "batch_gemini_default": false,
+    "rtmpose_mode": "manual_button_or_offline_only",
+    "operational_roles": {
+      "geometry": "The active custom Thangka pose checkpoint creates editable bbox and COCO-17 keypoint pre-labels.",
+      "semantic_labels": "Level 1 and Level 2 are assigned and confirmed manually under the annotation guideline.",
+      "review": "Only an explicit human review can set human_verified or approve a record."
+    },
+    "historical_experiments": {
+      "level_1_level_2_resnet18": "Archived seed_v2 exploratory baseline; not part of the operational pipeline.",
+      "rtmpose": "Retained for explicit manual/offline comparison only; never an automatic fallback."
+    }
+  },
+  "data_governance_policy": {
+    "policy_version": "2026-10-08-internal-course-v1",
+    "use_scope": "internal_noncommercial_course_training_and_report",
+    "internal_training_allowed": true,
+    "internal_report_allowed": true,
+    "training_readiness": "controlled_internal_training_ready",
+    "attribution_required": true,
+    "public_release_allowed": false,
+    "dataset_sharing_allowed": false,
+    "raw_image_redistribution_allowed": false,
+    "trained_model_release_allowed": false,
+    "publication_rule": "Use only for the internal, noncommercial IT-course project: model training, evaluation and an internal course report. Do not publish or redistribute raw images, the dataset, or trained weights outside the project.",
+    "rights_scope_rule": "The source-specific license or rights notice remains controlling. verified means an explicit license/public-domain statement was found; research_only means the image is traceable and may be used in this controlled internal scope, but no public-release or external-redistribution right is inferred.",
+    "training_readiness_rule": "approved + human_verified + source_id/source_url + rights_status in {verified,research_only} + review_protocol_status in {double_review_agreed,adjudicated}.",
+    "internal_report_rule": "Report aggregate results and only the minimum attributed examples needed for the course; keep the report private to the course/project reviewers and do not place raw images or the dataset at a public URL.",
+    "cirthan_rights_status": "research_only"
+  }
+}

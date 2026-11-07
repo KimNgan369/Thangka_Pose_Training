@@ -1,0 +1,123 @@
+{
+  "ontology_version": "1.1",
+  "pipeline_policy": {
+    "geometry_primary": "custom_thangka_pose_model",
+    "geometry_bootstrap": "yolo11n-pose",
+    "geometry_fallback": "manual_annotation",
+    "semantic_primary": "manual_review",
+    "semantic_fallback": "manual_review",
+    "historical_normalization_assumption": "For retrospective correction-rate reporting only, earlier Gemini predictions are treated as equivalent outputs of the current geometry pipeline plus manual semantic review. Original provider metadata is retained and is not rewritten.",
+    "batch_gemini_default": false,
+    "rtmpose_mode": "manual_button_or_offline_only",
+    "operational_roles": {
+      "geometry": "The active custom Thangka pose checkpoint creates editable bbox and COCO-17 keypoint pre-labels.",
+      "semantic_labels": "Level 1 and Level 2 are assigned and confirmed manually under the annotation guideline.",
+      "review": "Only an explicit human review can set human_verified or approve a record."
+    },
+    "historical_experiments": {
+      "level_1_level_2_resnet18": "Archived seed_v2 exploratory baseline; not part of the operational pipeline.",
+      "rtmpose": "Retained for explicit manual/offline comparison only; never an automatic fallback."
+    }
+  },
+  "report_selection": {
+    "method": "approved_at_then_image_id",
+    "primary_requested": 150,
+    "appendix_requested": 157
+  },
+  "primary_150": {
+    "completed_images": 150,
+    "counts": {
+      "level_1_changed": 32,
+      "level_2_changed": 32,
+      "level_2_deleted": 12,
+      "bbox_changed": 73,
+      "keypoints_changed": 140,
+      "keypoint_coordinates_changed": 140,
+      "keypoint_visibility_changed": 23,
+      "visibility_changed": 2,
+      "selection_changed": 0
+    },
+    "rates": {
+      "level_1_changed": 0.213333,
+      "level_2_changed": 0.213333,
+      "level_2_deleted": 0.08,
+      "bbox_changed": 0.486667,
+      "keypoints_changed": 0.933333,
+      "keypoint_coordinates_changed": 0.933333,
+      "keypoint_visibility_changed": 0.153333,
+      "visibility_changed": 0.013333,
+      "selection_changed": 0.0
+    },
+    "original_provider_counts": {
+      "gemini:gemini-2.5-flash": 1,
+      "gemini:gemini-3.6-flash": 114,
+      "gemini:gemini-3.7-flash": 35
+    },
+    "common_l1_error_transitions": {
+      "C1.1 -> C1.3": 26,
+      "C1.3 -> C1.2": 4,
+      "C1.3 -> C1.1": 1,
+      "C1.1 -> C1.2": 1
+    },
+    "common_l2_error_transitions": {
+      "C2.1 -> (blank)": 8,
+      "C2.10 -> C2.9": 5,
+      "C2.2 -> C2.3": 3,
+      "C2.1 -> C2.2": 2,
+      "C2.2 -> (blank)": 2,
+      "C2.3 -> C2.2": 2,
+      "C2.3 -> (blank)": 2,
+      "C2.10 -> C2.7": 2,
+      "(blank) -> C2.7": 2,
+      "C2.10 -> C2.5": 1
+    }
+  },
+  "appendix_157": {
+    "completed_images": 157,
+    "counts": {
+      "level_1_changed": 35,
+      "level_2_changed": 33,
+      "level_2_deleted": 12,
+      "bbox_changed": 80,
+      "keypoints_changed": 144,
+      "keypoint_coordinates_changed": 144,
+      "keypoint_visibility_changed": 27,
+      "visibility_changed": 2,
+      "selection_changed": 0
+    },
+    "rates": {
+      "level_1_changed": 0.22293,
+      "level_2_changed": 0.210191,
+      "level_2_deleted": 0.076433,
+      "bbox_changed": 0.509554,
+      "keypoints_changed": 0.917197,
+      "keypoint_coordinates_changed": 0.917197,
+      "keypoint_visibility_changed": 0.171975,
+      "visibility_changed": 0.012739,
+      "selection_changed": 0.0
+    },
+    "original_provider_counts": {
+      "gemini:gemini-2.5-flash": 1,
+      "gemini:gemini-3.6-flash": 118,
+      "gemini:gemini-3.7-flash": 38
+    },
+    "common_l1_error_transitions": {
+      "C1.1 -> C1.3": 29,
+      "C1.3 -> C1.2": 4,
+      "C1.3 -> C1.1": 1,
+      "C1.1 -> C1.2": 1
+    },
+    "common_l2_error_transitions": {
+      "C2.1 -> (blank)": 8,
+      "C2.10 -> C2.9": 5,
+      "C2.2 -> C2.3": 3,
+      "C2.1 -> C2.2": 2,
+      "C2.2 -> (blank)": 2,
+      "C2.3 -> C2.2": 2,
+      "C2.3 -> (blank)": 2,
+      "C2.10 -> C2.7": 2,
+      "(blank) -> C2.7": 2,
+      "C2.10 -> C2.5": 1
+    }
+  }
+}

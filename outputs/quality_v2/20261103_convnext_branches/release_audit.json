@@ -1,0 +1,6 @@
+{
+  "validation_passed": true,
+  "test_release_passed": false,
+  "inference_parity_passed": false,
+  "note": "Historical test is an audit for release, not an independent unseen benchmark."
+}

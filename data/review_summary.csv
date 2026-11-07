@@ -1,0 +1,874 @@
+﻿instance_id,image_id,review_status,annotator_id,reviewer_count,reviewers,review_protocol_status,double_reviewed,adjudicated,adjudication_note,approved_by,approved_at,updated_at,annotation_version
+BUDDHAMUSEUM_LIFE_01,BUDDHAMUSEUM_LIFE,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:46:56+07:00,2026-10-20T00:47:16+07:00,35
+BUDDHASART_NIRVANA_LANDSCAPE_01,BUDDHASART_NIRVANA_LANDSCAPE,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:47:54+07:00,2026-10-20T00:47:57+07:00,38
+BUDDHAHEAL_SF1753_01,BUDDHAHEAL_SF1753,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:46:12+07:00,2026-10-20T00:46:12+07:00,43
+THK000196_01,THK000196,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:26:35+07:00,2026-09-14T22:26:35+07:00,11
+THK000043_01,THK000043,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:37:24+07:00,2026-09-09T18:37:24+07:00,14
+THK000506_01,THK000506,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:06:58+07:00,2026-09-18T23:07:14+07:00,10
+THK001040_01,THK001040,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:43:16+07:00,2026-09-20T23:43:19+07:00,15
+THK000988_01,THK000988,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T22:02:36+07:00,2026-09-15T22:02:36+07:00,10
+THK000194_6ab72cc499_01,THK000194_6ab72cc499,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-02T22:48:38+07:00,2026-10-02T22:48:38+07:00,21
+THK000044_01,THK000044,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:38:24+07:00,2026-09-09T18:38:24+07:00,13
+THK000515_01,THK000515,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:36:34+07:00,2026-09-18T23:36:34+07:00,11
+THK000514_01,THK000514,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:35:28+07:00,2026-09-18T23:35:28+07:00,13
+THK000062_01,THK000062,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:52:40+07:00,2026-09-14T22:52:40+07:00,19
+THK000513_01,THK000513,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:34:01+07:00,2026-09-18T23:34:11+07:00,13
+THK000509_01,THK000509,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:28:22+07:00,2026-09-18T23:28:44+07:00,12
+THK000192_01,THK000192,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:24:40+07:00,2026-09-14T22:24:40+07:00,14
+THK000477_01,THK000477,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:02:37+07:00,2026-09-18T17:02:37+07:00,13
+THK001069_01,THK001069,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:27:04+07:00,2026-10-20T00:27:04+07:00,22
+THK000944_01,THK000944,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:26:33+07:00,2026-09-20T21:26:33+07:00,18
+THK000431_01,THK000431,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:34:46+07:00,2026-09-15T21:34:46+07:00,10
+THK000155_01,THK000155,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:56:54+07:00,2026-09-09T00:56:54+07:00,14
+THK000432_01,THK000432,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:35:54+07:00,2026-09-15T21:35:54+07:00,11
+THK000434_01,THK000434,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:19:15+07:00,2026-09-18T16:19:15+07:00,9
+THK000705_01,THK000705,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:32:31+07:00,2026-09-20T14:32:31+07:00,18
+THK000150_01,THK000150,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:54:20+07:00,2026-09-09T00:54:20+07:00,15
+THK000146_01,THK000146,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:52:01+07:00,2026-09-09T00:52:01+07:00,17
+THK001067_01,THK001067,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:26:42+07:00,2026-10-20T00:26:42+07:00,31
+THK001057_01,THK001057,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:25:33+07:00,2026-10-20T00:25:49+07:00,25
+1068_01,1068,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:06:57+07:00,2026-10-06T22:06:57+07:00,22
+THK001012_518b23dbb6_3_01,THK001012_518b23dbb6_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:51:32+07:00,2026-09-08T00:51:32+07:00,24
+THK000189_01,THK000189,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:21:11+07:00,2026-09-14T22:21:11+07:00,12
+THK001035_01,THK001035,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:23:53+07:00,2026-10-20T00:23:53+07:00,22
+THK000092_01,THK000092,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy vua Gesar ngồi trên ngựa; caption CIRThan:1073 chỉ nêu cưỡi ngựa, áo giáp và chén, không nói chạy/bước. Dù không thấy chuyển động trội, theo quy tắc đồng thuận Ngân và My ngày 30/10/2026, tư thế cưỡi ngựa được gán C1.3; phần chân bị che nên L2 để trống.",admin,2026-10-19T22:41:34+07:00,2026-10-19T22:41:38+07:00,9
+THK000097_01,THK000097,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:50:57+07:00,2026-09-15T21:50:57+07:00,5
+THK000089_01,THK000089,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn cho thấy vua Gesar cưỡi ngựa đỏ trong dáng phi nước đại; caption CIRThan:1077 cũng ghi rõ “galloping through clouds”. Bằng chứng ảnh và metadata thống nhất cho C1.3. Giáp/yên che thân dưới người cưỡi nên để trống L2.,admin,2026-10-19T22:40:59+07:00,2026-10-19T22:40:59+07:00,8
+THK000090_01,THK000090,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:45:11+07:00,2026-10-19T22:41:15+07:00,5
+1079_01,1079,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:31:11+07:00,2026-10-20T00:31:11+07:00,28
+THK000032_01,THK000032,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:26:02+07:00,2026-09-09T18:26:02+07:00,15
+THK000187_01,THK000187,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:19:05+07:00,2026-09-14T22:19:05+07:00,15
+1084_01,1084,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:13:05+07:00,2026-10-06T22:13:05+07:00,22
+THK000775_01,THK000775,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:55:14+07:00,2026-09-20T16:55:14+07:00,11
+THK000417_01,THK000417,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:25:20+07:00,2026-09-15T21:25:20+07:00,11
+THK000849_01,THK000849,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:48:55+07:00,2026-09-19T15:48:55+07:00,21
+THK000206_01,THK000206,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:29:37+07:00,2026-10-19T22:29:37+07:00,7
+THK000560_01,THK000560,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:03:07+07:00,2026-09-19T13:03:07+07:00,22
+THK000561_01,THK000561,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:04:24+07:00,2026-09-19T13:04:24+07:00,26
+THK000207_01,THK000207,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:31:11+07:00,2026-09-14T22:31:11+07:00,14
+THK000992_01,THK000992,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:03:39+07:00,2026-09-19T16:03:39+07:00,21
+THK000562_01,THK000562,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:05:44+07:00,2026-09-19T13:05:44+07:00,22
+THK000563_01,THK000563,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:06:57+07:00,2026-09-19T13:06:57+07:00,23
+THK000564_01,THK000564,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:08:03+07:00,2026-09-19T13:08:03+07:00,23
+THK001062_01,THK001062,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T22:04:03+07:00,2026-09-15T22:04:03+07:00,12
+THK000582_01,THK000582,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:24:20+07:00,2026-09-19T13:24:20+07:00,23
+THK001031_01,THK001031,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:15:16+07:00,2026-10-19T23:15:16+07:00,30
+THK000355_01,THK000355,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:49:40+07:00,2026-09-05T01:49:40+07:00,23
+THK000241_01,THK000241,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:18:04+07:00,2026-09-18T17:18:04+07:00,13
+THK000704_01,THK000704,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:31:17+07:00,2026-09-20T14:31:17+07:00,18
+THK000569_01,THK000569,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:12:48+07:00,2026-09-19T13:12:48+07:00,17
+THK001015_01,THK001015,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:37:34+07:00,2026-09-20T23:37:34+07:00,18
+THK000924_01,THK000924,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:23:22+07:00,2026-09-20T17:23:22+07:00,19
+THK001059_01,THK001059,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:52:43+07:00,2026-09-20T23:52:43+07:00,9
+THK000429_01,THK000429,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:33:44+07:00,2026-09-15T21:33:44+07:00,10
+THK000033_01,THK000033,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:27:40+07:00,2026-09-09T18:27:40+07:00,17
+THK000357_01,THK000357,approved,Ngân,5,Ngan;My;admin;reviewer_1;Codex,double_review_agreed,True,False,"R? so?t 17/10: Ghi ch? ??i chi?u m? t? ng?i tr?n sen, ch?n ph?i th? xu?ng nh? v? g?i r? C2.3; nh?n c? C2.4 kh?ng kh?p.",admin,2026-10-19T22:05:48+07:00,2026-10-19T22:05:52+07:00,27
+THK000570_01,THK000570,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:13:45+07:00,2026-09-19T13:13:45+07:00,21
+THK000928_01,THK000928,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:09:33+07:00,2026-09-20T21:09:33+07:00,17
+THK000152_01,THK000152,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:55:46+07:00,2026-09-09T00:55:46+07:00,16
+THK000848_01,THK000848,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T21:21:19+07:00,2026-10-07T21:21:19+07:00,27
+THK000596_01,THK000596,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:18:08+07:00,2026-09-19T16:18:08+07:00,18
+THK001039_01,THK001039,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:18:45+07:00,2026-09-20T23:18:45+07:00,17
+THK000312_01,THK000312,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:21:51+07:00,2026-09-19T14:21:51+07:00,30
+THK000332_01,THK000332,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:00:34+07:00,2026-09-04T23:02:11+07:00,24
+THK000356_01,THK000356,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:49:53+07:00,2026-09-05T01:49:53+07:00,25
+THK001007_01,THK001007,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:19:05+07:00,2026-10-20T00:19:12+07:00,18
+THK000326_01,THK000326,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:38:25+07:00,2026-09-19T15:38:25+07:00,20
+THK000789_01,THK000789,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy nhân vật ngồi trên la vàng; caption CIRThan:1173 chỉ ghi cưỡi la, không nêu chạy/bước. Không thấy chuyển động trội trong dáng người hoặc thú, nên gợi ý C1.1; chân bị che nên L2 để trống.",admin,2026-10-19T22:43:17+07:00,2026-10-19T22:43:17+07:00,7
+1174_01,1174,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:21:31+07:00,2026-10-07T14:21:31+07:00,21
+THK000473_01,THK000473,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:58:50+07:00,2026-09-18T16:58:50+07:00,13
+1178_01,1178,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:47:56+07:00,2026-10-07T14:47:56+07:00,19
+THK000930_01,THK000930,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:11:25+07:00,2026-09-20T21:11:25+07:00,15
+THK000980_01,THK000980,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:00:48+07:00,2026-09-20T22:00:48+07:00,15
+1194_01,1194,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:25:57+07:00,2026-10-06T22:25:57+07:00,18
+THK001029_01,THK001029,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:09:07+07:00,2026-09-19T16:09:07+07:00,18
+THK000038_01,THK000038,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-1198 ch? m? t? Padmasambhava c??i ng?a xanh; ghi ch? cho bi?t h?ng/ch?n b? y?n v? y ph?c che, kh?ng c? d?u hi?u chuy?n ??ng r?.",admin,2026-10-19T22:19:46+07:00,2026-10-19T22:19:46+07:00,11
+THK001042_01,THK001042,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:44:35+07:00,2026-09-20T23:44:35+07:00,19
+THK000923_01,THK000923,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:02:54+07:00,2026-10-20T00:03:09+07:00,17
+THK000455_01,THK000455,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:36:10+07:00,2026-09-18T16:36:10+07:00,11
+THK000200_01,THK000200,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:28:15+07:00,2026-09-14T22:28:15+07:00,12
+THK000931_01,THK000931,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:05:53+07:00,2026-10-20T00:06:09+07:00,21
+THK000410_01,THK000410,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:20:36+07:00,2026-09-15T21:20:36+07:00,10
+THK000476_01,THK000476,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:01:34+07:00,2026-09-18T17:01:34+07:00,12
+THK000783_01,THK000783,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:59:40+07:00,2026-09-15T21:59:40+07:00,13
+THK000917_407ba1ccfc_4_01,THK000917_407ba1ccfc_4,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-08T00:16:52+07:00,2026-09-08T00:16:52+07:00,40
+THK000986_01,THK000986,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:05:49+07:00,2026-09-20T22:05:49+07:00,15
+THK000423_0c26cda164_2_01,THK000423_0c26cda164_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: giữ nhãn C1.1/C2.2; sửa mô tả cũ không khớp với nhãn đã duyệt.",admin,2026-09-08T00:29:33+07:00,"2026-10-30T00:30:27+07:00","26"
+THK000281_01,THK000281,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:51:21+07:00,2026-09-19T13:51:21+07:00,26
+THK000419_01,THK000419,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:27:55+07:00,2026-09-15T21:27:55+07:00,11
+THK000420_f0fb5768c2_2_01,THK000420_f0fb5768c2_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:29:03+07:00,2026-09-08T00:29:03+07:00,25
+THK000163_01,THK000163,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:50:59+07:00,2026-09-14T21:50:59+07:00,15
+THK000926_01,THK000926,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:04:31+07:00,2026-10-20T00:04:46+07:00,21
+1244_01,1244,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:49:24+07:00,2026-10-07T14:49:24+07:00,21
+THK000035_01,THK000035,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:30:00+07:00,2026-09-09T18:30:00+07:00,14
+THK000250_01,THK000250,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:25:17+07:00,2026-09-18T17:25:17+07:00,11
+THK000929_01,THK000929,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:05:12+07:00,2026-10-20T00:05:27+07:00,18
+THK000446_01,THK000446,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:29:42+07:00,2026-09-18T16:29:42+07:00,15
+THK000458_01,THK000458,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:39:30+07:00,2026-09-18T16:39:30+07:00,12
+THK000443_230709b76a_2_01,THK000443_230709b76a_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: giữ nhãn C1.1/C2.2; sửa mô tả cũ không khớp với nhãn đã duyệt.",admin,2026-10-17T22:58:53+07:00,"2026-10-30T00:30:27+07:00","17"
+THK000441_01,THK000441,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:24:26+07:00,2026-09-18T16:24:26+07:00,9
+THK000466_01,THK000466,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:45:48+07:00,2026-09-18T16:45:48+07:00,10
+THK000922_01,THK000922,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:21:28+07:00,2026-09-20T17:21:28+07:00,20
+THK000438_01,THK000438,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:21:24+07:00,2026-09-18T16:21:24+07:00,10
+THK000481_01,THK000481,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:06:00+07:00,2026-09-18T17:06:00+07:00,12
+THK000904_01,THK000904,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:53:22+07:00,2026-10-19T23:53:42+07:00,19
+THK000576_01,THK000576,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:18:47+07:00,2026-09-19T13:18:47+07:00,19
+THK001072_01,THK001072,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:17:41+07:00,2026-09-20T14:17:41+07:00,23
+THK001049_01,THK001049,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T14:13:09+07:00,2026-09-20T14:13:09+07:00,21
+THK000939_01,THK000939,approved,Ngân,5,Ngan;My;reviewer_1;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc và ảnh phóng cận vùng chân cho thấy Tara ngồi lệch: một chân gập trên bệ, chân kia duỗi/thả xuống bên cạnh. Metadata CIRThan:127 ghi chéo chân/vajrasana nhưng không khớp cách sắp chân nhìn thấy trực tiếp; ưu tiên ảnh, gợi ý C2.3 với độ tin cậy trung bình.",admin,2026-10-20T00:07:35+07:00,2026-10-20T00:07:54+07:00,20
+THK000166_01,THK000166,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:53:39+07:00,2026-09-14T21:53:39+07:00,16
+THK000325_01,THK000325,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:36:46+07:00,2026-09-19T15:36:46+07:00,21
+THK000920_2757e6f82a_4_01,THK000920_2757e6f82a_4,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:17:30+07:00,2026-09-08T00:17:32+07:00,16
+THK000925_01,THK000925,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:03:51+07:00,2026-10-20T00:04:05+07:00,21
+THK000759_01,THK000759,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:44:01+07:00,2026-09-20T16:44:01+07:00,15
+THK000529_01,THK000529,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-18T23:52:09+07:00,2026-09-18T23:52:09+07:00,11
+THK000908_01,THK000908,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T17:12:16+07:00,2026-09-20T17:12:16+07:00,20
+THK000919_01,THK000919,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:02:12+07:00,2026-10-20T00:02:28+07:00,23
+THK000712_01,THK000712,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:19:36+07:00,2026-10-19T23:19:39+07:00,19
+THK000758_01,THK000758,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:25:06+07:00,2026-10-19T23:25:09+07:00,19
+THK000916_01,THK000916,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:59:50+07:00,2026-10-20T00:00:06+07:00,21
+THK000615_01,THK000615,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:36:04+07:00,2026-09-19T16:36:04+07:00,16
+THK000619_01,THK000619,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:41:25+07:00,2026-09-19T16:41:25+07:00,17
+THK000932_01,THK000932,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:06:35+07:00,2026-10-20T00:06:55+07:00,23
+THK000703_01,THK000703,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:30:25+07:00,2026-09-20T14:30:25+07:00,20
+THK000724_01,THK000724,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:21:35+07:00,2026-10-19T23:21:48+07:00,19
+THK000606_01,THK000606,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:27:19+07:00,2026-09-19T16:27:19+07:00,23
+THK000915_01,THK000915,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:59:10+07:00,2026-10-19T23:59:25+07:00,22
+THK000725_01,THK000725,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:17:17+07:00,2026-09-20T16:17:17+07:00,22
+THK000960_01,THK000960,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:41:51+07:00,2026-09-20T21:41:51+07:00,20
+THK000456_01,THK000456,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:37:20+07:00,2026-09-18T16:37:20+07:00,11
+THK000445_01,THK000445,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:28:18+07:00,2026-09-18T16:28:18+07:00,12
+THK000392_01,THK000392,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:38:33+07:00,2026-09-14T21:38:33+07:00,15
+1364_01,1364,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:26:58+07:00,2026-10-06T22:26:58+07:00,17
+THK001021_01,THK001021,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:39:01+07:00,2026-09-20T23:39:01+07:00,20
+THK000779_01,THK000779,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:58:59+07:00,2026-09-08T00:58:59+07:00,17
+THK000450_01,THK000450,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:32:26+07:00,2026-09-18T16:32:26+07:00,9
+THK000354_01,THK000354,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:49:18+07:00,2026-09-05T01:49:18+07:00,28
+THK000706_01,THK000706,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:33:24+07:00,2026-09-20T14:33:24+07:00,13
+THK000708_01,THK000708,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:34:53+07:00,2026-09-20T14:34:53+07:00,14
+THK000707_01,THK000707,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:34:03+07:00,2026-09-20T14:34:03+07:00,13
+THK000744_01,THK000744,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:32:12+07:00,2026-09-20T16:32:12+07:00,16
+THK000768_01,THK000768,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T16:50:56+07:00,2026-09-20T16:50:56+07:00,12
+THK000494_01,THK000494,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:39:52+07:00,2026-09-18T21:39:52+07:00,16
+THK000583_01,THK000583,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:25:18+07:00,2026-09-19T13:25:18+07:00,21
+THK000750_01,THK000750,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:36:25+07:00,2026-09-20T16:36:25+07:00,18
+THK000259_01,THK000259,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:31:14+07:00,2026-09-18T17:31:14+07:00,11
+THK000111_1b91b64ae4_01,THK000111_1b91b64ae4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:07:52+07:00,2026-10-19T22:07:55+07:00,6
+THK000766_01,THK000766,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:49:28+07:00,2026-09-20T16:49:28+07:00,18
+THK001011_01,THK001011,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:36:14+07:00,2026-09-20T23:36:14+07:00,18
+THK000733_01,THK000733,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:24:31+07:00,2026-09-20T16:24:31+07:00,19
+THK000776_01,THK000776,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:56:08+07:00,2026-09-20T16:56:08+07:00,16
+THK000584_01,THK000584,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-19T13:26:06+07:00,2026-09-19T13:26:06+07:00,11
+THK000359_efc5b0c5b0_2_01,THK000359_efc5b0c5b0_2,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-18T22:58:00+07:00,2026-09-18T22:58:00+07:00,37
+THK000225_01,THK000225,approved,Ngân,4,Ngan;My;admin;Codex,adjudicated,True,True,"R? so?t 17/10: Ghi ch? CIRThan-1444 m? t? th? ph?n n? ??ng: ch?n ph?i du?i nghi?ng, ch?n tr?i co gi?m l?n h?nh ph?a d??i; C2.10 thay C2.9. | Joint reviewer adjudication confirmed by user on 2026-10-20: visually near-identical pair THK000225/THK000840 harmonized to the later reviewed C1.3/C2.10 label.",admin,2026-10-19T22:44:39+07:00,2026-10-19T18:54:43+00:00,17
+THK000716_01,THK000716,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:41:08+07:00,2026-09-20T14:41:08+07:00,17
+1447_01,1447,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:14:24+07:00,2026-10-06T22:14:26+07:00,19
+THK000633_01,THK000633,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:54:33+07:00,2026-09-19T16:54:33+07:00,21
+THK000595_01,THK000595,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:17:09+07:00,2026-09-19T16:17:09+07:00,17
+THK000559_01,THK000559,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:02:01+07:00,2026-09-19T13:02:01+07:00,22
+THK000608_01,THK000608,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:29:37+07:00,2026-09-19T16:29:37+07:00,19
+THK000751_01,THK000751,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:23:35+07:00,2026-10-19T23:23:35+07:00,22
+THK000630_01,THK000630,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:51:19+07:00,2026-09-19T16:51:19+07:00,16
+THK000611_01,THK000611,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:32:28+07:00,2026-09-19T16:32:28+07:00,17
+THK000002_4d258ab0e1_3_01,THK000002_4d258ab0e1_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:26:39+07:00,2026-09-08T00:26:39+07:00,29
+THK000496_01,THK000496,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:44:29+07:00,2026-09-18T22:44:29+07:00,9
+THK000918_01,THK000918,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:01:06+07:00,2026-10-20T00:01:14+07:00,19
+THK000098_01,THK000098,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:51:59+07:00,2026-09-15T21:51:59+07:00,12
+THK000191_01,THK000191,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:23:17+07:00,2026-09-14T22:23:17+07:00,11
+THK000451_01,THK000451,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:33:38+07:00,2026-09-18T16:33:38+07:00,17
+THK000913_ea9d76720a_4_01,THK000913_ea9d76720a_4,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-07T23:45:11+07:00,2026-09-07T23:45:15+07:00,6
+THK000463_01,THK000463,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:43:22+07:00,2026-09-18T16:43:22+07:00,8
+THK000522_01,THK000522,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:44:49+07:00,2026-09-18T23:44:49+07:00,11
+THK000303_01,THK000303,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:51:31+07:00,2026-10-19T22:51:31+07:00,20
+THK000959_01,THK000959,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T21:40:53+07:00,2026-09-20T21:40:53+07:00,16
+THK000910_01,THK000910,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:55:36+07:00,2026-10-19T23:55:36+07:00,32
+THK000495_01,THK000495,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:42:34+07:00,2026-09-18T22:43:16+07:00,9
+THK000497_01,THK000497,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:51:27+07:00,2026-09-18T22:51:55+07:00,9
+THK001051_b45e853ef1_4_01,THK001051_b45e853ef1_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:32:00+07:00,2026-09-08T00:32:00+07:00,24
+THK000164_01,THK000164,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:52:09+07:00,2026-09-14T21:52:12+07:00,13
+THK000160_01,THK000160,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:58:31+07:00,2026-09-09T00:58:31+07:00,15
+THK000440_01,THK000440,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:23:32+07:00,2026-09-18T16:23:32+07:00,11
+THK000226_01,THK000226,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:13:12+07:00,2026-09-18T17:13:12+07:00,3
+THK000616_01,THK000616,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:37:27+07:00,2026-09-19T16:37:27+07:00,20
+THK000617_01,THK000617,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:38:32+07:00,2026-09-19T16:38:32+07:00,18
+THK000618_01,THK000618,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:40:23+07:00,2026-10-19T23:06:04+07:00,20
+THK000512_01,THK000512,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:32:14+07:00,2026-09-18T23:32:14+07:00,12
+THK000461_01,THK000461,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:41:35+07:00,2026-09-18T16:41:35+07:00,11
+THK000065_01,THK000065,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:56:42+07:00,2026-09-14T22:56:42+07:00,13
+THK000767_01,THK000767,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:50:19+07:00,2026-09-20T16:50:19+07:00,17
+THK000039_01,THK000039,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:33:51+07:00,2026-09-09T18:33:51+07:00,17
+THK000568_01,THK000568,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:11:36+07:00,2026-09-19T13:11:36+07:00,19
+THK000571_01,THK000571,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:14:36+07:00,2026-09-19T13:14:36+07:00,17
+THK000880_01,THK000880,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:58:42+07:00,2026-09-19T15:58:42+07:00,20
+THK000877_01,THK000877,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T21:23:46+07:00,2026-10-19T23:05:11+07:00,31
+THK000322_01,THK000322,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:31:52+07:00,2026-09-19T15:31:52+07:00,20
+THK000254_01,THK000254,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:29:09+07:00,2026-09-18T17:29:09+07:00,10
+THK000591_072db5ba73_4_01,THK000591_072db5ba73_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:30:51+07:00,2026-09-08T00:30:51+07:00,23
+THK000589_01,THK000589,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:11:56+07:00,2026-09-19T16:11:56+07:00,20
+THK001034_01,THK001034,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:22:13+07:00,2026-10-20T00:22:29+07:00,22
+THK000687_01,THK000687,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T23:14:27+07:00,2026-10-19T23:14:40+07:00,21
+THK000279_01,THK000279,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:49:30+07:00,2026-09-19T13:49:30+07:00,22
+1605_01,1605,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:50:50+07:00,2026-10-07T14:50:50+07:00,20
+THK000715_01,THK000715,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:40:16+07:00,2026-09-20T14:40:16+07:00,19
+THK000731_01,THK000731,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:23:01+07:00,2026-09-20T16:23:01+07:00,13
+THK001028_01,THK001028,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:21:31+07:00,2026-10-20T00:21:31+07:00,21
+THK000674_01,THK000674,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:51:02+07:00,2026-09-20T13:51:02+07:00,22
+THK000251_01,THK000251,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:26:39+07:00,2026-09-18T17:26:39+07:00,15
+THK000624_01,THK000624,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:07:44+07:00,2026-10-19T23:07:58+07:00,21
+THK000554_01,THK000554,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:56:46+07:00,2026-09-19T12:56:46+07:00,26
+THK000698_01,THK000698,approved,Ngân,5,Ngan;My;reviewer_1;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn vùng chân cho thấy Padmasambhava gập hai chân và xếp chéo trên tòa sen, không có chân buông xuống rõ. Caption CIRThan:1618, mức 3, xác nhận “seated in lotus posture”. Gợi ý C2.1 thay C2.3; y phục che một phần cổ chân nên độ tin cậy trung bình.",admin,2026-10-19T23:17:28+07:00,2026-10-19T23:17:28+07:00,27
+THK000681_01,THK000681,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T13:57:57+07:00,2026-09-20T13:57:57+07:00,18
+THK000677_01,THK000677,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:53:37+07:00,2026-09-20T13:53:37+07:00,19
+THK000701_01,THK000701,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:28:28+07:00,2026-09-20T14:28:28+07:00,24
+1627_01,1627,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:28:18+07:00,2026-10-06T22:28:18+07:00,17
+THK000662_01,THK000662,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T23:10:59+07:00,2026-10-19T23:11:13+07:00,30
+THK000382_01,THK000382,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:21:22+07:00,2026-10-19T22:26:12+07:00,5
+THK000671_01,THK000671,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:47:22+07:00,2026-09-20T13:47:22+07:00,20
+THK000787_01,THK000787,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: tư thế cưỡi được gán C1.3 (Chuyển động); giữ L2 trống vì chưa xác nhận nhãn chi tiết của chân.",admin,2026-09-15T22:00:53+07:00,"2026-10-30T00:30:27+07:00","10"
+THK000981_01,THK000981,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:02:10+07:00,2026-09-20T22:02:10+07:00,16
+THK000403_01,THK000403,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:13:06+07:00,2026-09-15T21:13:06+07:00,14
+THK000995_01,THK000995,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn vùng chân cho thấy Machig Labdrön ngồi với hai chân gập/xếp trên bệ, không thấy chân buông xuống. Caption CIRThan:165, mức 3, mô tả tư thế vajrasana, củng cố C2.1. Vạt áo che mắt cá nên độ tin cậy trung bình.",admin,2026-10-20T00:18:04+07:00,2026-10-20T00:18:08+07:00,19
+THK000572_01,THK000572,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:15:20+07:00,2026-09-19T13:15:20+07:00,15
+THK000208_01,THK000208,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:32:27+07:00,2026-09-14T22:32:27+07:00,13
+THK000209_01,THK000209,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:33:51+07:00,2026-09-14T22:33:51+07:00,13
+THK000651_01,THK000651,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:30:30+07:00,2026-09-20T13:30:30+07:00,18
+THK000394_01,THK000394,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:40:53+07:00,2026-09-14T21:40:53+07:00,12
+THK000385_01,THK000385,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:23:48+07:00,2026-09-14T21:23:48+07:00,11
+THK000777_01,THK000777,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:44:58+07:00,2026-10-19T23:45:06+07:00,25
+THK000982_01,THK000982,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:02:50+07:00,2026-09-20T22:02:50+07:00,13
+THK000398_01,THK000398,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:44:39+07:00,2026-10-17T23:17:42+07:00,12
+THK000349_01,THK000349,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:46:31+07:00,2026-09-05T01:46:36+07:00,9
+THK000381_01,THK000381,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:30:51+07:00,2026-09-05T02:30:51+07:00,22
+THK000347_01,THK000347,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:45:19+07:00,2026-09-05T01:45:19+07:00,42
+THK000346_01,THK000346,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:44:12+07:00,2026-09-05T01:44:12+07:00,26
+THK000350_01,THK000350,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:46:48+07:00,2026-09-05T01:46:48+07:00,22
+THK000341_01,THK000341,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:29:17+07:00,2026-09-04T23:29:17+07:00,16
+THK000914_01,THK000914,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T17:16:23+07:00,2026-10-19T23:58:48+07:00,9
+THK000001_01,THK000001,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:55:08+07:00,2026-09-15T22:17:06+07:00,17
+THK000376_01,THK000376,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-10-19T22:06:15+07:00,2026-10-19T22:06:15+07:00,21
+THK000878_01,THK000878,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:46:45+07:00,2026-10-19T23:47:01+07:00,21
+THK000330_01,THK000330,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T22:58:11+07:00,2026-09-11T13:45:50+07:00,24
+THK000342_01,THK000342,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:29:38+07:00,2026-09-04T23:29:38+07:00,22
+THK000361_01,THK000361,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:54:13+07:00,2026-09-05T01:54:13+07:00,15
+THK000329_01,THK000329,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-09-11T13:44:59+07:00,2026-09-11T13:44:59+07:00,41
+THK000340_01,THK000340,approved,Ngân,5,Ngan;My;admin;reviewer_1;Codex,double_review_agreed,True,False,R? so?t 17/10: Ghi ch? ??i chi?u CIRThan-1768 m? t? ki?t gi? kh?a k?n (C2.1); nh?n c? C2.2 kh?ng kh?p b?ng ch?ng t? th? ch?n.,admin,2026-10-19T22:05:17+07:00,2026-10-19T22:05:17+07:00,23
+THK000344_01,THK000344,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:30:39+07:00,2026-09-04T23:30:39+07:00,18
+THK000275_01,THK000275,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:49:28+07:00,2026-10-19T22:49:28+07:00,13
+THK000791_01,THK000791,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:26:00+07:00,2026-10-19T22:26:00+07:00,19
+THK000339_01,THK000339,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-10-19T22:04:37+07:00,2026-10-19T22:04:52+07:00,34
+THK000345_01,THK000345,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:31:02+07:00,2026-09-04T23:31:02+07:00,22
+THK000754_01,THK000754,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:24:12+07:00,2026-10-19T23:24:25+07:00,20
+THK000737_01,THK000737,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:27:59+07:00,2026-09-20T16:27:59+07:00,19
+THK000307_01,THK000307,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:17:26+07:00,2026-09-19T14:17:26+07:00,17
+THK000654_01,THK000654,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:32:16+07:00,2026-09-20T13:32:16+07:00,16
+THK000351_01,THK000351,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:46:57+07:00,2026-09-05T01:46:57+07:00,24
+THK000752_01,THK000752,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:38:53+07:00,2026-09-20T16:38:53+07:00,20
+THK000661_01,THK000661,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:39:21+07:00,2026-09-20T13:39:21+07:00,21
+THK000691_01,THK000691,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:21:27+07:00,2026-09-20T14:21:27+07:00,17
+THK000745_d721b659f2_4_01,THK000745_d721b659f2_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:31:24+07:00,2026-09-08T00:31:24+07:00,26
+THK000756_01,THK000756,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T16:41:34+07:00,2026-09-20T16:41:34+07:00,12
+THK000592_01,THK000592,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:14:04+07:00,2026-09-19T16:14:04+07:00,17
+THK000352_01,THK000352,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:47:18+07:00,2026-09-05T01:47:18+07:00,20
+THK000884_01,THK000884,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:00:33+07:00,2026-09-19T16:00:33+07:00,25
+THK000348_01,THK000348,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:45:51+07:00,2026-09-05T01:45:51+07:00,25
+THK000719_01,THK000719,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:43:25+07:00,2026-09-20T14:43:25+07:00,11
+THK000717_01,THK000717,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:41:41+07:00,2026-09-20T14:41:41+07:00,10
+THK000314_01,THK000314,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:24:17+07:00,2026-09-19T14:24:17+07:00,21
+THK000424_01,THK000424,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:30:10+07:00,2026-09-15T21:30:10+07:00,12
+THK000486_01,THK000486,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-19T14:31:39+07:00,2026-09-19T14:31:39+07:00,30
+THK000168_01,THK000168,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:58:33+07:00,2026-09-14T21:58:33+07:00,14
+THK000439_01,THK000439,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:22:30+07:00,2026-09-18T16:22:30+07:00,13
+THK000964_01,THK000964,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:13:25+07:00,2026-10-20T00:13:29+07:00,20
+THK000034_01,THK000034,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:28:45+07:00,2026-09-09T18:28:45+07:00,18
+THK000739_01,THK000739,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:29:23+07:00,2026-09-20T16:29:23+07:00,17
+THK000026_01,THK000026,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:20:52+07:00,2026-09-09T18:20:52+07:00,11
+THK000625_01,THK000625,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:45:49+07:00,2026-09-19T16:45:49+07:00,19
+THK000297_01,THK000297,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:11:07+07:00,2026-09-19T14:11:07+07:00,21
+THK000555_01,THK000555,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:57:36+07:00,2026-09-19T12:57:36+07:00,18
+THK000645_01,THK000645,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:08:35+07:00,2026-10-19T23:08:38+07:00,24
+THK000730_01,THK000730,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:21:41+07:00,2026-09-20T16:21:41+07:00,23
+THK000950_01,THK000950,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:31:22+07:00,2026-09-20T21:31:22+07:00,15
+THK000658_01,THK000658,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:35:35+07:00,2026-09-20T13:35:35+07:00,19
+THK000234_01,THK000234,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:15:29+07:00,2026-09-18T17:15:29+07:00,10
+1854_01,1854,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:39:54+07:00,2026-10-20T00:40:09+07:00,29
+THK000612_01,THK000612,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:33:36+07:00,2026-09-19T16:33:36+07:00,21
+THK000660_01,THK000660,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:37:58+07:00,2026-09-20T13:37:58+07:00,17
+THK000353_01,THK000353,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:48:35+07:00,2026-10-02T21:59:19+07:00,27
+THK000454_01,THK000454,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:35:09+07:00,2026-09-18T16:35:09+07:00,10
+THK000465_01,THK000465,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:44:45+07:00,2026-09-18T16:44:45+07:00,10
+THK000587_01,THK000587,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:10:02+07:00,2026-09-19T16:10:02+07:00,18
+THK000649_01,THK000649,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:28:20+07:00,2026-09-20T13:28:20+07:00,18
+THK000978_01,THK000978,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:58:40+07:00,2026-09-20T21:58:40+07:00,15
+THK000628_01,THK000628,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:49:16+07:00,2026-09-19T16:49:16+07:00,15
+THK000634_01,THK000634,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:55:43+07:00,2026-09-19T16:55:43+07:00,20
+THK000747_01,THK000747,approved,Ngân,5,Ngan;My;reviewer_1;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn phần thân dưới cho thấy hai chân đều gập/xếp trên bệ, không thấy một chân buông thõng như C2.3. Caption CIRThan:1877, mức 3, ghi “seated in lotus posture”. Gợi ý C2.1; vạt áo che một phần mắt cá nên độ tin cậy trung bình.",admin,2026-10-19T23:22:39+07:00,2026-10-19T23:22:43+07:00,20
+THK000478_01,THK000478,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:03:29+07:00,2026-09-18T17:03:29+07:00,11
+THK000632_01,THK000632,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:52:59+07:00,2026-09-19T16:52:59+07:00,21
+THK000310_01,THK000310,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:19:40+07:00,2026-09-19T14:19:40+07:00,22
+THK000748_01,THK000748,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:35:23+07:00,2026-09-20T16:35:23+07:00,26
+THK000460_01,THK000460,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:40:43+07:00,2026-09-18T16:40:43+07:00,10
+THK000735_01,THK000735,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:25:53+07:00,2026-09-20T16:25:53+07:00,18
+THK000061_01,THK000061,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:50:33+07:00,2026-09-14T22:50:33+07:00,16
+THK000470_01,THK000470,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:50:47+07:00,2026-09-18T16:50:47+07:00,12
+THK000472_01,THK000472,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:53:43+07:00,2026-09-18T16:53:43+07:00,12
+THK000063_01,THK000063,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:53:49+07:00,2026-09-14T22:53:49+07:00,12
+THK000885_01,THK000885,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:59:05+07:00,2026-09-20T16:59:05+07:00,16
+THK000418_01,THK000418,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:26:49+07:00,2026-09-15T21:26:49+07:00,13
+THK000053_ac551d7f49_3_01,THK000053_ac551d7f49_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:25:02+07:00,2026-09-08T00:25:02+07:00,23
+THK000442_01,THK000442,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:26:20+07:00,2026-09-18T16:26:20+07:00,13
+THK000552_01,THK000552,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:54:58+07:00,2026-09-19T12:54:58+07:00,29
+THK000379_01,THK000379,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-17T23:08:19+07:00,2026-10-19T22:06:30+07:00,27
+THK000642_01,THK000642,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:16:59+07:00,2026-09-20T13:16:59+07:00,30
+THK000641_01,THK000641,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:14:04+07:00,2026-09-20T13:14:04+07:00,17
+THK000601_01,THK000601,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:22:20+07:00,2026-09-19T16:22:20+07:00,17
+THK000835_01,THK000835,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:42:13+07:00,2026-09-19T15:42:15+07:00,24
+THK000177_3ef4f0fe8c_3_01,THK000177_3ef4f0fe8c_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:37:05+07:00,2026-09-08T00:37:05+07:00,19
+THK000409_01,THK000409,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:19:28+07:00,2026-09-15T21:19:28+07:00,10
+THK000482_01,THK000482,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:06:57+07:00,2026-09-18T17:06:57+07:00,12
+THK000629_01,THK000629,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:50:20+07:00,2026-09-19T16:50:20+07:00,14
+THK000468_01,THK000468,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:48:08+07:00,2026-09-18T16:48:08+07:00,10
+THK000623_01,THK000623,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:43:52+07:00,2026-09-19T16:43:52+07:00,17
+THK000105_01,THK000105,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:56:41+07:00,2026-09-15T21:56:41+07:00,10
+THK000693_01,THK000693,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:22:46+07:00,2026-09-20T14:22:46+07:00,15
+THK000772_01,THK000772,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:52:34+07:00,2026-09-20T16:52:34+07:00,17
+THK000975_01,THK000975,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T21:56:31+07:00,2026-09-20T21:56:31+07:00,17
+THK000493_01,THK000493,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:38:30+07:00,2026-09-18T21:38:30+07:00,11
+THK000646_01,THK000646,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T23:09:32+07:00,2026-10-19T23:09:49+07:00,28
+THK000626_01,THK000626,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:46:49+07:00,2026-09-19T16:46:49+07:00,19
+THK000974_01,THK000974,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:55:23+07:00,2026-09-20T21:55:23+07:00,12
+THK000637_01,THK000637,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:58:35+07:00,2026-09-19T16:58:35+07:00,22
+THK000558_01,THK000558,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:00:57+07:00,2026-09-19T13:00:57+07:00,25
+THK000668_01,THK000668,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T13:46:07+07:00,2026-09-20T13:46:07+07:00,13
+THK000173_01,THK000173,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:01:19+07:00,2026-09-14T22:01:19+07:00,15
+THK000372_01,THK000372,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:26:53+07:00,2026-09-05T02:26:53+07:00,18
+THK000457_01,THK000457,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:38:35+07:00,2026-09-18T16:38:35+07:00,11
+THK000895_01,THK000895,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T17:02:50+07:00,2026-09-20T17:02:50+07:00,14
+THK000278_01,THK000278,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:44:36+07:00,2026-09-19T13:44:36+07:00,48
+THK000675_01,THK000675,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:51:41+07:00,2026-09-20T13:51:41+07:00,13
+THK000369_01,THK000369,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:26:16+07:00,2026-09-05T02:26:16+07:00,27
+THK000714_01,THK000714,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:39:26+07:00,2026-09-20T14:39:26+07:00,25
+THK000467_01,THK000467,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:47:10+07:00,2026-09-18T16:47:10+07:00,13
+THK000175_01,THK000175,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:02:37+07:00,2026-09-14T22:02:37+07:00,13
+THK000579_01,THK000579,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:20:28+07:00,2026-09-19T13:20:28+07:00,21
+THK000143_01,THK000143,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T00:50:27+07:00,2026-09-09T00:50:27+07:00,14
+THK000313_01,THK000313,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:23:01+07:00,2026-09-19T14:23:01+07:00,14
+THK000581_01,THK000581,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:23:07+07:00,2026-09-19T13:23:07+07:00,23
+THK000627_01,THK000627,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:48:18+07:00,2026-09-19T16:48:18+07:00,21
+THK000284_01,THK000284,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:00:29+07:00,2026-09-19T14:00:29+07:00,23
+THK000315_01,THK000315,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:25:17+07:00,2026-09-19T14:25:17+07:00,18
+THK000411_01,THK000411,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:21:38+07:00,2026-09-15T21:21:38+07:00,10
+THK000774_01,THK000774,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T16:54:33+07:00,2026-09-20T16:54:33+07:00,12
+THK000285_01,THK000285,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:02:25+07:00,2026-09-19T14:02:25+07:00,25
+THK000577_01,THK000577,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:19:24+07:00,2026-09-19T13:19:24+07:00,16
+THK000894_01,THK000894,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:02:01+07:00,2026-09-20T17:02:01+07:00,17
+THK000897_01,THK000897,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:47:41+07:00,2026-10-19T23:47:41+07:00,18
+THK000318_01,THK000318,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:29:26+07:00,2026-09-19T14:29:26+07:00,33
+THK000447_01,THK000447,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:30:34+07:00,2026-09-18T16:30:34+07:00,9
+THK000575_01,THK000575,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:17:58+07:00,2026-09-19T13:17:58+07:00,18
+THK000119_01,THK000119,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-213 m? t? Hayagriva ??ng tr?n th?m x?c; ghi ch? x?c nh?n gi?p/y ph?c che h?ng v? ch?n, kh?ng c? b?ng ch?ng b??c/??i h??ng ?? gi? C1.3/C2.9; gi? L1 ??ng v? b? L2/keypoint.",admin,2026-10-19T22:10:09+07:00,2026-10-19T22:10:12+07:00,26
+THK000426_01,THK000426,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:31:08+07:00,2026-09-15T21:31:08+07:00,9
+THK000433_01,THK000433,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Ghi ch? c?a ?nh n?i ch?n/??i b? ?o cho?ng che ho?n to?n, kh?ng th? ph?n bi?t t? th? ki?t gi? kh?a k?n hay m? v? y?u c?u ?? tr?ng L2; h? eligibility xu?ng L1-only.",admin,2026-10-19T22:28:33+07:00,2026-10-19T22:28:33+07:00,17
+THK000741_01,THK000741,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:30:46+07:00,2026-09-20T16:30:46+07:00,12
+THK000008_01,THK000008,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc phóng cận xác nhận nhân vật cưỡi la trắng; caption CIRThan:214, mức 2, ghi “white mule galloping right”. Có bằng chứng phi nước đại nên gợi ý C1.3; phần chân người bị che trong tư thế cưỡi, không gán L2.",admin,2026-10-19T22:15:54+07:00,2026-10-19T22:15:54+07:00,8
+THK000574_01,THK000574,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:17:04+07:00,2026-09-19T13:17:04+07:00,19
+THK000475_01,THK000475,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:00:42+07:00,2026-09-18T17:00:42+07:00,10
+THK000607_01,THK000607,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:28:30+07:00,2026-09-19T16:28:30+07:00,18
+THK000644_01,THK000644,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T13:23:49+07:00,2026-09-20T13:23:49+07:00,18
+THK000260_01,THK000260,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:32:22+07:00,2026-09-18T17:32:22+07:00,13
+THK000695_01,THK000695,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:24:24+07:00,2026-09-20T14:24:24+07:00,24
+THK000945_01,THK000945,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:27:36+07:00,2026-09-20T21:27:36+07:00,15
+THK000040_01,THK000040,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:35:29+07:00,2026-09-09T18:35:29+07:00,18
+THK000718_01,THK000718,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:42:41+07:00,2026-09-20T14:42:41+07:00,17
+THK000362_01,THK000362,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:58:52+07:00,2026-09-05T01:58:52+07:00,33
+THK000721_01,THK000721,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:45:29+07:00,2026-09-20T14:45:29+07:00,21
+THK000600_01,THK000600,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:20:52+07:00,2026-09-19T16:20:52+07:00,23
+THK000056_01,THK000056,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:45:53+07:00,2026-09-09T18:45:53+07:00,13
+THK000870_01,THK000870,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:55:54+07:00,2026-09-19T15:55:54+07:00,19
+THK000007_dc62eb6f03_01,THK000007_dc62eb6f03,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:18:12+07:00,2026-09-08T00:18:14+07:00,33
+THK000415_01,THK000415,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:24:11+07:00,2026-09-15T21:24:11+07:00,12
+THK000690_01,THK000690,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:20:22+07:00,2026-09-20T14:20:22+07:00,14
+THK000557_01,THK000557,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:00:01+07:00,2026-09-19T13:00:01+07:00,23
+THK000593_01,THK000593,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:15:24+07:00,2026-09-19T16:15:24+07:00,18
+THK000167_01,THK000167,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:54:39+07:00,2026-09-14T21:54:39+07:00,13
+THK000042_01,THK000042,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc phóng lớn cho thấy Palden Lhamo cưỡi la trong bố cục động; caption CIRThan:2196, mức 2, ghi “right-running mule”. Đây là bằng chứng chuyển động có hướng cho C1.3, dù hông/chân người bị xiêm y và thú cưỡi che; để trống L2.",admin,2026-10-19T22:20:00+07:00,2026-10-19T22:20:00+07:00,13
+THK000219_01,THK000219,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:10:56+07:00,2026-09-18T17:10:56+07:00,13
+THK000655_01,THK000655,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:10:07+07:00,2026-10-19T23:10:07+07:00,25
+2201_01,2201,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:29:58+07:00,2026-10-06T22:29:58+07:00,24
+THK000597_01,THK000597,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:19:04+07:00,2026-09-19T16:19:04+07:00,16
+THK000421_01,THK000421,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:28:58+07:00,2026-09-15T21:28:58+07:00,10
+THK000609_01,THK000609,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:30:52+07:00,2026-09-19T16:30:52+07:00,23
+THK000678_01,THK000678,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:54:47+07:00,2026-09-20T13:54:47+07:00,20
+THK000614_01,THK000614,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:35:02+07:00,2026-09-19T16:35:02+07:00,19
+THK000252_01,THK000252,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:27:47+07:00,2026-09-18T17:27:47+07:00,11
+THK000740_01,THK000740,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:30:07+07:00,2026-09-20T16:30:07+07:00,12
+THK000556_01,THK000556,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:58:46+07:00,2026-09-19T12:58:46+07:00,26
+THK000358_1b6cbf573c_4_01,THK000358_1b6cbf573c_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:30:40+07:00,2026-09-08T00:30:40+07:00,19
+THK000702_01,THK000702,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:18:08+07:00,2026-10-19T23:18:22+07:00,20
+THK000602_01,THK000602,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:23:07+07:00,2026-09-19T16:23:07+07:00,14
+THK000316_01,THK000316,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:01:28+07:00,2026-10-19T23:01:28+07:00,18
+THK000723_01,THK000723,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:47:22+07:00,2026-09-20T14:47:22+07:00,14
+THK000479_01,THK000479,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:04:23+07:00,2026-09-18T17:04:23+07:00,10
+THK000699_01,THK000699,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:27:03+07:00,2026-09-20T14:27:03+07:00,17
+THK000289_01,THK000289,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:04:23+07:00,2026-09-19T14:04:23+07:00,34
+THK000622_01,THK000622,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:42:52+07:00,2026-09-19T16:42:52+07:00,20
+THK000110_e7c0eae098_01,THK000110_e7c0eae098,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:37:45+07:00,2026-09-08T01:37:45+07:00,3
+THK000224_f68094b182_3_01,THK000224_f68094b182_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-17T23:00:55+07:00,2026-10-17T23:00:59+07:00,20
+THK000648_01,THK000648,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:27:29+07:00,2026-09-20T13:27:29+07:00,19
+THK000676_01,THK000676,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:52:40+07:00,2026-09-20T13:52:40+07:00,21
+THK000736_01,THK000736,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:26:57+07:00,2026-09-20T16:26:57+07:00,16
+THK000049_01,THK000049,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:43:23+07:00,2026-09-09T18:43:23+07:00,16
+THK000580_01,THK000580,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:21:51+07:00,2026-09-19T13:21:51+07:00,24
+THK000635_01,THK000635,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:56:58+07:00,2026-09-19T16:56:58+07:00,22
+THK000269_01,THK000269,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:47:20+07:00,2026-10-19T22:47:20+07:00,25
+THK000112_d82b8429df_01,THK000112_d82b8429df,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:38:42+07:00,2026-09-08T01:39:12+07:00,10
+THK000373_805a6bbd9a_2_01,THK000373_805a6bbd9a_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:32:52+07:00,2026-09-08T00:32:52+07:00,12
+THK000962_01,THK000962,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:43:41+07:00,2026-09-20T21:43:41+07:00,14
+THK000941_01,THK000941,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:21:58+07:00,2026-09-20T21:21:58+07:00,16
+THK000958_01,THK000958,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:39:35+07:00,2026-09-20T21:39:35+07:00,18
+THK000367_01,THK000367,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:25:18+07:00,2026-09-05T02:25:18+07:00,27
+THK000938_01,THK000938,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:19:17+07:00,2026-09-20T21:19:17+07:00,16
+THK000365_01,THK000365,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:01:02+07:00,2026-09-05T02:01:02+07:00,28
+THK000364_01,THK000364,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:00:18+07:00,2026-09-05T02:00:18+07:00,29
+THK000994_01,THK000994,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:08:16+07:00,2026-09-20T22:08:16+07:00,15
+THK000489_01,THK000489,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:34:53+07:00,2026-09-18T21:34:53+07:00,13
+THK000977_01,THK000977,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:57:48+07:00,2026-09-20T21:57:48+07:00,14
+THK000935_01,THK000935,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:17:15+07:00,2026-09-20T21:17:15+07:00,17
+THK000951_01,THK000951,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:32:26+07:00,2026-09-20T21:32:26+07:00,18
+THK000983_01,THK000983,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:03:52+07:00,2026-09-20T22:03:52+07:00,17
+THK000940_01,THK000940,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T21:21:08+07:00,2026-09-20T21:21:08+07:00,17
+THK000953_01,THK000953,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:34:22+07:00,2026-09-20T21:34:22+07:00,18
+THK000391_01,THK000391,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:30:28+07:00,2026-09-14T21:30:28+07:00,10
+THK001017_01,THK001017,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:20:09+07:00,2026-10-20T00:20:09+07:00,27
+THK001008_01,THK001008,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:35:10+07:00,2026-09-20T23:35:10+07:00,15
+THK001073_01,THK001073,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:55:54+07:00,2026-09-20T23:55:54+07:00,19
+THK000984_01,THK000984,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:16:51+07:00,2026-10-20T00:16:55+07:00,19
+THK001033_01,THK001033,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:14:51+07:00,2026-09-20T23:14:51+07:00,15
+THK001050_b2853e7f33_2_01,THK001050_b2853e7f33_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:32:13+07:00,2026-09-08T00:32:13+07:00,17
+THK001000_01,THK001000,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:18:32+07:00,2026-10-20T00:18:47+07:00,22
+THK000892_01,THK000892,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:01:06+07:00,2026-09-20T17:01:06+07:00,18
+THK000942_01,THK000942,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:10:23+07:00,2026-10-20T00:10:26+07:00,21
+THK000264_01,THK000264,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:38:10+07:00,2026-09-18T17:38:10+07:00,13
+THK000122_01,THK000122,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:41:39+07:00,2026-09-08T01:41:39+07:00,16
+THK000393_01,THK000393,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:39:57+07:00,2026-09-14T21:39:57+07:00,14
+THK000114_123e05aa28_01,THK000114_123e05aa28,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Ghi ch? CIRThan-303 x?c nh?n alidhasana/??ng m?a, ??p l?n hai x?c; v? v?y Chuy?n ??ng + C2.10, kh?ng ph?i ??ng/C2.7.",admin,2026-10-19T21:57:58+07:00,2026-10-19T21:58:14+07:00,40
+THK000073_01,THK000073,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:02:06+07:00,2026-09-14T23:02:06+07:00,7
+THK000068_01,THK000068,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:32:40+07:00,2026-10-19T22:32:43+07:00,6
+THK000010_01,THK000010,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: tư thế cưỡi được gán C1.3 (Chuyển động); giữ L2 trống vì chưa xác nhận nhãn chi tiết của chân.",admin,2026-09-09T18:02:27+07:00,"2026-10-30T00:30:27+07:00","24"
+THK000012_01,THK000012,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:04:42+07:00,2026-09-09T18:04:42+07:00,16
+THK000462_01,THK000462,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:42:33+07:00,2026-09-18T16:42:33+07:00,11
+THK000048_01,THK000048,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc phóng cận cho thấy nữ thần cưỡi la vàng; caption CIRThan:313, mức 2, nói rõ la đang chạy (“running yellow mule”). Chuyển động của thú là dấu hiệu động trội, nên gợi ý C1.3; L2 để trống vì chân người bị che.",admin,2026-10-19T22:21:08+07:00,2026-10-19T22:21:08+07:00,12
+THK000667_01,THK000667,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:45:22+07:00,2026-09-20T13:45:22+07:00,13
+THK001020_01,THK001020,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-20T00:20:33+07:00,2026-10-20T00:20:49+07:00,21
+THK000903_01,THK000903,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:52:42+07:00,2026-10-19T23:52:59+07:00,20
+THK000993_01,THK000993,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:07:16+07:00,2026-09-20T22:07:16+07:00,17
+THK001041_01,THK001041,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:19:53+07:00,2026-09-20T23:19:53+07:00,17
+THK001004_01,THK001004,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:33:11+07:00,2026-09-20T23:33:11+07:00,20
+THK001038_01,THK001038,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:17:20+07:00,2026-09-20T23:17:23+07:00,18
+THK000327_01,THK000327,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:03:15+07:00,2026-10-19T23:03:15+07:00,17
+THK000106_01,THK000106,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T22:08:32+07:00,2026-09-15T22:08:32+07:00,15
+THK001037_01,THK001037,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T14:11:04+07:00,2026-09-20T14:11:04+07:00,31
+THK000059_01,THK000059,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-348 ch? x?c nh?n ng?i tr?n ng?a tr?ng; ghi ch? cho bi?t h?ng/ch?n b? y?n v? y ph?c che ho?n to?n, kh?ng n?u ch?y/b??c.",admin,2026-10-19T22:30:09+07:00,2026-10-19T22:30:12+07:00,11
+THK000060_01,THK000060,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:30:25+07:00,2026-10-19T22:30:25+07:00,8
+THK000991_26d94e3c4c_2_01,THK000991_26d94e3c4c_2,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:33:13+07:00,2026-09-08T00:33:13+07:00,28
+THK000058_01,THK000058,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:37:06+07:00,2026-09-14T22:37:06+07:00,18
+THK001058_01,THK001058,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:52:08+07:00,2026-09-20T23:52:08+07:00,14
+THK000656_01,THK000656,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:34:27+07:00,2026-09-20T13:34:27+07:00,19
+THK000764_01,THK000764,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T16:48:25+07:00,2026-09-20T16:48:25+07:00,16
+THK000743_01,THK000743,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:31:25+07:00,2026-09-20T16:31:25+07:00,10
+THK001009_4b25b75116_01,THK001009_4b25b75116,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:35:30+07:00,2026-09-08T00:35:30+07:00,23
+THK001052_01,THK001052,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:47:41+07:00,2026-09-20T23:47:41+07:00,16
+THK000590_01,THK000590,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:13:02+07:00,2026-09-19T16:13:02+07:00,20
+THK000527_01,THK000527,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:49:45+07:00,2026-09-18T23:49:45+07:00,11
+THK001048_01,THK001048,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:46:21+07:00,2026-09-20T23:46:21+07:00,14
+THK000304_01,THK000304,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-19T14:16:14+07:00,2026-10-19T22:52:06+07:00,14
+THK000104_01,THK000104,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:55:42+07:00,2026-09-15T21:55:42+07:00,9
+THK000901_01,THK000901,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:48:37+07:00,2026-10-19T23:48:41+07:00,21
+THK000902_01,THK000902,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:51:59+07:00,2026-10-19T23:52:16+07:00,22
+THK000184_01,THK000184,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:14:45+07:00,2026-09-14T22:14:58+07:00,13
+THK000840_01,THK000840,approved,Ngân,4,Ngan;My;reviewer_1;admin,adjudicated,True,True,Joint reviewer adjudication confirmed by user on 2026-10-20: visually near-identical pair THK000225/THK000840 harmonized to the later reviewed C1.3/C2.10 label.,admin,2026-10-19T23:04:31+07:00,2026-10-19T18:54:43+00:00,24
+THK000086_01,THK000086,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:43:02+07:00,2026-09-15T21:43:02+07:00,12
+THK000282_01,THK000282,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:58:33+07:00,2026-09-19T13:58:33+07:00,19
+THK000286_67be895386_3_01,THK000286_67be895386_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:03:16+07:00,2026-10-19T22:03:16+07:00,30
+THK000031_01,THK000031,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:24:56+07:00,2026-09-09T18:24:56+07:00,17
+459_01,459,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:28:22+07:00,2026-10-20T00:28:26+07:00,24
+THK000290_01,THK000290,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:49:51+07:00,2026-10-19T22:49:51+07:00,17
+THK000471_01,THK000471,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:52:12+07:00,2026-09-18T16:52:12+07:00,10
+THK000036_01,THK000036,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:32:10+07:00,2026-09-09T18:32:10+07:00,19
+THK000142_01,THK000142,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T02:00:15+07:00,2026-09-08T02:00:15+07:00,18
+THK000679_01,THK000679,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T23:13:14+07:00,2026-10-19T23:13:14+07:00,20
+THK000685_01,THK000685,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:13:47+07:00,2026-10-19T23:13:51+07:00,24
+THK000746_01,THK000746,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:33:12+07:00,2026-09-20T16:33:12+07:00,14
+THK000255_01,THK000255,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:29:57+07:00,2026-09-18T17:29:57+07:00,10
+THK000603_01,THK000603,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:25:24+07:00,2026-09-19T16:25:24+07:00,21
+THK000680_01,THK000680,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:56:46+07:00,2026-09-20T13:56:46+07:00,16
+THK000683_01,THK000683,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T14:01:38+07:00,2026-09-20T14:01:38+07:00,22
+THK001043_01,THK001043,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:20:59+07:00,2026-09-20T23:20:59+07:00,15
+THK001023_01,THK001023,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T21:24:51+07:00,2026-10-07T21:24:51+07:00,23
+THK000673_01,THK000673,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:49:31+07:00,2026-09-20T13:49:31+07:00,19
+THK000672_01,THK000672,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T13:48:38+07:00,2026-09-20T13:48:38+07:00,18
+THK000052_01,THK000052,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:44:56+07:00,2026-09-09T18:44:56+07:00,15
+THK001056_01,THK001056,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:49:07+07:00,2026-09-20T23:49:07+07:00,17
+THK000320_01,THK000320,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:30:29+07:00,2026-09-19T14:30:29+07:00,19
+THK000763_01,THK000763,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:47:34+07:00,2026-09-20T16:47:34+07:00,18
+THK001066_01,THK001066,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:16:03+07:00,2026-09-20T14:16:03+07:00,22
+THK000836_01,THK000836,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:43:18+07:00,2026-09-19T15:43:18+07:00,12
+THK000728_01,THK000728,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:19:37+07:00,2026-09-20T16:19:37+07:00,16
+THK000686_01,THK000686,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T14:04:04+07:00,2026-09-20T14:04:04+07:00,20
+THK000688_01,THK000688,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T14:06:46+07:00,2026-09-20T14:06:46+07:00,28
+THK000689_01,THK000689,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-19T23:16:39+07:00,2026-10-19T23:16:42+07:00,23
+THK000640_01,THK000640,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:13:07+07:00,2026-09-20T13:13:07+07:00,28
+THK000726_01,THK000726,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:18:24+07:00,2026-09-20T16:18:24+07:00,16
+THK000638_01,THK000638,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T16:59:45+07:00,2026-09-19T16:59:45+07:00,19
+THK000692_01,THK000692,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:22:04+07:00,2026-09-20T14:22:04+07:00,10
+THK000888_8af535bd9f_4_01,THK000888_8af535bd9f_4,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-07T23:44:18+07:00,2026-09-07T23:44:18+07:00,15
+THK000663_01,THK000663,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:11:29+07:00,2026-10-19T23:11:32+07:00,21
+THK000729_01,THK000729,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T16:20:32+07:00,2026-09-20T16:20:32+07:00,14
+THK000722_01,THK000722,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:46:25+07:00,2026-09-20T14:46:25+07:00,20
+THK000850_01,THK000850,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:50:03+07:00,2026-09-19T15:50:03+07:00,20
+THK001001_01,THK001001,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T22:11:53+07:00,2026-09-20T22:11:53+07:00,18
+THK000664_01,THK000664,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:42:38+07:00,2026-09-20T13:42:38+07:00,15
+THK000099_01,THK000099,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-15T21:52:53+07:00,2026-09-15T21:52:53+07:00,5
+THK000091_01,THK000091,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:46:29+07:00,2026-09-15T21:46:29+07:00,13
+612_01,612,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:29:04+07:00,2026-10-20T00:29:08+07:00,33
+613_01,613,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:04:12+07:00,2026-10-20T00:29:24+07:00,13
+THK000100_01,THK000100,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:54:17+07:00,2026-09-15T21:54:17+07:00,13
+THK000101_b9a0866872_01,THK000101_b9a0866872,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:44:51+07:00,2026-09-08T00:44:51+07:00,24
+THK001027_01,THK001027,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:09:54+07:00,2026-09-20T23:09:54+07:00,14
+THK001025_69569713b4_4_01,THK001025_69569713b4_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:31:49+07:00,2026-09-08T00:31:49+07:00,12
+THK000407_01,THK000407,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:17:38+07:00,2026-09-15T21:17:38+07:00,16
+THK000389_01,THK000389,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:28:24+07:00,2026-09-14T21:28:24+07:00,16
+623_01,623,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:30:11+07:00,2026-10-20T00:30:26+07:00,25
+THK000095_01,THK000095,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:50:01+07:00,2026-09-15T21:50:01+07:00,4
+THK000096_01,THK000096,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy Damchen cưỡi ngựa đen, thân người giữ dáng ngồi; caption CIRThan:627 nói cưỡi ngựa nhìn trái nhưng không nêu chạy/bước. Không có bằng chứng chuyển động trội, nên gợi ý C1.1; L2 để trống do chân bị che.",admin,2026-10-19T22:42:39+07:00,2026-10-19T22:42:43+07:00,9
+THK000093_01,THK000093,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc độ phân giải đầy đủ cho thấy nhân vật trung tâm cưỡi ngựa; caption CIRThan:628 chỉ ghi “riding a black horse”. Không thấy bước/chạy rõ ở ngựa hoặc người cưỡi, nên gợi ý C1.1; hông/chân bị áo giáp và thú che nên để trống L2.",admin,2026-10-19T22:41:57+07:00,2026-10-19T22:42:01+07:00,8
+THK000069_01,THK000069,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy nhân vật xanh ngồi trên rồng cuộn, thân dưới phần lớn bị che. CIRThan:629 chỉ mô tả cưỡi rồng, không nêu bước/chạy; ảnh không cho thấy chuyển động trội. Gợi ý C1.1, để trống L2.",admin,2026-10-19T22:33:15+07:00,2026-10-19T22:33:15+07:00,8
+THK000401_01,THK000401,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-17T23:18:56+07:00,2026-10-19T22:28:10+07:00,8
+THK000018_01,THK000018,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T22:12:51+07:00,2026-09-15T22:12:51+07:00,13
+THK000014_01,THK000014,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:17:17+07:00,2026-10-19T22:17:17+07:00,8
+THK000078_01,THK000078,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: tư thế cưỡi được gán C1.3 (Chuyển động); giữ L2 trống vì chưa xác nhận nhãn chi tiết của chân.",admin,2026-09-14T23:07:49+07:00,"2026-10-30T00:30:27+07:00","13"
+THK000071_01,THK000071,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:00:02+07:00,2026-09-14T23:00:02+07:00,5
+THK000024_01,THK000024,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:18:38+07:00,2026-09-09T18:18:38+07:00,18
+THK000015_01,THK000015,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:06:28+07:00,2026-09-09T18:06:28+07:00,14
+THK000027_01,THK000027,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:22:59+07:00,2026-09-09T18:22:59+07:00,19
+THK000017_01,THK000017,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:09:09+07:00,2026-09-09T18:09:26+07:00,21
+THK000023_01,THK000023,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-641 x?c nh?n c??i la nh?ng kh?ng m? t? ch?y/b??c; ng?i c??i t? n? kh?ng ?? ?? g?n C1.3, L2 v?n ?? tr?ng v? ph?n d??i b? che.",admin,2026-10-19T22:18:23+07:00,2026-10-19T22:18:23+07:00,11
+THK000968_01,THK000968,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy Samantabhadri ngồi trên sư tử trắng; caption CIRThan:642 cũng ghi “seated on white lion”. Không có dấu hiệu bước/chạy hay động tác trội; gợi ý C1.1. Chân bị y phục và bệ che nên để trống L2.,admin,2026-10-20T00:14:27+07:00,2026-10-20T00:14:42+07:00,22
+THK000080_01,THK000080,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc phóng cận và caption CIRThan:643, mức 2, cùng cho thấy nữ thần cưỡi ngựa nâu phi nước đại (“galloping brown horse”). Dáng phi nước đại làm chuyển động chi phối khung hình, nên gợi ý C1.3; chân người bị che nên không gán L2.",admin,2026-10-19T22:37:52+07:00,2026-10-19T22:37:52+07:00,10
+THK000079_01,THK000079,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:08:16+07:00,2026-09-14T23:08:16+07:00,6
+THK000025_01,THK000025,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: tư thế cưỡi được gán C1.3 (Chuyển động); giữ L2 trống vì chưa xác nhận nhãn chi tiết của chân.",admin,2026-09-09T18:20:01+07:00,"2026-10-30T00:30:27+07:00","20"
+THK000082_01,THK000082,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:40:17+07:00,2026-10-19T22:39:37+07:00,4
+THK000081_01,THK000081,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:48:32+07:00,2026-09-15T21:48:32+07:00,21
+THK000070_01,THK000070,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy nhân vật ngồi cưỡi hươu sao; caption CIRThan:650 ghi “riding sika deer” nhưng không mô tả chạy/bước. Không thấy động tác trội ngoài tư thế cưỡi được thú đỡ, nên gợi ý C1.1; L2 để trống do chân bị che.",admin,2026-10-19T22:37:17+07:00,2026-10-19T22:37:17+07:00,8
+THK000972_01,THK000972,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy Ting Gyi Shal Zangma ngồi trên hổ vàng; caption CIRThan:651 nói “on yellow tiger”, không nêu chuyển động. Không thấy bước/chạy trội, nên gợi ý C1.1; L2 để trống vì chân bị che.",admin,2026-10-20T00:15:55+07:00,2026-10-20T00:15:55+07:00,24
+THK000011_01,THK000011,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:03:37+07:00,2026-09-09T18:03:37+07:00,15
+THK000072_01,THK000072,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:01:22+07:00,2026-09-14T23:01:22+07:00,15
+THK000076_01,THK000076,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:06:36+07:00,2026-09-14T23:06:36+07:00,12
+THK000075_01,THK000075,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:05:21+07:00,2026-09-14T23:05:21+07:00,13
+THK000067_01,THK000067,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-658 g?i r? ng?a ?left-running?; ??y l? b?ng ch?ng chuy?n ??ng c? h??ng, n?n C1.3 thay C1.1; L2 v?n ?? tr?ng v? b? che.",admin,2026-10-19T22:31:21+07:00,2026-10-19T22:31:24+07:00,11
+THK000016_01,THK000016,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,"True","Đồng thuận Ngân và My ngày 30/10/2026: tư thế cưỡi được gán C1.3 (Chuyển động); giữ L2 trống vì chưa xác nhận nhãn chi tiết của chân.",admin,2026-09-09T18:07:46+07:00,"2026-10-30T00:30:27+07:00","21"
+THK000009_01,THK000009,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:00:26+07:00,2026-09-09T18:00:26+07:00,17
+THK000013_01,THK000013,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-662 ch? x?c nh?n Shukaraja c??i ng?a v?ng/ng?a ngo?i ??u, kh?ng m? t? ch?y hay b??c; t? th? c??i t?nh theo quy t?c C1.1.",admin,2026-10-19T22:17:00+07:00,2026-10-19T22:17:03+07:00,11
+THK000074_01,THK000074,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T23:03:55+07:00,2026-09-14T23:03:55+07:00,14
+THK000083_01,THK000083,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy Damchen ngồi cưỡi ngựa đen; lửa quanh hình là họa tiết nền, không tự chứng minh bước/chạy. Caption CIRThan:664 chỉ nói cưỡi ngựa, không nêu dáng phi; gợi ý C1.1 và để trống L2 vì chân bị che.",admin,2026-10-19T22:39:56+07:00,2026-10-19T22:39:56+07:00,9
+THK000970_01,THK000970,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:51:50+07:00,2026-09-20T21:51:50+07:00,11
+THK000484_01,THK000484,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:09:23+07:00,2026-09-18T17:09:23+07:00,9
+THK000526_01,THK000526,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:48:36+07:00,2026-09-18T23:48:36+07:00,11
+THK000483_01,THK000483,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:07:40+07:00,2026-09-18T17:07:40+07:00,10
+THK000502_01,THK000502,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:01:58+07:00,2026-09-18T23:01:58+07:00,10
+THK000523_01,THK000523,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:45:37+07:00,2026-09-18T23:45:37+07:00,9
+THK000530_01,THK000530,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:53:08+07:00,2026-09-18T23:53:08+07:00,10
+THK000490_01,THK000490,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:36:05+07:00,2026-09-18T21:36:05+07:00,13
+THK000521_01,THK000521,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:43:41+07:00,2026-09-18T23:43:41+07:00,12
+THK000491_01,THK000491,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:37:00+07:00,2026-09-18T21:37:00+07:00,11
+THK000525_01,THK000525,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:47:36+07:00,2026-09-18T23:47:36+07:00,9
+THK001016_01,THK001016,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:03:14+07:00,2026-09-20T23:03:14+07:00,15
+THK000528_01,THK000528,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:50:45+07:00,2026-09-18T23:50:45+07:00,10
+THK000540_01,THK000540,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:17:54+07:00,2026-09-19T12:17:54+07:00,14
+THK000524_01,THK000524,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:46:44+07:00,2026-09-18T23:46:44+07:00,9
+THK000539_01,THK000539,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:16:36+07:00,2026-09-19T12:16:36+07:00,15
+THK001002_01,THK001002,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:32:04+07:00,2026-09-20T23:32:04+07:00,11
+THK000545_01,THK000545,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T12:20:44+07:00,2026-09-19T12:20:44+07:00,19
+THK000371_01,THK000371,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:26:39+07:00,2026-09-05T02:26:39+07:00,18
+THK001055_01,THK001055,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:24:33+07:00,2026-10-20T00:24:49+07:00,19
+THK000541_01,THK000541,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-09-19T12:19:21+07:00,2026-09-19T12:19:21+07:00,32
+THK000003_01,THK000003,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:56:25+07:00,2026-09-08T00:56:25+07:00,21
+THK000004_01,THK000004,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:57:32+07:00,2026-09-08T00:57:32+07:00,14
+THK000665_01,THK000665,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T23:12:07+07:00,2026-10-19T23:12:21+07:00,27
+THK000973_01,THK000973,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:54:31+07:00,2026-09-20T21:54:31+07:00,17
+THK000388_01,THK000388,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:27:00+07:00,2026-09-14T21:27:00+07:00,13
+THK000963_01,THK000963,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:44:33+07:00,2026-09-20T21:44:33+07:00,14
+THK000946_01,THK000946,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T21:28:42+07:00,2026-09-20T21:28:42+07:00,17
+THK000370_8af4c83812_2_01,THK000370_8af4c83812_2,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy nhân vật trung tâm có bốn cánh tay và ngồi trên đài sen; cấu trúc nhiều chi không phù hợp tập tư thế người thông thường. Giữ đề xuất loại trừ multi_limb, mở lại in_review để bạn xác nhận.",admin,2026-10-19T21:56:15+07:00,2026-10-19T21:56:19+07:00,27
+THK000266_01,THK000266,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:36:09+07:00,2026-09-18T17:36:09+07:00,26
+THK000265_01,THK000265,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T17:45:27+07:00,2026-09-18T17:45:27+07:00,12
+THK000399_01,THK000399,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:27:42+07:00,2026-10-19T22:27:57+07:00,20
+THK000343_01,THK000343,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:30:01+07:00,2026-09-04T23:30:01+07:00,27
+THK000064_01,THK000064,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:55:31+07:00,2026-09-14T22:55:31+07:00,10
+THK000965_01,THK000965,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:46:50+07:00,2026-09-20T21:46:50+07:00,16
+THK000952_01,THK000952,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:33:27+07:00,2026-09-20T21:33:27+07:00,15
+THK000943_01,THK000943,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:25:31+07:00,2026-09-20T21:25:31+07:00,16
+THK000969_01,THK000969,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:50:58+07:00,2026-09-20T21:50:58+07:00,15
+THK000271_01,THK000271,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:31:03+07:00,2026-09-19T13:31:03+07:00,19
+THK000135_0e190604b0_3_01,THK000135_0e190604b0_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:36:44+07:00,2026-09-08T00:36:44+07:00,27
+THK000400_01,THK000400,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:47:37+07:00,2026-09-14T21:47:37+07:00,10
+THK000387_01,THK000387,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:25:49+07:00,2026-09-14T21:25:49+07:00,11
+THK000955_01,THK000955,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:36:18+07:00,2026-09-20T21:36:18+07:00,17
+THK000954_01,THK000954,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:35:02+07:00,2026-09-20T21:35:02+07:00,14
+THK000967_01,THK000967,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:48:05+07:00,2026-09-20T21:48:05+07:00,15
+THK000390_01,THK000390,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:29:27+07:00,2026-09-14T21:29:27+07:00,13
+THK000368_01,THK000368,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:25:45+07:00,2026-09-05T02:25:45+07:00,18
+THK000378_01,THK000378,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:29:24+07:00,2026-09-05T02:29:24+07:00,17
+THK001024_01,THK001024,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T23:39:53+07:00,2026-09-20T23:39:53+07:00,17
+THK000380_01,THK000380,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:30:34+07:00,2026-09-05T02:30:34+07:00,24
+THK000402_01,THK000402,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:11:51+07:00,2026-09-15T21:11:51+07:00,9
+THK000979_01,THK000979,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:59:35+07:00,2026-09-20T21:59:35+07:00,15
+THK000408_01,THK000408,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:18:36+07:00,2026-09-15T21:18:36+07:00,12
+THK000404_01,THK000404,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:14:09+07:00,2026-09-15T21:14:09+07:00,12
+THK000384_01,THK000384,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:22:35+07:00,2026-09-14T21:22:35+07:00,10
+THK000956_01,THK000956,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:37:29+07:00,2026-09-20T21:37:29+07:00,16
+THK000961_01,THK000961,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:42:58+07:00,2026-09-20T21:42:58+07:00,20
+THK000957_01,THK000957,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:38:34+07:00,2026-09-20T21:38:34+07:00,19
+THK000374_01,THK000374,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:27:18+07:00,2026-09-05T02:27:18+07:00,18
+THK000377_01,THK000377,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T02:29:01+07:00,2026-09-05T02:29:01+07:00,17
+THK000366_01,THK000366,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-10-17T23:07:26+07:00,2026-10-17T23:07:26+07:00,41
+THK000273_c402014040_3_01,THK000273_c402014040_3,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Ghi ch? CIRThan-811 m? t? pratyalidha/dynamic: m?t ch?n co, m?t ch?n du?i, hai tay v??n r?ng; d?ng C2.10 thay C2.9.",admin,2026-10-19T21:59:49+07:00,2026-10-19T21:59:53+07:00,23
+THK000133_01,THK000133,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,R? so?t 17/10: Ghi ch? ri?ng c?a ?nh g?i r? t? th? nh?n v?t ?? trung t?m l? chuy?n ??ng (C1.3); nh?n v?t qu? nh? ?? ph?n lo?i L2 ho?c g?n 17 kh?p.,admin,2026-10-19T22:14:04+07:00,2026-10-19T22:14:16+07:00,30
+THK000947_01,THK000947,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T21:29:56+07:00,2026-09-20T21:29:56+07:00,17
+THK000396_01,THK000396,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:42:46+07:00,2026-09-14T21:42:46+07:00,9
+THK000129_55a45b8092_3_01,THK000129_55a45b8092_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:33:31+07:00,2026-09-08T00:33:31+07:00,6
+THK001075_01,THK001075,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T23:26:30+07:00,2026-09-20T23:26:30+07:00,18
+THK000363_01,THK000363,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:59:17+07:00,2026-09-05T01:59:17+07:00,14
+THK000405_01,THK000405,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:15:28+07:00,2026-09-15T21:15:28+07:00,13
+THK000395_01,THK000395,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:41:50+07:00,2026-09-14T21:41:50+07:00,9
+THK000360_01,THK000360,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-05T01:53:44+07:00,2026-09-05T01:53:44+07:00,34
+THK000998_3cfbe363ab_3_01,THK000998_3cfbe363ab_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:45:04+07:00,2026-09-08T00:45:04+07:00,26
+THK000066_01,THK000066,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-839 m? t? Palden Lhamo c??i la, ghi ch? x?c nh?n ng?i c??i nghi?ng v? h?ng/ch?n b? che; kh?ng c? d?u hi?u ch?y/b??c.",admin,2026-10-19T22:30:59+07:00,2026-10-19T22:31:02+07:00,10
+THK000006_01,THK000006,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc phóng cận cho thấy Palden Lhamo cưỡi la; CIRThan:840, mức 2, ghi rõ “riding a running mule”. Chuyển động chạy của thú chi phối hình tượng nên gợi ý C1.3. Hông và chân bị xiêm y/thú che, vì vậy để trống L2.",admin,2026-10-19T22:15:18+07:00,2026-10-19T22:15:18+07:00,7
+THK000029_01,THK000029,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy nhân vật Palden Lhamo cưỡi la; caption CIRThan:841, mức 2, mô tả “right-running mule”. Hướng chạy được nêu rõ, phù hợp C1.3; ảnh không cho thấy đủ tư thế chân người để gán L2.",admin,2026-10-19T22:19:12+07:00,2026-10-19T22:19:12+07:00,7
+THK000021_01,THK000021,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:10:57+07:00,2026-09-09T18:10:57+07:00,17
+THK000137_01,THK000137,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:58:24+07:00,2026-09-08T01:58:24+07:00,17
+846_01,846,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:19:20+07:00,2026-10-07T14:19:20+07:00,16
+THK000272_01,THK000272,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:48:48+07:00,2026-10-19T22:48:48+07:00,23
+THK000134_01,THK000134,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:52:17+07:00,2026-09-08T01:52:17+07:00,19
+THK000397_01,THK000397,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T21:43:46+07:00,2026-09-14T21:43:46+07:00,13
+THK000338_01,THK000338,approved,Ngân,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,admin,2026-10-19T22:03:53+07:00,2026-10-19T22:03:57+07:00,24
+THK000333_01,THK000333,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:03:23+07:00,2026-09-04T23:03:23+07:00,34
+THK000336_01,THK000336,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:06:23+07:00,2026-09-04T23:06:23+07:00,31
+THK000621_7dae9d2882_4_01,THK000621_7dae9d2882_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:31:10+07:00,2026-09-08T00:31:10+07:00,28
+THK000907_01,THK000907,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T17:11:14+07:00,2026-09-20T17:11:14+07:00,18
+THK000046_01,THK000046,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-09T18:41:42+07:00,2026-09-09T18:41:42+07:00,15
+THK000335_01,THK000335,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:04:53+07:00,2026-09-04T23:04:53+07:00,30
+THK000276_24d0723162_3_01,THK000276_24d0723162_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:38:39+07:00,2026-10-19T22:03:31+07:00,34
+THK000852_01,THK000852,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T15:52:06+07:00,2026-09-19T15:52:06+07:00,24
+THK000469_01,THK000469,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:49:37+07:00,2026-09-18T16:49:37+07:00,13
+THK000519_01,THK000519,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:40:08+07:00,2026-09-18T23:40:08+07:00,12
+THK000891_01,THK000891,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:00:05+07:00,2026-09-20T17:00:05+07:00,10
+THK001063_db3e4a86d7_4_01,THK001063_db3e4a86d7_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:32:27+07:00,2026-09-08T00:32:27+07:00,21
+THK000510_01,THK000510,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:29:50+07:00,2026-09-18T23:29:59+07:00,11
+THK000503_01,THK000503,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:03:43+07:00,2026-09-18T23:03:43+07:00,13
+THK000193_01,THK000193,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,R? so?t 17/10: Caption CIRThan-894 m? t? Vajra Guru ??ng tr?n h?; ghi ch? cho bi?t ph?n d??i b? che n?n L1-only. Kh?ng c? m? t? ch?y/b??c ?? gi? C1.3.,admin,2026-10-19T22:28:48+07:00,2026-10-19T22:28:48+07:00,10
+THK000504_06003917cd_4_01,THK000504_06003917cd_4,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:30:02+07:00,2026-09-08T00:30:02+07:00,22
+899_01,899,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:32:40+07:00,2026-10-20T00:32:43+07:00,25
+THK000501_01,THK000501,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:00:45+07:00,2026-09-18T23:00:45+07:00,11
+THK000499_01,THK000499,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:56:24+07:00,2026-09-18T22:56:31+07:00,12
+THK000659_01,THK000659,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T13:37:10+07:00,2026-10-19T23:10:23+07:00,28
+THK000511_01,THK000511,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:30:59+07:00,2026-09-18T23:30:59+07:00,10
+THK000520_01,THK000520,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:42:15+07:00,2026-09-18T23:42:15+07:00,13
+THK000474_01,THK000474,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:59:54+07:00,2026-09-18T16:59:54+07:00,12
+THK000087_01,THK000087,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn cho thấy ngựa hồng đang chạy: chân trước co/nhấc và chân sau duỗi, phù hợp caption CIRThan:919 “right-running pink horse”. Chuyển động có hướng chi phối hình tượng nên gợi ý C1.3; tư thế chân người cưỡi không đủ rõ để gán L2.",admin,2026-10-19T22:40:14+07:00,2026-10-19T22:40:14+07:00,6
+THK000650_01,THK000650,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:29:23+07:00,2026-09-20T13:29:23+07:00,18
+THK000292_01,THK000292,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T14:07:28+07:00,2026-09-19T14:07:28+07:00,22
+THK000182_01,THK000182,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-14T22:13:37+07:00,2026-09-14T22:13:37+07:00,15
+THK000337_01,THK000337,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T23:06:43+07:00,2026-09-04T23:06:43+07:00,28
+THK000448_01,THK000448,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:31:34+07:00,2026-09-18T16:31:34+07:00,11
+THK000652_01,THK000652,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-20T13:31:18+07:00,2026-09-20T13:31:18+07:00,19
+THK000713_01,THK000713,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T14:38:03+07:00,2026-09-20T14:38:03+07:00,9
+THK000720_01,THK000720,approved,Ngân,5,Ngan;My;reviewer_1;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh phóng lớn vùng thân dưới vẫn cho thấy dáng ngồi bất đối xứng, một chân gập và chân kia hạ về phía bệ; caption CIRThan:95 nói ngồi trên tòa sen nhưng không nêu tư thế chân. Giữ gợi ý C2.3; phần gấu áo che khớp nên cần người duyệt xác nhận.",admin,2026-10-19T23:20:24+07:00,2026-10-19T23:20:28+07:00,25
+THK000427_01,THK000427,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:32:15+07:00,2026-09-15T21:32:15+07:00,13
+THK000444_01,THK000444,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T16:27:10+07:00,2026-09-18T16:27:10+07:00,11
+THK000710_01,THK000710,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T14:36:18+07:00,2026-10-19T23:18:58+07:00,19
+THK000413_01,THK000413,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T21:22:56+07:00,2026-09-15T21:22:56+07:00,13
+THK000488_01,THK000488,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T21:33:48+07:00,2026-09-18T21:33:48+07:00,24
+THK000566_01,THK000566,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-19T13:09:48+07:00,2026-09-19T13:09:48+07:00,19
+THK000331_01,THK000331,approved,reviewer_1,4,Ngan;My;admin;reviewer_1,double_review_agreed,True,False,,reviewer_1,2026-09-04T22:59:29+07:00,2026-09-04T23:02:38+07:00,36
+THK000050_01,THK000050,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:21:23+07:00,2026-10-19T22:21:23+07:00,9
+THK000899_01,THK000899,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-09-20T17:05:56+07:00,2026-09-20T17:05:56+07:00,18
+THK000507_01,THK000507,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:26:50+07:00,2026-09-18T23:26:56+07:00,10
+THK000498_01,THK000498,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:53:19+07:00,2026-09-18T22:53:36+07:00,8
+THK000500_01,THK000500,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T22:59:24+07:00,2026-09-18T22:59:30+07:00,12
+THK000045_01,THK000045,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"R? so?t 17/10: Caption CIRThan-990 m? t? Red Damchen tr?n s? t? tuy?t, kh?ng n?u chuy?n ??ng; v?ng h?ng/ch?n b? che n?n gi? C1.1 v? L1-only.",admin,2026-10-19T22:20:24+07:00,2026-10-19T22:20:37+07:00,14
+THK000516_01,THK000516,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:37:38+07:00,2026-09-18T23:37:38+07:00,11
+THK000505_01,THK000505,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-18T23:05:48+07:00,2026-09-18T23:05:54+07:00,13
+THK000911_38f6b07b70_4_01,THK000911_38f6b07b70_4,approved,ngan,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-07T23:44:45+07:00,2026-09-07T23:44:47+07:00,26
+1322_01,1322,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:44:32+07:00,2026-10-07T17:44:32+07:00,12
+1335_01,1335,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:00:57+07:00,2026-10-07T22:00:57+07:00,13
+1336_01,1336,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:01:56+07:00,2026-10-07T22:01:56+07:00,12
+1339_01,1339,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:45:25+07:00,2026-10-07T17:45:25+07:00,13
+1455_01,1455,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:04:07+07:00,2026-10-07T22:04:07+07:00,15
+1971_01,1971,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:47:25+07:00,2026-10-07T17:47:25+07:00,19
+199_01,199,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:53:09+07:00,2026-10-07T17:53:09+07:00,12
+2033_01,2033,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:05:24+07:00,2026-10-07T22:05:24+07:00,14
+2045_01,2045,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:06:16+07:00,2026-10-07T22:06:16+07:00,12
+284_01,284,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:54:47+07:00,2026-10-07T17:54:47+07:00,20
+285_01,285,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:40:13+07:00,2026-10-07T17:40:13+07:00,15
+288_01,288,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:41:11+07:00,2026-10-07T17:41:11+07:00,14
+351_01,351,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:42:11+07:00,2026-10-07T17:42:11+07:00,13
+392_01,392,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:56:11+07:00,2026-10-07T17:56:11+07:00,18
+395_01,395,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:43:41+07:00,2026-10-07T17:43:41+07:00,15
+423_01,423,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:57:36+07:00,2026-10-07T17:57:36+07:00,19
+428_01,428,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:58:30+07:00,2026-10-07T17:58:30+07:00,14
+430_01,430,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:59:34+07:00,2026-10-07T17:59:34+07:00,15
+497_01,497,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:15:42+07:00,2026-10-07T22:15:44+07:00,15
+520_01,520,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T21:59:01+07:00,2026-10-07T21:59:01+07:00,11
+578_01,578,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T21:59:52+07:00,2026-10-07T21:59:55+07:00,11
+65_01,65,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:52:19+07:00,2026-10-07T17:52:19+07:00,17
+715_01,715,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:16:49+07:00,2026-10-07T22:16:49+07:00,14
+CHINA777_P01_28_01,CHINA777_P01_28,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:48:20+07:00,2026-10-20T00:48:20+07:00,31
+CHRISTIES_6551893_01,CHRISTIES_6551893,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:48:43+07:00,2026-10-20T00:48:58+07:00,29
+CRAFTSOFTIBET_MH426_01,CRAFTSOFTIBET_MH426,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:36:14+07:00,2026-10-07T15:36:14+07:00,26
+DROGMI_PARINIRVANA_01,DROGMI_PARINIRVANA,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:29:08+07:00,2026-10-07T16:29:08+07:00,27
+ENLIGHTENMENT_111111_01,ENLIGHTENMENT_111111,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:32:30+07:00,2026-10-07T16:32:30+07:00,19
+EXOTICINDIA_RTO082_01,EXOTICINDIA_RTO082,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:41:20+07:00,2026-10-07T16:41:20+07:00,23
+ENLIGHTENMENT_C7_01,ENLIGHTENMENT_C7,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:34:28+07:00,2026-10-07T16:34:28+07:00,20
+ENLIGHTENMENT_23144KD_3_01,ENLIGHTENMENT_23144KD_3,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:30:49+07:00,2026-10-07T16:30:51+07:00,21
+ETSY_1026413425_01,ETSY_1026413425,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:37:24+07:00,2026-10-07T16:37:24+07:00,22
+EUROPEANA_983_164388123247900_01,EUROPEANA_983_164388123247900,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:54:33+07:00,2026-10-07T14:54:33+07:00,17
+EXOTICINDIA_TJ37_01,EXOTICINDIA_TJ37,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:43:01+07:00,2026-10-07T16:43:01+07:00,14
+EXOTICINDIA_TS69_01,EXOTICINDIA_TS69,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:44:44+07:00,2026-10-07T16:44:44+07:00,20
+EXOTICINDIA_TY67_01,EXOTICINDIA_TY67,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:46:19+07:00,2026-10-07T16:46:19+07:00,21
+EXOTICINDIA_ZE12_01,EXOTICINDIA_ZE12,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:48:07+07:00,2026-10-07T16:48:07+07:00,21
+ExoticIndia_WH71_01,ExoticIndia_WH71,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:55:54+07:00,2026-10-07T14:55:54+07:00,22
+HAR_100013_01,HAR_100013,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:40:21+07:00,2026-10-07T14:40:21+07:00,15
+HAR_100023_01,HAR_100023,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:41:33+07:00,2026-10-07T14:41:33+07:00,17
+HAR_12362_01,HAR_12362,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:27:42+07:00,2026-10-07T14:27:42+07:00,18
+HAR_1392_01,HAR_1392,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:26:30+07:00,2026-10-07T14:26:30+07:00,18
+HAR_15382_01,HAR_15382,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:28:44+07:00,2026-10-07T14:28:44+07:00,17
+HAR_15937_01,HAR_15937,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:30:06+07:00,2026-10-07T14:30:09+07:00,17
+HAR_18728_01,HAR_18728,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:02:15+07:00,2026-10-07T15:02:15+07:00,21
+HAR_2210_01,HAR_2210,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:42:00+07:00,2026-10-06T22:42:00+07:00,19
+HAR_24074_01,HAR_24074,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:31:49+07:00,2026-10-07T14:31:49+07:00,15
+HAR_24717_01,HAR_24717,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:33:14+07:00,2026-10-07T14:33:14+07:00,19
+HAR_290_01,HAR_290,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:34:10+07:00,2026-10-06T22:34:10+07:00,21
+HAR_30529_01,HAR_30529,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:44:42+07:00,2026-10-06T22:44:42+07:00,20
+HAR_30905_01,HAR_30905,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:46:18+07:00,2026-10-06T22:46:18+07:00,22
+HAR_318_01,HAR_318,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:34:05+07:00,2026-10-20T00:34:20+07:00,23
+HAR_32519_01,HAR_32519,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:41:52+07:00,2026-10-20T00:42:07+07:00,24
+HAR_3314415_01,HAR_3314415,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:42:46+07:00,2026-10-07T14:42:46+07:00,18
+HAR_3314470_01,HAR_3314470,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:59:55+07:00,2026-10-06T22:59:55+07:00,20
+HAR_3314476_FULL_01,HAR_3314476_FULL,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:44:54+07:00,2026-10-20T00:45:09+07:00,26
+12_HAR_35845_01,12_HAR_35845,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T21:57:57+07:00,2026-10-06T21:57:57+07:00,19
+HAR_4_01,HAR_4,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:31:21+07:00,2026-10-06T22:31:21+07:00,22
+HAR_40289_01,HAR_40289,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:16:42+07:00,2026-10-06T22:16:42+07:00,22
+20_HAR_41215_target_crop_01,20_HAR_41215_target_crop,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:28:01+07:00,2026-10-20T00:28:01+07:00,21
+HAR_449_01,HAR_449,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:22:32+07:00,2026-10-07T14:22:32+07:00,16
+HAR_466_01,HAR_466,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:37:08+07:00,2026-10-06T22:37:08+07:00,19
+HAR_488_01,HAR_488,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:24:01+07:00,2026-10-07T14:24:04+07:00,21
+HAR_489_01,HAR_489,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:15:27+07:00,2026-10-06T22:15:27+07:00,17
+HAR_48969_FULL_01,HAR_48969_FULL,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:42:32+07:00,2026-10-20T00:42:48+07:00,28
+HAR_499_01,HAR_499,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:25:28+07:00,2026-10-07T14:25:28+07:00,23
+HAR_52548506_01,HAR_52548506,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:45:48+07:00,2026-10-20T00:45:48+07:00,22
+HAR_52548715_01,HAR_52548715,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:15:34+07:00,2026-10-07T15:15:34+07:00,19
+HAR_530_01,HAR_530,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:38:13+07:00,2026-10-06T22:38:13+07:00,17
+06_HAR_58523_01,06_HAR_58523,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T21:56:39+07:00,2026-10-06T21:56:39+07:00,25
+HAR_594_01,HAR_594,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:39:23+07:00,2026-10-06T22:39:23+07:00,18
+HAR_61_01,HAR_61,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:33:24+07:00,2026-10-20T00:33:39+07:00,26
+30_HAR_61950_target_crop_01,30_HAR_61950_target_crop,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:46:31+07:00,2026-10-07T14:46:31+07:00,24
+HAR_65089_01,HAR_65089,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:47:42+07:00,2026-10-06T22:47:42+07:00,21
+HAR_65127_01,HAR_65127,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:48:56+07:00,2026-10-06T22:48:56+07:00,20
+HAR_65564_01,HAR_65564,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:34:17+07:00,2026-10-07T14:34:17+07:00,17
+HAR_65862_CROP_01,HAR_65862_CROP,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:06:58+07:00,2026-10-07T15:06:58+07:00,21
+HAR_65925_01,HAR_65925,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:49:57+07:00,2026-10-06T22:49:57+07:00,17
+HAR_69346_01,HAR_69346,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:43:31+07:00,2026-10-20T00:43:47+07:00,26
+HAR_69411_01,HAR_69411,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:35:34+07:00,2026-10-07T14:35:34+07:00,22
+HAR_69440_01,HAR_69440,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:37:00+07:00,2026-10-07T14:37:00+07:00,22
+HAR_69454_01,HAR_69454,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:51:05+07:00,2026-10-06T22:51:05+07:00,19
+HAR_72041_01,HAR_72041,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:52:30+07:00,2026-10-06T22:52:30+07:00,20
+HAR_73459_01,HAR_73459,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:53:38+07:00,2026-10-06T22:53:38+07:00,18
+HAR_77227_01,HAR_77227,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:55:04+07:00,2026-10-06T22:55:04+07:00,20
+HAR_77562_01,HAR_77562,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:56:16+07:00,2026-10-06T22:56:16+07:00,18
+HAR_786_01,HAR_786,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:34:48+07:00,2026-10-20T00:35:03+07:00,21
+HAR_790_TOP_DANCER_CROP_01,HAR_790_TOP_DANCER_CROP,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:40:47+07:00,2026-10-20T00:40:51+07:00,23
+HAR_81541_01,HAR_81541,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:57:31+07:00,2026-10-06T22:57:31+07:00,21
+HAR_83804_01,HAR_83804,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:38:03+07:00,2026-10-07T14:38:03+07:00,18
+HAR_90035_01,HAR_90035,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:09:49+07:00,2026-10-07T15:09:49+07:00,23
+HAR_9028_01,HAR_9028,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:59:39+07:00,2026-10-07T14:59:39+07:00,23
+HAR_90904_01,HAR_90904,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:58:43+07:00,2026-10-06T22:58:43+07:00,19
+HAR_98818_01,HAR_98818,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:39:23+07:00,2026-10-07T14:39:23+07:00,20
+HAR_99219_01,HAR_99219,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:44:27+07:00,2026-10-20T00:44:27+07:00,33
+HAR_9955_01,HAR_9955,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:43:33+07:00,2026-10-06T22:43:33+07:00,27
+Hermitage_Museum_XX-2375_Achala_01,Hermitage_Museum_XX-2375_Achala,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:38:20+07:00,2026-10-07T22:38:20+07:00,11
+05_HAR_65036_target_crop_01,05_HAR_65036_target_crop,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:13:11+07:00,2026-10-07T22:13:11+07:00,19
+25_HAR_90207_target_crop_01,25_HAR_90207_target_crop,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:14:36+07:00,2026-10-07T22:14:36+07:00,20
+HAR_72049_PARINIRVANA_SCENE_01,HAR_72049_PARINIRVANA_SCENE,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:50:25+07:00,2026-10-07T16:50:25+07:00,20
+HAR_101339_01,HAR_101339,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:32:09+07:00,2026-10-07T22:32:12+07:00,16
+HAR_201013_01,HAR_201013,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:34:00+07:00,2026-10-07T22:34:10+07:00,14
+HAR_36411_01,HAR_36411,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:21:13+07:00,2026-10-07T22:21:13+07:00,17
+HAR_42770_01,HAR_42770,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:22:16+07:00,2026-10-07T22:22:18+07:00,12
+HAR_49955_01,HAR_49955,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:23:22+07:00,2026-10-07T22:23:27+07:00,14
+HAR_52548545_01,HAR_52548545,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:35:18+07:00,2026-10-07T22:35:20+07:00,15
+HAR_52548703_01,HAR_52548703,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:36:28+07:00,2026-10-07T22:36:28+07:00,13
+HAR_53552942_01,HAR_53552942,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:37:30+07:00,2026-10-07T22:37:30+07:00,12
+HAR_54503_01,HAR_54503,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:24:24+07:00,2026-10-07T22:24:34+07:00,13
+HAR_5702_01,HAR_5702,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:18:51+07:00,2026-10-07T22:18:51+07:00,16
+HAR_64091_01,HAR_64091,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:25:37+07:00,2026-10-07T22:25:40+07:00,13
+HAR_81654_01,HAR_81654,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:26:33+07:00,2026-10-07T22:26:43+07:00,13
+HAR_81655_01,HAR_81655,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:27:44+07:00,2026-10-07T22:27:47+07:00,10
+HAR_86434_01,HAR_86434,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:28:52+07:00,2026-10-07T22:28:54+07:00,13
+HAR_99102_01,HAR_99102,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:29:58+07:00,2026-10-07T22:30:01+07:00,13
+HAR_9947_01,HAR_9947,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:19:51+07:00,2026-10-07T22:19:51+07:00,11
+HAR_100045_01,HAR_100045,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:31:02+07:00,2026-10-07T22:31:02+07:00,13
+LIVEAUCTIONEERS_54669376_01,LIVEAUCTIONEERS_54669376,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:55:27+07:00,2026-10-07T16:55:27+07:00,25
+LIVEAUCTIONEERS_178780953_01,LIVEAUCTIONEERS_178780953,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T16:57:02+07:00,2026-10-07T16:57:02+07:00,22
+MIHO_00018496_01,MIHO_00018496,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-20T00:50:18+07:00,2026-10-20T00:50:22+07:00,19
+HOLYCROSS_SHINGYAMUNI_01,HOLYCROSS_SHINGYAMUNI,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:49:38+07:00,2026-10-20T00:49:42+07:00,25
+PINKOI_AyFDSyR4_01,PINKOI_AyFDSyR4,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:00:17+07:00,2026-10-07T17:00:17+07:00,19
+POTOMACK_441427_01,POTOMACK_441427,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:01:45+07:00,2026-10-07T17:01:45+07:00,18
+RAKUTEN_30943_01,RAKUTEN_30943,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:03:43+07:00,2026-10-07T17:03:43+07:00,20
+RIGPA_PARINIRVANA_01,RIGPA_PARINIRVANA,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:50:41+07:00,2026-10-20T00:50:45+07:00,16
+RUBIN_F1996_24_3_01,RUBIN_F1996_24_3,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:16:57+07:00,2026-10-07T15:16:57+07:00,20
+SANDWICH_TIBETAN_3EC1_01,SANDWICH_TIBETAN_3EC1,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:51:26+07:00,2026-10-20T00:51:31+07:00,25
+SEETAO_23237_01,SEETAO_23237,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:09:16+07:00,2026-10-07T17:09:16+07:00,21
+SINA_67296_IMG45_01,SINA_67296_IMG45,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:51:57+07:00,2026-10-20T00:51:57+07:00,17
+THANGKASLIFE_NIRWANA_NEW_01,THANGKASLIFE_NIRWANA_NEW,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:12:36+07:00,2026-10-07T17:12:36+07:00,20
+UVA_MANDALA_499271_01,UVA_MANDALA_499271,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:52:23+07:00,2026-10-20T00:52:37+07:00,25
+WALMART_491649402_01,WALMART_491649402,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:33:26+07:00,2026-10-07T17:33:26+07:00,22
+WEIBO_KCNYwuJvf_01,WEIBO_KCNYwuJvf,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:38:39+07:00,2026-10-07T17:38:39+07:00,22
+WC_126127897_01,WC_126127897,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:10:46+07:00,2026-10-07T22:10:46+07:00,15
+WC_15634388_01,WC_15634388,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:49:30+07:00,2026-10-07T17:49:30+07:00,11
+WC_18561283_01,WC_18561283,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:50:19+07:00,2026-10-07T17:50:19+07:00,11
+WC_25435975_01,WC_25435975,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:07:05+07:00,2026-10-07T22:07:05+07:00,12
+WC_27292158_01,WC_27292158,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:51:10+07:00,2026-10-07T17:51:10+07:00,12
+WC_39072578_01,WC_39072578,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:39:24+07:00,2026-10-07T22:39:24+07:00,12
+WC_4640450_Milarepa_Bhutan_01,WC_4640450_Milarepa_Bhutan,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T17:48:31+07:00,2026-10-07T17:48:31+07:00,14
+WC_114771025_01,WC_114771025,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:09:41+07:00,2026-10-07T22:09:41+07:00,14
+WC_128756200_01,WC_128756200,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:11:59+07:00,2026-10-07T22:11:59+07:00,12
+WC_27292074_01,WC_27292074,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T22:08:37+07:00,2026-10-07T22:08:37+07:00,15
+WKM_10293661_01,WKM_10293661,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T23:27:47+07:00,2026-09-20T23:27:47+07:00,21
+WKM_11441763_e663339cd0_3_01,WKM_11441763_e663339cd0_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:27:02+07:00,2026-09-08T00:27:02+07:00,29
+WC_114771046_01,WC_114771046,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:22:58+07:00,2026-10-06T22:22:58+07:00,21
+WC_128756206_01,WC_128756206,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T23:04:03+07:00,2026-10-06T23:04:03+07:00,18
+WKM_138600208_01,WKM_138600208,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:00:01+07:00,2026-09-08T01:00:01+07:00,18
+WKM_147990639_216c27011e_3_01,WKM_147990639_216c27011e_3,approved,Ngân,4,Ngan;My;admin;Codex,double_review_agreed,True,False,"Rà soát phóng lớn 19/10/2026: Ảnh gốc cho thấy Simhamukha có các chi phụ màu trắng mọc hai bên thân, khác cấu trúc một người hai tay/hai chân; ghi chú trực quan cũng chỉ ra tư thế múa. Giữ đề xuất loại trừ multi_limb nhưng mở lại trạng thái in_review để bạn xác nhận.",admin,2026-10-19T21:54:13+07:00,2026-10-19T21:54:17+07:00,23
+WC_158220297_01,WC_158220297,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:17:53+07:00,2026-10-07T14:17:53+07:00,16
+WKM_185598166_01,WKM_185598166,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-15T22:06:09+07:00,2026-09-15T22:06:09+07:00,11
+WKM_25743726_de7ca5d77c_3_01,WKM_25743726_de7ca5d77c_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:27:22+07:00,2026-09-08T00:27:22+07:00,31
+WC_26903970_01,WC_26903970,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T23:02:50+07:00,2026-10-06T23:02:50+07:00,21
+WC_26927938_01,WC_26927938,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:43:55+07:00,2026-10-07T14:43:55+07:00,20
+WKM_2728992_01,WKM_2728992,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:00:49+07:00,2026-09-08T01:00:49+07:00,16
+WC_27361943_01,WC_27361943,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-20T00:31:54+07:00,2026-10-20T00:31:58+07:00,21
+WKM_28754105_01,WKM_28754105,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:01:46+07:00,2026-09-08T01:01:46+07:00,13
+WKM_37273358_01,WKM_37273358,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-17T23:15:36+07:00,2026-10-17T23:15:36+07:00,37
+WKM_40081526_1613b149b0_3_01,WKM_40081526_1613b149b0_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:27:32+07:00,2026-09-08T00:27:32+07:00,25
+WKM_50795012_01,WKM_50795012,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:04:05+07:00,2026-09-08T01:04:05+07:00,17
+WKM_50796225_01,WKM_50796225,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:22:47+07:00,2026-10-19T22:22:50+07:00,16
+WKM_50818460_0e630a4311_3_01,WKM_50818460_0e630a4311_3,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T00:27:48+07:00,2026-10-02T21:59:11+07:00,28
+WKM_50937277_01,WKM_50937277,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:19:27+07:00,2026-09-08T01:19:27+07:00,19
+WKM_77054726_01,WKM_77054726,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-09-20T23:29:30+07:00,2026-09-20T23:29:30+07:00,21
+WC_7975797_01,WC_7975797,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T23:01:19+07:00,2026-10-06T23:01:19+07:00,21
+WKM_809572_01,WKM_809572,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-09-08T01:20:15+07:00,2026-09-08T01:20:15+07:00,14
+WC_85381898_01,WC_85381898,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T14:45:12+07:00,2026-10-07T14:45:12+07:00,20
+WKM_99549211_01,WKM_99549211,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,,admin,2026-10-19T22:23:58+07:00,2026-10-19T22:23:58+07:00,17
+WKM_99768315_01,WKM_99768315,approved,Ngân,3,Ngan;My;admin,double_review_agreed,True,False,Ngân và My xác nhận lại; mức tin cậy được cập nhật từ thấp lên trung bình.,admin,2026-10-19T22:24:47+07:00,2026-10-19T22:24:47+07:00,14
+Machig_Labdron_Google_Art_Project_01,Machig_Labdron_Google_Art_Project,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:17:57+07:00,2026-10-06T22:17:57+07:00,21
+Vajravarahi_14c_detail_01,Vajravarahi_14c_detail,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-06T22:19:23+07:00,2026-10-06T22:19:25+07:00,22
+CNTANGKA_715_01,CNTANGKA_715,approved,Ngân,4,Ngan;My;reviewer_1;admin,double_review_agreed,True,False,,admin,2026-10-07T15:34:08+07:00,2026-10-07T15:34:08+07:00,28

@@ -1,0 +1,69 @@
+Thư mục dự án: I:\nam4\phan tich anh phat giao\training\Thangka_Pose_Training
+Snapshot dữ liệu: I:\nam4\phan tich anh phat giao\training\Thangka_Pose_Training\data
+Run mới: I:\nam4\phan tich anh phat giao\training\Thangka_Pose_Training\outputs\notebook_runs\20261103_101214_seed20261021_unified_smoke
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.10.0+cu126",
+  "torchvision": "0.25.0+cu126",
+  "cuda_available": true,
+  "cuda_runtime": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "seed": 20261021
+}
+{
+  "dataset_version": "thangka_pose_v1.1.0_dacntt_2026-10-20",
+  "records": 873,
+  "split_counts": {
+    "val": 136,
+    "train": 612,
+    "test": 125
+  },
+  "l2_labeled": 729,
+  "l2_unlabeled": 144,
+  "full_keypoint_records": 612,
+  "full_keypoint_by_split": {
+    "val": 88,
+    "train": 442,
+    "test": 82
+  },
+  "partial_keypoint_records": 823,
+  "partial_keypoint_by_split": {
+    "val": 128,
+    "train": 578,
+    "test": 117
+  },
+  "artifact_leakage_groups": 0,
+  "exact_hash_leakage_groups": 0
+}
+<candidate cell 6>:781: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+resnet18 seed=20261103 epoch=1/1 loss=5.7423 val score=0.1536 best=0.1536
+mobilenet_v2 seed=20261103 epoch=1/1 loss=5.1067 val score=0.1395 best=0.1395
+convnext_tiny seed=20261103 epoch=1/1 loss=4.2633 val score=0.2302 best=0.2302
+Đã khóa lựa chọn nhánh ảnh trên validation: convnext_tiny
+<candidate cell 14>:12: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+Số chiều đặc trưng keypoint sau chuẩn hóa hình học: 100
+logistic_regression validation selection score 0.6481
+random_forest validation selection score 0.6227
+extra_trees validation selection score 0.6222
+logistic_C0.1 validation selection score 0.6528
+logistic_C10.0 validation selection score 0.6325
+Đã chọn nhánh keypoint trên validation: logistic_C0.1
+Trọng số nhánh ảnh được chọn trên validation: 0.25
+<candidate cell 24>:68: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+<candidate cell 24>:101: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+<candidate cell 24>:111: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+<candidate cell 24>:140: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+{
+  "image_minus_keypoint_accuracy_difference": -0.44641600000000004,
+  "bootstrap_95ci": [
+    -0.5519999999999999,
+    -0.3360000000000001
+  ],
+  "bootstrap_resamples": 2000
+}
+Số mẫu có ít nhất một hướng sai L1: 86
+Đã nạp mô hình và ngưỡng từ run 20261031_174634_seed20261021; có thể chạy demo ngay.
+Dùng ảnh ngoài dataset: run_demo(r'C:\duong_dan\anh.jpg')
+Dùng mẫu khác: run_demo(split='val', index=5) hoặc run_demo(split='test', index=5)
+VBox(children=(HTML(value='<h3>Demo phân tích tư thế nhân vật Phật giáo</h3><p>Mỗi ảnh trả đúng một quyết định phân cấp L2 → L1 → Không xác định.</p>'), HTML(value='<b>1. Chọn một hoặc nhiều ảnh gốc có sẵn trong dataset</b> — chọn Validation/Test trước, rồi giữ Ctrl/Shift để chọn nhiều tệp. Notebook tự ánh xạ ảnh gốc sang crop nhân vật mục tiêu đúng như lúc huấn luyện.'), Dropdown(description='Nguồn:', options=(('Validation', 'val'), ('Test đã khóa', 'test')), value='val'), HBox(children=(Button(description='Chọn ảnh dataset (0)', icon='folder-open', layout=Layout(width='240px'), style=ButtonStyle()), Button(button_style='primary', description='Chạy ảnh đã chọn', style=ButtonStyle()))), HTML(value='<i>Chưa chọn ảnh gốc thuộc split Validation.</i>'), HTML(value='<b>2. Chọn một hoặc nhiều ảnh từ máy</b> — giữ Ctrl/Shift trong hộp thoại để chọn nhiều tệp.'), HBox(children=(FileUpload(value=(), accept='.jpg,.jpeg,.png,.webp,.bmp,.tif,.tiff', description='Chọn nhiều ảnh', layout=Layout(width='220px'), multiple=True), Button(button_style='success', description='Dự đoán ảnh đã chọn', style=ButtonStyle()))), HTML(value='<b>3. Chạy toàn bộ ảnh trong một thư mục</b>'), Text(value='', description='Thư mục:', layout=Layout(width='700px'), placeholder='C:\\thu_muc_anh'), HBox(children=(Checkbox(value=False, description='Gồm thư mục con'), BoundedIntText(value=20, description='Tối đa:', max=200, min=1), Button(button_style='info', description='Chạy cả thư mục', style=ButtonStyle()))), Output()))

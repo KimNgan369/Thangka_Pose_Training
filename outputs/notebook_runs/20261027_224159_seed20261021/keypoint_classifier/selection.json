@@ -1,0 +1,53 @@
+{
+  "model": "random_forest",
+  "class_weight_rule": "normalized inverse-frequency power 0.5, computed from train only",
+  "training_class_weights": {
+    "l1": {
+      "C1.1": 0.4837233216621573,
+      "C1.2": 1.0241181226761755,
+      "C1.3": 0.8961857311394414,
+      "C1.4": 1.5959728245222258
+    },
+    "l2": {
+      "C2.1": 0.40413670604411367,
+      "C2.10": 1.047964579695199,
+      "C2.11": 1.047964579695199,
+      "C2.2": 1.1519668515300316,
+      "C2.3": 0.6232161181008453,
+      "C2.4": 1.2031901355180794,
+      "C2.5": 1.1767431666990396,
+      "C2.6": 0.9976325577425839,
+      "C2.7": 0.9539191796939062,
+      "C2.8": 1.4108654934245222,
+      "C2.9": 0.9824006318564794
+    }
+  },
+  "validation_selection_score": 0.7649756606597564,
+  "l1_rejection_threshold": 0.4733,
+  "l1_threshold_choice": {
+    "threshold": 0.4733,
+    "accepted": 114,
+    "rejected": 22,
+    "coverage": 0.8382352941176471,
+    "selective_accuracy": 0.9035087719298246,
+    "selective_risk": 0.0964912280701754,
+    "accuracy_95ci_wilson": [
+      0.8354446041659676,
+      0.9452644153992793
+    ],
+    "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+  },
+  "l2_fallback_threshold": 0.5438,
+  "threshold_choice": {
+    "threshold": 0.5438,
+    "accepted_total": 76,
+    "accepted_on_labeled_l2": 65,
+    "accepted_on_blank_l2": 11,
+    "coverage_of_labeled_l2": 0.6132075471698113,
+    "exact_accuracy_on_accepted_labeled_l2": 0.9384615384615385,
+    "precision_including_blank_l2_abstention_examples": 0.8026315789473685,
+    "recall_of_gold_l2": 0.5754716981132075,
+    "selective_f1": 0.6703296703296703,
+    "selection_rule": "maximum labeled-L2 coverage subject to validation precision >= 0.80"
+  }
+}

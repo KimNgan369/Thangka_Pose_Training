@@ -1,0 +1,15 @@
+{
+  "baseline": "I:\\nam4\\phan tich anh phat giao\\training\\Thangka_Pose_Training\\outputs\\notebook_runs\\20261031_174634_seed20261021",
+  "experiment": "retain baseline L1 and evidence; replace balanced L2 head",
+  "sources": [
+    "20261103_balanced",
+    "20261103_calibrated"
+  ],
+  "leaf_blends": [
+    0.0,
+    0.5
+  ],
+  "gate_min_precision": 0.925,
+  "promotion_rule": "unchanged from first round",
+  "test_used_for_selection": false
+}
