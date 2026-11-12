@@ -45,4 +45,12 @@ C2.1 có 195 ảnh train, nhiều hơn hẳn các lớp C2.2, C2.4 và C2.5 (22�
 
 L2 fail do nhiều tầng quyết định: sai nhóm L1, nhầm giữa nhãn con, và cơ chế giữ ở L1 khi điểm chưa đạt ngưỡng. Ngưỡng giúp tránh trả L2 tùy tiện nhưng làm giảm độ bao phủ: chỉ 65/103 ảnh có nhãn L2 được trả nhãn chi tiết. Mô hình keypoint trả đúng 10/10 ảnh nó chấp nhận, nhưng chỉ chấp nhận 10/103, nên không thay thế được nhánh ảnh trong ứng dụng hiện tại.
 
-Để kiểm chứng nguyên nhân thị giác, dùng tab phân tích lỗi chọn từng ảnh, mở lại crop mục tiêu và đối chiếu đầu gối, cổ chân, bệ đỡ, các chi bị che với hướng dẫn nhãn. Không điều chỉnh ngưỡng từ tập test đã xem; nếu bổ sung dữ liệu hoặc đổi mô hình, cần tập đánh giá độc lập mới.
+Để kiểm chứng nguyên nhân thị giác, dùng tab phân tích lỗi chọn từng ảnh, mở lại crop mục tiêu và đối chiếu đầu gối, cổ chân, bệ đỡ, các chi bị che với hướng dẫn nhãn. Nếu bổ sung dữ liệu, đổi mô hình hoặc đổi ngưỡng sau khi xem test, cần tập đánh giá độc lập mới để xác nhận kết quả.
+
+## Ngưỡng 60% trong giao diện local
+
+Theo yêu cầu thử lại khả năng trả nhãn L2, `local_app.py` áp dụng ngưỡng tối đa 60% cho các lớp vốn có ngưỡng cao hơn: C2.1–C2.5 từ 70% xuống 60%, C2.9–C2.10 từ 65% xuống 60%. Các lớp còn lại và ngưỡng bằng chứng 50% giữ nguyên. Quy tắc này áp dụng cho mọi ảnh theo lớp ứng viên và điểm dự đoán; không dùng nhãn thật của ảnh để quyết định.
+
+Tính lại trên điểm test đã lưu: đúng L2 cuối cùng là **60/103** thay vì 55/103; nhóm ứng viên đúng nhưng không qua ngưỡng còn **10** thay vì 15. Đồng thời có **4/22** ảnh L2 trống được trả nhãn chi tiết thay vì 3/22, và ba ảnh có nhãn L2 khác bị nhận thêm nhãn chi tiết sai. Vì đã xem test trước khi chỉnh ngưỡng, đây chỉ là phân tích hậu nghiệm, không thay thế kết quả đánh giá chính thức của run. Cần test độc lập mới để xác nhận hiệu quả và tỷ lệ trả nhãn sai.
+
+Trên toàn bộ validation, ngưỡng gốc chấp nhận 70 ảnh L2, đúng 65 (precision 92,9%), và chấp nhận 3/30 ảnh L2 trống (10%). Ngưỡng tối đa 60% chấp nhận 78 ảnh, đúng 68 (precision **87,2%**), và chấp nhận 6/30 ảnh L2 trống (**20%**). Vì vậy cấu hình 60% đồng loạt không đạt mục tiêu precision ≥90% và tỷ lệ nhận nhầm L2 trống ≤10% đã đặt trong notebook. Nó chỉ phù hợp làm chế độ thử local để quan sát đánh đổi; không báo cáo như ngưỡng đã được chọn hợp lệ từ validation.

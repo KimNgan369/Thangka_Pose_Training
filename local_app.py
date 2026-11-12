@@ -21,6 +21,7 @@ import torch
 ROOT = Path(__file__).resolve().parent
 SOURCE_NOTEBOOK = ROOT / "Thangka_Pose_Training.ipynb"
 RUNS = ROOT / "outputs" / "notebook_runs"
+L2_THRESHOLD_CAP = 0.60
 FUNCTIONS = {
     "get_code_cell", "_load_json", "_latest_completed_run", "load_saved_demo_globals",
     "format_prediction_vi", "prediction_reason_vi", "predict_posture", "draw_demo_pose",
@@ -98,13 +99,29 @@ def read_test_records(run_id):
     return records
 
 
+def project_test_records(records, thresholds):
+    """Reapply the decision gate to saved test scores; never overwrite run artifacts."""
+    projected = []
+    for record in records:
+        row = dict(record)
+        l1_accepted = row["is_unknown"] == "False"
+        l2_accepted = (l1_accepted and row["l2_evidence_ok"] == "True"
+                       and float(row["l2_confidence"]) >= thresholds[row["l2_candidate"]])
+        row["decision_level"] = "l2" if l2_accepted else ("l1" if l1_accepted else "unknown")
+        row["final_code"] = row["l2_candidate"] if l2_accepted else (row["pred_l1"] if l1_accepted else "")
+        row["error_category"] = error_category(row)
+        projected.append(row)
+    return projected
+
+
 def test_summary(records):
     labeled = [r for r in records if r["gold_l2"]]
     counts = Counter(r["error_category"] for r in labeled)
     blanks = [r for r in records if not r["gold_l2"]]
     l1_ok = sum(r["pred_l1"] == r["gold_l1"] for r in records)
     lines = [
-        f"**Test đã lưu:** {len(records)} ảnh; L1 đúng **{l1_ok}/{len(records)}**. "
+        f"**Test với ngưỡng L2 tối đa {L2_THRESHOLD_CAP:.0%}:** {len(records)} ảnh; "
+        f"L1 đúng **{l1_ok}/{len(records)}**. "
         f"Có **{len(labeled)}** ảnh có nhãn L2 và **{len(blanks)}** ảnh để trống L2.",
         f"**L2 đúng ở quyết định cuối:** {counts['Đúng L2']}/{len(labeled)}. "
         f"Sai L1: {counts['Sai L1']}; sai ứng viên L2: {counts['Sai ứng viên L2']}; "
@@ -115,6 +132,9 @@ def test_summary(records):
         "Các nhóm trên mô tả **đường quyết định của mô hình**, chưa chứng minh nguyên nhân thị giác "
         "như che khuất hoặc bệ đỡ. Hãy mở từng ảnh để kiểm tra các giả thuyết đó.",
     ]
+    lines.append("**Lưu ý:** Ngưỡng 60% là cấu hình thử local, chưa đạt mục tiêu validation "
+                 "(precision L2 87,2% < 90%; nhận L2 ở ảnh L2 trống 20% > 10%). "
+                 "Ngưỡng cũng được điều chỉnh sau khi xem test; cần tập test độc lập mới để kết luận.")
     return "\n\n".join(lines)
 
 
@@ -166,7 +186,7 @@ def decision_details(runtime, result, reference=None):
         category = error_category(reference)
         gold_l1 = runtime["l1_names_vi"].get(reference["gold_l1"], reference["gold_l1"])
         gold_l2 = runtime["l2_names_vi"].get(reference["gold_l2"], "Chưa gán L2")
-        lines.append(f"**Nhãn tham chiếu:** {gold_l1} → {gold_l2} · **Nhóm lỗi trong test đã lưu:** {category}.")
+        lines.append(f"**Nhãn tham chiếu:** {gold_l1} → {gold_l2} · **Nhóm lỗi với ngưỡng hiện tại:** {category}.")
         lines.append("Kết quả chạy lại có thể khác bảng đã lưu nếu dùng ảnh gốc thay vì crop, hoặc môi trường suy luận thay đổi.")
     return "\n\n".join(lines)
 
@@ -186,10 +206,14 @@ def probability_rows(runtime, result):
 
 def build_app(run_id):
     runtime = load_runtime(run_id)
-    records = read_test_records(run_id)
+    runtime["deployment_class_thresholds"] = {
+        code: min(value, L2_THRESHOLD_CAP)
+        for code, value in runtime["deployment_class_thresholds"].items()
+    }
+    records = project_test_records(read_test_records(run_id), runtime["deployment_class_thresholds"])
     by_id = {r["instance_id"]: r for r in records}
     manifest = {r["instance_id"]: r for r in runtime["rows"] if r["split"] == "test"}
-    choices = [(f"{r['instance_id']} · {r['gold_l2'] or 'L2 trống'} · {r['error_category']}", r["instance_id"])
+    choices = [(f"{r['instance_id']} · {r['gold_l2'] or 'L2 trống'}", r["instance_id"])
                for r in records]
 
     def infer(image_path, sample_id):
@@ -216,7 +240,7 @@ def build_app(run_id):
 
     with gr.Blocks(title="Phân tích tư thế Thangka") as app:
         gr.Markdown("# Phân tích tư thế nhân vật Phật giáo")
-        gr.Markdown(f"**Run:** `{run_id}` · Mô hình và ngưỡng đã khóa từ lần huấn luyện hoàn tất. "
+        gr.Markdown(f"**Run:** `{run_id}` · Ngưỡng L2 tối đa {L2_THRESHOLD_CAP:.0%}. "
                     "Giao diện chạy trên máy này; ảnh tải lên được xử lý tại local.")
         with gr.Tab("Thử ảnh"):
             gr.Markdown("Tải ảnh một nhân vật hoặc chọn ảnh trong tập test. Ảnh test được chạy trên **crop mục tiêu** đã dùng khi đánh giá.")
