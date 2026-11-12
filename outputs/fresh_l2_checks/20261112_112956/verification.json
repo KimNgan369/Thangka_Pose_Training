@@ -1,0 +1,9 @@
+{
+  "smoke_only": true,
+  "quality_not_measured": true,
+  "recipe": "fresh_four_view_parent_cv_v1",
+  "fixed_views": "passed",
+  "sampler_resume": "passed",
+  "fresh_training": "passed",
+  "checkpoint_parity": "passed"
+}

@@ -1,0 +1,178 @@
+{
+  "signature": {
+    "config": {
+      "epochs": 40,
+      "patience": 10,
+      "min_epochs": 15,
+      "head_epochs": 4,
+      "batch_size": 2,
+      "accumulation": 8,
+      "hidden": 128,
+      "head_lr": 0.0002,
+      "backbone_lr": 5e-06,
+      "weight_decay": 0.0005,
+      "ema_decay": 0.99,
+      "mixture_weights": [
+        0.25,
+        0.5
+      ],
+      "min_precision": 0.925,
+      "calibration_seed": 20261109
+    },
+    "seed": 20261113,
+    "source_sha256": "22c1b7c977fb2cf0c4004a29cd4b536dcd809827b0f7f6c473dc845691cca30b",
+    "manifest": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+    "source_notebook_sha256": "603795b72bdf22a4c798090b8ef5d87210d43a647968458190d021d2382e55eb"
+  },
+  "seed": 20261113,
+  "best_epoch": 9,
+  "best_score": 0.6546831130850357,
+  "epochs_completed": 19,
+  "checkpoint": "outputs\\notebook_runs\\20261110_000810_seed20261021\\image_classifier\\refinement\\seed20261113\\best_model.pt",
+  "sha256": "e2d23bcd9ab78b9fbb35281318178ec3d2b7bfc47a1e2ff2a34c2f295aa8d308",
+  "hidden": 128,
+  "selection_metric": "0.7 ungated final L2 macro-F1 + 0.3 oracle L2 macro-F1; validation only",
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": null,
+      "val_score": 0.6479856372723419,
+      "stage": "warm_start",
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.13845157658596055,
+      "val_score": 0.645687133851144,
+      "stage": "heads",
+      "updates": 39
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.13658882997735264,
+      "val_score": 0.6465847331321806,
+      "stage": "heads",
+      "updates": 39
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.13486110599212398,
+      "val_score": 0.6465847331321806,
+      "stage": "heads",
+      "updates": 39
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13309423898170197,
+      "val_score": 0.6465847331321806,
+      "stage": "heads",
+      "updates": 39
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.13953421694634396,
+      "val_score": 0.6452714404203511,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.14184975180945364,
+      "val_score": 0.6452714404203511,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.13752327950707838,
+      "val_score": 0.6452714404203511,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.1371337332537556,
+      "val_score": 0.6452714404203511,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.13748667230890468,
+      "val_score": 0.6546831130850357,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.1376297050125264,
+      "val_score": 0.6546831130850357,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.13699468494289452,
+      "val_score": 0.6451021021298177,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.1353866292127207,
+      "val_score": 0.6451021021298177,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.13398958551484386,
+      "val_score": 0.6438368285206229,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.134194130151003,
+      "val_score": 0.6438368285206229,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.135023464527882,
+      "val_score": 0.6438368285206229,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.1332524950719542,
+      "val_score": 0.6438368285206229,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.136470616582075,
+      "val_score": 0.6452714404203511,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.13596336673823448,
+      "val_score": 0.6451021021298177,
+      "stage": "last_stage",
+      "updates": 39
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.13546928153464607,
+      "val_score": 0.6451021021298177,
+      "stage": "last_stage",
+      "updates": 39
+    }
+  ],
+  "tta": "original_and_horizontal_flip_full_frame"
+}

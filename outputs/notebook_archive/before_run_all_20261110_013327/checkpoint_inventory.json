@@ -1,0 +1,714 @@
+{
+  "outputs\\official_image_baseline\\final_model.pt": [
+    44817037,
+    1792519258298886400
+  ],
+  "outputs\\pose_baseline\\best.pt": [
+    6022600,
+    1793300304652701900
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793712328779827700
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261021\\best_model.pt": [
+    111391499,
+    1793700859102381500
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261021\\last_training_state.pt": [
+    334261749,
+    1793702200655542400
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261031\\best_model.pt": [
+    111391499,
+    1793706125102054300
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261031\\last_training_state.pt": [
+    334262645,
+    1793707456219815100
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261107\\best_model.pt": [
+    111391499,
+    1793710889266820200
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\convnext_tiny_seed20261107\\last_training_state.pt": [
+    334262005,
+    1793712225799710400
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1793690130333686100
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27368333,
+    1793691440845369000
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261031\\best_model.pt": [
+    9218895,
+    1793692871244054300
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261031\\last_training_state.pt": [
+    27368461,
+    1793694523389490100
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261107\\best_model.pt": [
+    9218895,
+    1793696210580126700
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\mobilenet_v2_seed20261107\\last_training_state.pt": [
+    27368845,
+    1793697513557310200
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793678447774477900
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134390541,
+    1793679631751737600
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261031\\best_model.pt": [
+    44818575,
+    1793682905356679100
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261031\\last_training_state.pt": [
+    134391565,
+    1793684090441966500
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261107\\best_model.pt": [
+    44818575,
+    1793687667824769300
+  ],
+  "outputs\\baseline_archive_20261109\\latest_complete_run\\image_classifier\\resnet18_seed20261107\\last_training_state.pt": [
+    134391181,
+    1793688832728070200
+  ],
+  "outputs\\notebook_runs\\20261026_232320_seed20261021\\pose_estimator\\yolo11n_pose_formal\\weights\\best.pt": [
+    6022600,
+    1793033201011484000
+  ],
+  "outputs\\notebook_runs\\20261026_232320_seed20261021\\pose_estimator\\yolo11n_pose_formal\\weights\\last.pt": [
+    6022600,
+    1793033200776538500
+  ],
+  "outputs\\notebook_runs\\20261027_220904_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818765,
+    1793113833087541600
+  ],
+  "outputs\\notebook_runs\\20261027_221230_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223245,
+    1793114596433541700
+  ],
+  "outputs\\notebook_runs\\20261027_221230_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818765,
+    1793114194124429200
+  ],
+  "outputs\\notebook_runs\\20261027_224159_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223245,
+    1793116287909098000
+  ],
+  "outputs\\notebook_runs\\20261027_224159_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818765,
+    1793115918112175700
+  ],
+  "outputs\\notebook_runs\\20261027_233536_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    17272156,
+    1793120137053475800
+  ],
+  "outputs\\notebook_runs\\20261027_233536_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793119836385453900
+  ],
+  "outputs\\notebook_runs\\20261027_233536_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793119530093294900
+  ],
+  "outputs\\notebook_runs\\20261028_002406_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    24742026,
+    1793123167072401800
+  ],
+  "outputs\\notebook_runs\\20261028_002406_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793122875771253600
+  ],
+  "outputs\\notebook_runs\\20261028_002406_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793122440857845200
+  ],
+  "outputs\\notebook_runs\\20261028_234200_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    24742026,
+    1793207117629520700
+  ],
+  "outputs\\notebook_runs\\20261028_234200_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793206797598956800
+  ],
+  "outputs\\notebook_runs\\20261028_234200_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793206361390268100
+  ],
+  "outputs\\notebook_runs\\20261029_004828_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    24742026,
+    1793211029505703900
+  ],
+  "outputs\\notebook_runs\\20261029_004828_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793210716256428600
+  ],
+  "outputs\\notebook_runs\\20261029_004828_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793210276097906100
+  ],
+  "outputs\\notebook_runs\\20261029_223959_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    24742026,
+    1793289648422050200
+  ],
+  "outputs\\notebook_runs\\20261029_223959_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793289309275422000
+  ],
+  "outputs\\notebook_runs\\20261029_223959_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793288978017614700
+  ],
+  "outputs\\notebook_runs\\20261030_004045_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    27987,
+    1793300514521643300
+  ],
+  "outputs\\notebook_runs\\20261030_004045_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793296723668625300
+  ],
+  "outputs\\notebook_runs\\20261030_004045_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793296264552600400
+  ],
+  "outputs\\notebook_runs\\20261030_004045_seed20261021\\pose_estimator\\yolo11n_pose_formal\\weights\\best.pt": [
+    6022600,
+    1793300304652701900
+  ],
+  "outputs\\notebook_runs\\20261030_004045_seed20261021\\pose_estimator\\yolo11n_pose_formal\\weights\\last.pt": [
+    6022600,
+    1793300304370490000
+  ],
+  "outputs\\notebook_runs\\20261031_153809_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    27987,
+    1793436989360122200
+  ],
+  "outputs\\notebook_runs\\20261031_153809_seed20261021\\image_classifier\\mobilenet_v2\\best_model.pt": [
+    9223373,
+    1793436757882758800
+  ],
+  "outputs\\notebook_runs\\20261031_153809_seed20261021\\image_classifier\\resnet18\\best_model.pt": [
+    44818893,
+    1793436432102901900
+  ],
+  "outputs\\notebook_runs\\20261031_173200_seed20261021_integration_smoke\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28142,
+    1793443006522448200
+  ],
+  "outputs\\notebook_runs\\20261031_173200_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793442833702080700
+  ],
+  "outputs\\notebook_runs\\20261031_173816_seed20261021_integration_smoke\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28142,
+    1793443307912196500
+  ],
+  "outputs\\notebook_runs\\20261031_173816_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793443125877508700
+  ],
+  "outputs\\notebook_runs\\20261031_173816_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134385613,
+    1793443137872153100
+  ],
+  "outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793443564753613800
+  ],
+  "outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1793443448303875300
+  ],
+  "outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27365197,
+    1793443448566718200
+  ],
+  "outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793443375823650100
+  ],
+  "outputs\\notebook_runs\\20261031_174225_seed20261021_integration_smoke\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134385613,
+    1793443387148495900
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793469210552909100
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1793461617926307800
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27370381,
+    1793463082405157300
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\best_model.pt": [
+    9218895,
+    1793465213813544600
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\last_training_state.pt": [
+    27369165,
+    1793466723431396600
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\best_model.pt": [
+    9218895,
+    1793467630587681400
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\last_training_state.pt": [
+    27367693,
+    1793469038171234200
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793447118674092800
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134391181,
+    1793448585265825700
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt": [
+    44818575,
+    1793452476910975300
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261031\\last_training_state.pt": [
+    134391373,
+    1793453658411341600
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt": [
+    44818575,
+    1793456860238471500
+  ],
+  "outputs\\notebook_runs\\20261031_174634_seed20261021\\image_classifier\\resnet18_seed20261107\\last_training_state.pt": [
+    134390861,
+    1793458221678553500
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793469305369049000
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1793461751191196000
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27370381,
+    1793463211003266000
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\best_model.pt": [
+    9218895,
+    1793465332177276200
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\last_training_state.pt": [
+    27369165,
+    1793466818371558000
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\best_model.pt": [
+    9218895,
+    1793467756214805900
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\last_training_state.pt": [
+    27367693,
+    1793469150201932200
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793447251348613700
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134391181,
+    1793448736219444200
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt": [
+    44818575,
+    1793452615041981100
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261031\\last_training_state.pt": [
+    134391373,
+    1793453762233690500
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt": [
+    44818575,
+    1793456996385132300
+  ],
+  "outputs\\notebook_runs\\20261031_174817_seed20261021\\image_classifier\\resnet18_seed20261107\\last_training_state.pt": [
+    134390861,
+    1793458361014014000
+  ],
+  "outputs\\notebook_runs\\20261103_101214_seed20261021_unified_smoke\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793675651997887300
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1793712328779827700
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261021\\best_model.pt": [
+    111391499,
+    1793700859102381500
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261021\\last_training_state.pt": [
+    334261749,
+    1793702200655542400
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261031\\best_model.pt": [
+    111391499,
+    1793706125102054300
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261031\\last_training_state.pt": [
+    334262645,
+    1793707456219815100
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261107\\best_model.pt": [
+    111391499,
+    1793710889266820200
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\convnext_tiny_seed20261107\\last_training_state.pt": [
+    334262005,
+    1793712225799710400
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1793690130333686100
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27368333,
+    1793691440845369000
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\best_model.pt": [
+    9218895,
+    1793692871244054300
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\last_training_state.pt": [
+    27368461,
+    1793694523389490100
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\best_model.pt": [
+    9218895,
+    1793696210580126700
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\last_training_state.pt": [
+    27368845,
+    1793697513557310200
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1793678447774477900
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134390541,
+    1793679631751737600
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt": [
+    44818575,
+    1793682905356679100
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261031\\last_training_state.pt": [
+    134391565,
+    1793684090441966500
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt": [
+    44818575,
+    1793687667824769300
+  ],
+  "outputs\\notebook_runs\\20261103_101754_seed20261021\\image_classifier\\resnet18_seed20261107\\last_training_state.pt": [
+    134391181,
+    1793688832728070200
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1794227748141741500
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261021\\best_model.pt": [
+    111391499,
+    1794218620648346500
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261021\\last_training_state.pt": [
+    334261237,
+    1794219850819974600
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261031\\best_model.pt": [
+    111391499,
+    1794222758723813800
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261031\\last_training_state.pt": [
+    334262453,
+    1794223989489528200
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261107\\best_model.pt": [
+    111391499,
+    1794226414502486100
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\convnext_tiny_seed20261107\\last_training_state.pt": [
+    334261685,
+    1794227646691859600
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\best_model.pt": [
+    9218895,
+    1794209241330834500
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261021\\last_training_state.pt": [
+    27368845,
+    1794210437475510200
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\best_model.pt": [
+    9218895,
+    1794211672965486600
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261031\\last_training_state.pt": [
+    27369037,
+    1794212877628461100
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\best_model.pt": [
+    9218895,
+    1794214774778980500
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\mobilenet_v2_seed20261107\\last_training_state.pt": [
+    27369933,
+    1794216090487304800
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt": [
+    44818575,
+    1794198532276061200
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261021\\last_training_state.pt": [
+    134392333,
+    1794200073980108200
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt": [
+    44818575,
+    1794202987160623000
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261031\\last_training_state.pt": [
+    134390925,
+    1794204143348166700
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt": [
+    44818575,
+    1794206684501932500
+  ],
+  "outputs\\notebook_runs\\20261109_102957_seed20261021\\image_classifier\\resnet18_seed20261107\\last_training_state.pt": [
+    134390477,
+    1794208042940838700
+  ],
+  "outputs\\notebook_runs\\20261109_232255_seed20261021\\keypoint_classifier\\baseline_keypoint_classifier.joblib": [
+    28318,
+    1794241595763504700
+  ],
+  "outputs\\notebook_runs\\20261109_232255_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1794241595775381900
+  ],
+  "outputs\\notebook_runs\\20261109_234419_seed20261021\\keypoint_classifier\\baseline_keypoint_classifier.joblib": [
+    28318,
+    1794242716160672800
+  ],
+  "outputs\\notebook_runs\\20261109_234419_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1794242716169259900
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\keypoint_classifier\\baseline_keypoint_classifier.joblib": [
+    28318,
+    1794246985910380900
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\keypoint_classifier\\final_keypoint_classifier.joblib": [
+    28318,
+    1794246985919220100
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\image_classifier\\refinement\\seed20261103\\best_model.pt": [
+    113004643,
+    1794244519055038300
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\image_classifier\\refinement\\seed20261103\\last_training_state.pt": [
+    342829907,
+    1794245298833909500
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\image_classifier\\refinement\\seed20261113\\best_model.pt": [
+    113004643,
+    1794246026779447400
+  ],
+  "outputs\\notebook_runs\\20261110_000810_seed20261021\\image_classifier\\refinement\\seed20261113\\last_training_state.pt": [
+    342830035,
+    1794246868563553400
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_logistic_0.1.joblib": [
+    691861,
+    1793641566845609000
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_logistic_1.joblib": [
+    691861,
+    1793641568707016200
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_logistic_10.joblib": [
+    691861,
+    1793641570711958200
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_rbf_svm_1.joblib": [
+    92536625,
+    1793641585944455500
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_rbf_svm_10.joblib": [
+    90467921,
+    1793641601231705800
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\all_rbf_svm_100.joblib": [
+    90467921,
+    1793641615749787000
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\baseline_rethreshold.joblib": [
+    33,
+    1793641522633131700
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_logistic_0.1.joblib": [
+    495247,
+    1793641533547214500
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_logistic_1.joblib": [
+    495247,
+    1793641535459581600
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_logistic_10.joblib": [
+    495247,
+    1793641537802641200
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_rbf_svm_1.joblib": [
+    78760667,
+    1793641547567360000
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_rbf_svm_10.joblib": [
+    73615019,
+    1793641556889525200
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\mobilenet_v2_rbf_svm_100.joblib": [
+    73615019,
+    1793641565523354100
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_logistic_0.1.joblib": [
+    200335,
+    1793641523294024600
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_logistic_1.joblib": [
+    200335,
+    1793641524015890200
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_logistic_10.joblib": [
+    200335,
+    1793641524735814600
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_rbf_svm_1.joblib": [
+    23958459,
+    1793641527294090800
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_rbf_svm_10.joblib": [
+    23538155,
+    1793641529761401800
+  ],
+  "outputs\\quality_v2\\20261103_balanced\\resnet18_rbf_svm_100.joblib": [
+    23538155,
+    1793641532400394500
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_calibrated_svm_1.joblib": [
+    92623474,
+    1793641762922832900
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_calibrated_svm_10.joblib": [
+    90554770,
+    1793641822612432400
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_calibrated_svm_10_blend.joblib": [
+    90555685,
+    1793641822949483400
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_calibrated_svm_1_blend.joblib": [
+    92624389,
+    1793641763254941800
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_logistic_10.joblib": [
+    691861,
+    1793641698249252500
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_logistic_100.joblib": [
+    691861,
+    1793641700987393800
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_logistic_100_blend.joblib": [
+    692728,
+    1793641701215701900
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\all_logistic_10_blend.joblib": [
+    692728,
+    1793641698481029300
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\baseline_rethreshold.joblib": [
+    33,
+    1793641662437247000
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_calibrated_svm_1.joblib": [
+    24045308,
+    1793641680545606300
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_calibrated_svm_10.joblib": [
+    23625004,
+    1793641695348803000
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_calibrated_svm_10_blend.joblib": [
+    23625919,
+    1793641695615479800
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_calibrated_svm_1_blend.joblib": [
+    24046223,
+    1793641680790375900
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_logistic_10.joblib": [
+    200335,
+    1793641663621108900
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_logistic_100.joblib": [
+    200335,
+    1793641664716715800
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_logistic_100_blend.joblib": [
+    201202,
+    1793641664947952600
+  ],
+  "outputs\\quality_v2\\20261103_calibrated\\resnet18_logistic_10_blend.joblib": [
+    201202,
+    1793641663864984400
+  ],
+  "outputs\\quality_v2\\20261103_convnext\\convnext_tiny_seed20261103\\best_model.pt": [
+    111391499,
+    1793643551468216600
+  ],
+  "outputs\\quality_v2\\20261103_convnext\\convnext_tiny_seed20261103\\last_training_state.pt": [
+    334247403,
+    1793644218261468300
+  ],
+  "outputs\\quality_v2\\20261103_convnext\\convnext_tiny_seed20261113\\best_model.pt": [
+    111391499,
+    1793645065737244400
+  ],
+  "outputs\\quality_v2\\20261103_convnext\\convnext_tiny_seed20261113\\last_training_state.pt": [
+    334246379,
+    1793645643082382600
+  ],
+  "outputs\\quality_v2\\20261103_convnext_smoke\\convnext_tiny_seed20261103\\best_model.pt": [
+    111391499,
+    1793642122984397800
+  ],
+  "outputs\\quality_v2\\20261103_convnext_smoke\\convnext_tiny_seed20261103\\last_training_state.pt": [
+    334242347,
+    1793642123751884700
+  ]
+}

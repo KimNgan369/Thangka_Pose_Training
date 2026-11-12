@@ -1,0 +1,8 @@
+{
+  "recipe": "fresh_four_view_parent_cv_v1",
+  "notebook_sha256": "05e5cd4dd8eefa672bbdc889ba7d9cba415f14cbb5160058e1e6fc6719f9e45b",
+  "code_cells_compiled": 18,
+  "stage_checks": "passed",
+  "tensor_schema_demo_compatibility": "passed",
+  "full_training_executed": false
+}

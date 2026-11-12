@@ -1,0 +1,12 @@
+﻿code,parent,train_images,train_artifacts,additional_artifacts_to_50,target_note
+C2.8,C1.2,16,16,34,"50 is a data collection planning target, not an accuracy guarantee"
+C2.4,C1.1,22,22,28,"50 is a data collection planning target, not an accuracy guarantee"
+C2.5,C1.1,23,23,27,"50 is a data collection planning target, not an accuracy guarantee"
+C2.2,C1.1,24,24,26,"50 is a data collection planning target, not an accuracy guarantee"
+C2.10,C1.3,29,29,21,"50 is a data collection planning target, not an accuracy guarantee"
+C2.11,C1.4,29,29,21,"50 is a data collection planning target, not an accuracy guarantee"
+C2.6,C1.2,32,32,18,"50 is a data collection planning target, not an accuracy guarantee"
+C2.9,C1.3,33,33,17,"50 is a data collection planning target, not an accuracy guarantee"
+C2.7,C1.2,35,35,15,"50 is a data collection planning target, not an accuracy guarantee"
+C2.3,C1.1,82,82,0,"50 is a data collection planning target, not an accuracy guarantee"
+C2.1,C1.1,195,195,0,"50 is a data collection planning target, not an accuracy guarantee"

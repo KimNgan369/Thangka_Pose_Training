@@ -1,0 +1,4817 @@
+{
+  "version": 1,
+  "selected": "baseline",
+  "anchor_model": "logistic_C0.1",
+  "seed": 20261109,
+  "selection_split": "validation",
+  "test_used_for_selection": false,
+  "grouping": "canonical split_registry group_assignments",
+  "folds": [
+    {
+      "fit_ids": [
+        "BUDDHAMUSEUM_LIFE_01",
+        "THK000477_01",
+        "THK000089_01",
+        "THK000564_01",
+        "THK000429_01",
+        "THK000152_01",
+        "THK000930_01",
+        "THK000410_01",
+        "THK000476_01",
+        "THK000986_01",
+        "THK000281_01",
+        "THK000163_01",
+        "THK000035_01",
+        "THK001049_01",
+        "THK000724_01",
+        "THK000392_01",
+        "THK000450_01",
+        "THK000768_01",
+        "THK000776_01",
+        "THK000359_efc5b0c5b0_2_01",
+        "THK000608_01",
+        "THK000611_01",
+        "THK000191_01",
+        "THK000160_01",
+        "THK000767_01",
+        "1605_01",
+        "THK000698_01",
+        "THK000329_01",
+        "THK000307_01",
+        "THK000752_01",
+        "THK000756_01",
+        "THK000717_01",
+        "THK000747_01",
+        "THK000552_01",
+        "THK000975_01",
+        "THK000895_01",
+        "THK000284_01",
+        "THK000894_01",
+        "THK000574_01",
+        "THK000056_01",
+        "THK000415_01",
+        "THK000042_01",
+        "THK000252_01",
+        "THK000316_01",
+        "THK000723_01",
+        "THK000699_01",
+        "THK000112_d82b8429df_01",
+        "THK000367_01",
+        "THK001017_01",
+        "THK000984_01",
+        "THK000892_01",
+        "THK000012_01",
+        "THK000993_01",
+        "THK000104_01",
+        "THK000902_01",
+        "THK000036_01",
+        "THK001043_01",
+        "THK000686_01",
+        "623_01",
+        "THK000017_01",
+        "THK000082_01",
+        "THK000972_01",
+        "THK000011_01",
+        "THK000528_01",
+        "THK000370_8af4c83812_2_01",
+        "THK000399_01",
+        "THK000390_01",
+        "THK000380_01",
+        "THK000384_01",
+        "THK000366_01",
+        "THK000396_01",
+        "THK000333_01",
+        "THK000087_01",
+        "THK000182_01",
+        "THK000444_01",
+        "199_01",
+        "HAR_15937_01",
+        "HAR_318_01",
+        "HAR_52548506_01",
+        "HAR_530_01",
+        "HAR_594_01",
+        "HAR_65925_01",
+        "HAR_36411_01",
+        "HAR_81655_01",
+        "SANDWICH_TIBETAN_3EC1_01",
+        "WC_126127897_01",
+        "WC_15634388_01",
+        "WC_114771025_01",
+        "WKM_50795012_01",
+        "WKM_99768315_01"
+      ],
+      "held_ids": [
+        "THK000196_01",
+        "THK001069_01",
+        "THK000355_01",
+        "THK000312_01",
+        "THK000923_01",
+        "THK000783_01",
+        "THK000438_01",
+        "THK000712_01",
+        "THK000960_01",
+        "THK000733_01",
+        "THK000751_01",
+        "THK000496_01",
+        "THK000568_01",
+        "THK000877_01",
+        "THK000651_01",
+        "THK000654_01",
+        "THK000612_01",
+        "THK000623_01",
+        "THK000581_01",
+        "THK000897_01",
+        "THK000607_01",
+        "THK000593_01",
+        "THK000479_01",
+        "THK000224_f68094b182_3_01",
+        "THK000938_01",
+        "THK000073_01",
+        "THK000743_01",
+        "THK000290_01",
+        "THK000672_01",
+        "THK000015_01",
+        "THK000025_01",
+        "THK000502_01",
+        "THK001002_01",
+        "THK000952_01",
+        "THK000967_01",
+        "THK000404_01",
+        "THK000129_55a45b8092_3_01",
+        "THK000652_01",
+        "EXOTICINDIA_RTO082_01",
+        "EXOTICINDIA_TS69_01",
+        "HAR_1392_01",
+        "HAR_3314476_FULL_01",
+        "HAR_65089_01",
+        "HAR_53552942_01",
+        "RAKUTEN_30943_01",
+        "WC_4640450_Milarepa_Bhutan_01"
+      ]
+    },
+    {
+      "fit_ids": [
+        "BUDDHAMUSEUM_LIFE_01",
+        "THK000196_01",
+        "THK001069_01",
+        "THK000564_01",
+        "THK000355_01",
+        "THK000152_01",
+        "THK000312_01",
+        "THK000923_01",
+        "THK000476_01",
+        "THK000783_01",
+        "THK000986_01",
+        "THK000281_01",
+        "THK000163_01",
+        "THK000438_01",
+        "THK000712_01",
+        "THK000724_01",
+        "THK000960_01",
+        "THK000768_01",
+        "THK000733_01",
+        "THK000608_01",
+        "THK000751_01",
+        "THK000611_01",
+        "THK000496_01",
+        "THK000767_01",
+        "THK000568_01",
+        "THK000877_01",
+        "1605_01",
+        "THK000651_01",
+        "THK000329_01",
+        "THK000654_01",
+        "THK000752_01",
+        "THK000717_01",
+        "THK000612_01",
+        "THK000552_01",
+        "THK000623_01",
+        "THK000895_01",
+        "THK000581_01",
+        "THK000284_01",
+        "THK000897_01",
+        "THK000574_01",
+        "THK000607_01",
+        "THK000415_01",
+        "THK000593_01",
+        "THK000252_01",
+        "THK000479_01",
+        "THK000699_01",
+        "THK000224_f68094b182_3_01",
+        "THK000367_01",
+        "THK000938_01",
+        "THK000984_01",
+        "THK000073_01",
+        "THK000993_01",
+        "THK000743_01",
+        "THK000902_01",
+        "THK000290_01",
+        "THK001043_01",
+        "THK000672_01",
+        "THK000686_01",
+        "623_01",
+        "THK000015_01",
+        "THK000025_01",
+        "THK000972_01",
+        "THK000502_01",
+        "THK000528_01",
+        "THK001002_01",
+        "THK000399_01",
+        "THK000952_01",
+        "THK000967_01",
+        "THK000380_01",
+        "THK000404_01",
+        "THK000366_01",
+        "THK000396_01",
+        "THK000129_55a45b8092_3_01",
+        "THK000087_01",
+        "THK000652_01",
+        "199_01",
+        "EXOTICINDIA_RTO082_01",
+        "EXOTICINDIA_TS69_01",
+        "HAR_1392_01",
+        "HAR_318_01",
+        "HAR_3314476_FULL_01",
+        "HAR_530_01",
+        "HAR_594_01",
+        "HAR_65089_01",
+        "HAR_53552942_01",
+        "HAR_81655_01",
+        "RAKUTEN_30943_01",
+        "WC_126127897_01",
+        "WC_4640450_Milarepa_Bhutan_01",
+        "WKM_50795012_01",
+        "WKM_99768315_01"
+      ],
+      "held_ids": [
+        "THK000477_01",
+        "THK000089_01",
+        "THK000429_01",
+        "THK000930_01",
+        "THK000410_01",
+        "THK000035_01",
+        "THK001049_01",
+        "THK000392_01",
+        "THK000450_01",
+        "THK000776_01",
+        "THK000359_efc5b0c5b0_2_01",
+        "THK000191_01",
+        "THK000160_01",
+        "THK000698_01",
+        "THK000307_01",
+        "THK000756_01",
+        "THK000747_01",
+        "THK000975_01",
+        "THK000894_01",
+        "THK000056_01",
+        "THK000042_01",
+        "THK000316_01",
+        "THK000723_01",
+        "THK000112_d82b8429df_01",
+        "THK001017_01",
+        "THK000892_01",
+        "THK000012_01",
+        "THK000104_01",
+        "THK000036_01",
+        "THK000017_01",
+        "THK000082_01",
+        "THK000011_01",
+        "THK000370_8af4c83812_2_01",
+        "THK000390_01",
+        "THK000384_01",
+        "THK000333_01",
+        "THK000182_01",
+        "THK000444_01",
+        "HAR_15937_01",
+        "HAR_52548506_01",
+        "HAR_65925_01",
+        "HAR_36411_01",
+        "SANDWICH_TIBETAN_3EC1_01",
+        "WC_15634388_01",
+        "WC_114771025_01"
+      ]
+    },
+    {
+      "fit_ids": [
+        "THK000196_01",
+        "THK000477_01",
+        "THK001069_01",
+        "THK000089_01",
+        "THK000355_01",
+        "THK000429_01",
+        "THK000312_01",
+        "THK000930_01",
+        "THK000923_01",
+        "THK000410_01",
+        "THK000783_01",
+        "THK000035_01",
+        "THK000438_01",
+        "THK001049_01",
+        "THK000712_01",
+        "THK000960_01",
+        "THK000392_01",
+        "THK000450_01",
+        "THK000733_01",
+        "THK000776_01",
+        "THK000359_efc5b0c5b0_2_01",
+        "THK000751_01",
+        "THK000496_01",
+        "THK000191_01",
+        "THK000160_01",
+        "THK000568_01",
+        "THK000877_01",
+        "THK000698_01",
+        "THK000651_01",
+        "THK000307_01",
+        "THK000654_01",
+        "THK000756_01",
+        "THK000612_01",
+        "THK000747_01",
+        "THK000623_01",
+        "THK000975_01",
+        "THK000581_01",
+        "THK000894_01",
+        "THK000897_01",
+        "THK000607_01",
+        "THK000056_01",
+        "THK000593_01",
+        "THK000042_01",
+        "THK000316_01",
+        "THK000723_01",
+        "THK000479_01",
+        "THK000224_f68094b182_3_01",
+        "THK000112_d82b8429df_01",
+        "THK000938_01",
+        "THK001017_01",
+        "THK000892_01",
+        "THK000073_01",
+        "THK000012_01",
+        "THK000743_01",
+        "THK000104_01",
+        "THK000290_01",
+        "THK000036_01",
+        "THK000672_01",
+        "THK000015_01",
+        "THK000017_01",
+        "THK000025_01",
+        "THK000082_01",
+        "THK000011_01",
+        "THK000502_01",
+        "THK001002_01",
+        "THK000370_8af4c83812_2_01",
+        "THK000952_01",
+        "THK000967_01",
+        "THK000390_01",
+        "THK000404_01",
+        "THK000384_01",
+        "THK000129_55a45b8092_3_01",
+        "THK000333_01",
+        "THK000182_01",
+        "THK000652_01",
+        "THK000444_01",
+        "EXOTICINDIA_RTO082_01",
+        "EXOTICINDIA_TS69_01",
+        "HAR_1392_01",
+        "HAR_15937_01",
+        "HAR_3314476_FULL_01",
+        "HAR_52548506_01",
+        "HAR_65089_01",
+        "HAR_65925_01",
+        "HAR_36411_01",
+        "HAR_53552942_01",
+        "RAKUTEN_30943_01",
+        "SANDWICH_TIBETAN_3EC1_01",
+        "WC_15634388_01",
+        "WC_4640450_Milarepa_Bhutan_01",
+        "WC_114771025_01"
+      ],
+      "held_ids": [
+        "BUDDHAMUSEUM_LIFE_01",
+        "THK000564_01",
+        "THK000152_01",
+        "THK000476_01",
+        "THK000986_01",
+        "THK000281_01",
+        "THK000163_01",
+        "THK000724_01",
+        "THK000768_01",
+        "THK000608_01",
+        "THK000611_01",
+        "THK000767_01",
+        "1605_01",
+        "THK000329_01",
+        "THK000752_01",
+        "THK000717_01",
+        "THK000552_01",
+        "THK000895_01",
+        "THK000284_01",
+        "THK000574_01",
+        "THK000415_01",
+        "THK000252_01",
+        "THK000699_01",
+        "THK000367_01",
+        "THK000984_01",
+        "THK000993_01",
+        "THK000902_01",
+        "THK001043_01",
+        "THK000686_01",
+        "623_01",
+        "THK000972_01",
+        "THK000528_01",
+        "THK000399_01",
+        "THK000380_01",
+        "THK000366_01",
+        "THK000396_01",
+        "THK000087_01",
+        "199_01",
+        "HAR_318_01",
+        "HAR_530_01",
+        "HAR_594_01",
+        "HAR_81655_01",
+        "WC_126127897_01",
+        "WKM_50795012_01",
+        "WKM_99768315_01"
+      ]
+    }
+  ],
+  "trials": {
+    "baseline": {
+      "model": "logistic_C0.1",
+      "gate_style": "legacy_class",
+      "eligible": true,
+      "validation": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8083567299752271,
+        "l1_coverage": 0.875,
+        "l1_final_accuracy": 0.7941176470588235,
+        "l2_macro_f1": 0.1123292292123461,
+        "l2_precision": 1.0,
+        "l2_coverage": 0.12264150943396226,
+        "blank_acceptance": 0.0,
+        "accepted": 13,
+        "correct": 13,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 8,
+            "correct": 8,
+            "precision": 1.0,
+            "recall": 0.1951219512195122,
+            "f1": 0.32653061224489793
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8083567299752271,
+        "l1_coverage": 0.8970588235294118,
+        "l1_final_accuracy": 0.7941176470588235,
+        "l2_macro_f1": 0.111177347242921,
+        "l2_precision": 0.9166666666666666,
+        "l2_coverage": 0.20754716981132076,
+        "blank_acceptance": 0.06666666666666667,
+        "accepted": 24,
+        "correct": 22,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 20,
+            "correct": 19,
+            "precision": 0.95,
+            "recall": 0.4634146341463415,
+            "f1": 0.6229508196721312
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 4,
+            "correct": 3,
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6
+          }
+        ]
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.1499829292297363,
+            "l2_temperature": 0.9533076882362366,
+            "evidence_temperature": 0.7108614444732666
+          },
+          "gate": {
+            "l1_threshold": 0.6023,
+            "l2_threshold": 0.0,
+            "evidence_threshold": 0.0,
+            "class_thresholds": {
+              "C2.1": 0.9566492494305058,
+              "C2.2": 1.0001,
+              "C2.3": 1.0001,
+              "C2.4": 1.0001,
+              "C2.5": 1.0001,
+              "C2.6": 1.0001,
+              "C2.7": 1.0001,
+              "C2.8": 1.0001,
+              "C2.9": 1.0001,
+              "C2.10": 1.0001,
+              "C2.11": 0.0
+            },
+            "l1_choice": {
+              "threshold": 0.6023,
+              "accepted": 76,
+              "rejected": 14,
+              "coverage": 0.8444444444444444,
+              "selective_accuracy": 0.9078947368421053,
+              "selective_risk": 0.09210526315789469,
+              "accuracy_95ci_wilson": [
+                0.8218709721189175,
+                0.9546665722188714
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "evidence_threshold": 0.0,
+              "per_class": {
+                "C2.1": {
+                  "threshold": 0.9566492494305058,
+                  "accepted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 0.12,
+                  "support": 25,
+                  "precision_95ci_wilson": [
+                    0.43849391955098227,
+                    1.0
+                  ]
+                },
+                "C2.2": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.3": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 13,
+                  "precision_95ci_wilson": null
+                },
+                "C2.4": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 4,
+                  "precision_95ci_wilson": null
+                },
+                "C2.5": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.6": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.7": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 5,
+                  "precision_95ci_wilson": null
+                },
+                "C2.8": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.9": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.10": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 6,
+                  "precision_95ci_wilson": null
+                },
+                "C2.11": {
+                  "threshold": 0.0,
+                  "accepted": 4,
+                  "correct": 4,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "support": 4,
+                  "precision_95ci_wilson": [
+                    0.5100999795960008,
+                    1.0
+                  ]
+                }
+              },
+              "macro_recall": 0.10181818181818182,
+              "accepted": 7,
+              "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+              "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.8508801460266113,
+            "evidence_temperature": 1.0497785806655884
+          },
+          "gate": {
+            "l1_threshold": 0.5239,
+            "l2_threshold": 0.0,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.8544445902770283,
+              "C2.2": 1.0001,
+              "C2.3": 1.0001,
+              "C2.4": 1.0001,
+              "C2.5": 1.0001,
+              "C2.6": 1.0001,
+              "C2.7": 1.0001,
+              "C2.8": 1.0001,
+              "C2.9": 1.0001,
+              "C2.10": 1.0001,
+              "C2.11": 0.0
+            },
+            "l1_choice": {
+              "threshold": 0.5239,
+              "accepted": 86,
+              "rejected": 5,
+              "coverage": 0.945054945054945,
+              "selective_accuracy": 0.9069767441860465,
+              "selective_risk": 0.09302325581395354,
+              "accuracy_95ci_wilson": [
+                0.8270407914425881,
+                0.9521082887162688
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "evidence_threshold": 0.5,
+              "per_class": {
+                "C2.1": {
+                  "threshold": 0.8544445902770283,
+                  "accepted": 23,
+                  "correct": 22,
+                  "precision": 0.9565217391304348,
+                  "recall": 0.7586206896551724,
+                  "support": 29,
+                  "precision_95ci_wilson": [
+                    0.7900841350594088,
+                    0.9922835330378734
+                  ]
+                },
+                "C2.2": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.3": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 16,
+                  "precision_95ci_wilson": null
+                },
+                "C2.4": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.5": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 4,
+                  "precision_95ci_wilson": null
+                },
+                "C2.6": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.7": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 5,
+                  "precision_95ci_wilson": null
+                },
+                "C2.8": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.9": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.10": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.11": {
+                  "threshold": 0.0,
+                  "accepted": 4,
+                  "correct": 4,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "support": 5,
+                  "precision_95ci_wilson": [
+                    0.5100999795960008,
+                    1.0
+                  ]
+                }
+              },
+              "macro_recall": 0.14169278996865203,
+              "accepted": 27,
+              "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+              "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.9118437170982361,
+            "evidence_temperature": 1.3353691101074219
+          },
+          "gate": {
+            "l1_threshold": 0.6164,
+            "l2_threshold": 0.0,
+            "evidence_threshold": 0.85,
+            "class_thresholds": {
+              "C2.1": 0.0,
+              "C2.2": 1.0001,
+              "C2.3": 1.0001,
+              "C2.4": 1.0001,
+              "C2.5": 1.0001,
+              "C2.6": 1.0001,
+              "C2.7": 1.0001,
+              "C2.8": 1.0001,
+              "C2.9": 1.0001,
+              "C2.10": 1.0001,
+              "C2.11": 1.0001
+            },
+            "l1_choice": {
+              "threshold": 0.6164,
+              "accepted": 82,
+              "rejected": 9,
+              "coverage": 0.9010989010989011,
+              "selective_accuracy": 0.9024390243902439,
+              "selective_risk": 0.09756097560975607,
+              "accuracy_95ci_wilson": [
+                0.8191260766932333,
+                0.949731912906215
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "evidence_threshold": 0.85,
+              "per_class": {
+                "C2.1": {
+                  "threshold": 0.0,
+                  "accepted": 17,
+                  "correct": 16,
+                  "precision": 0.9411764705882353,
+                  "recall": 0.5714285714285714,
+                  "support": 28,
+                  "precision_95ci_wilson": [
+                    0.730174547964372,
+                    0.9895398693548358
+                  ]
+                },
+                "C2.2": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.3": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 9,
+                  "precision_95ci_wilson": null
+                },
+                "C2.4": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.5": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 5,
+                  "precision_95ci_wilson": null
+                },
+                "C2.6": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 5,
+                  "precision_95ci_wilson": null
+                },
+                "C2.7": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 4,
+                  "precision_95ci_wilson": null
+                },
+                "C2.8": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 2,
+                  "precision_95ci_wilson": null
+                },
+                "C2.9": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 4,
+                  "precision_95ci_wilson": null
+                },
+                "C2.10": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                },
+                "C2.11": {
+                  "threshold": 1.0001,
+                  "accepted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "support": 3,
+                  "precision_95ci_wilson": null
+                }
+              },
+              "macro_recall": 0.051948051948051945,
+              "accepted": 17,
+              "selection_rule": "maximize macro L2 recall; each accepted class requires >=3 validation predictions, precision >=0.90, zero blank-L2 acceptances",
+              "warning": "Empirical validation targets, not a guarantee; inspect small support and Wilson intervals."
+            }
+          }
+        }
+      ]
+    },
+    "logistic_regression__parent_pooled": {
+      "model": "logistic_regression",
+      "gate_style": "parent_pooled",
+      "eligible": false,
+      "validation": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8092119805481874,
+        "l1_coverage": 0.8676470588235294,
+        "l1_final_accuracy": 0.7867647058823529,
+        "l2_macro_f1": 0.26462919796253126,
+        "l2_precision": 0.9090909090909091,
+        "l2_coverage": 0.5,
+        "blank_acceptance": 0.06666666666666667,
+        "accepted": 55,
+        "correct": 50,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 40,
+            "correct": 38,
+            "precision": 0.95,
+            "recall": 0.926829268292683,
+            "f1": 0.9382716049382716
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 7,
+            "correct": 6,
+            "precision": 0.8571428571428571,
+            "recall": 0.3157894736842105,
+            "f1": 0.46153846153846156
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 4,
+            "correct": 2,
+            "precision": 0.5,
+            "recall": 0.4,
+            "f1": 0.4444444444444444
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 3,
+            "correct": 3,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8092119805481874,
+        "l1_coverage": 0.875,
+        "l1_final_accuracy": 0.7794117647058824,
+        "l2_macro_f1": 0.19866928141196247,
+        "l2_precision": 0.75,
+        "l2_coverage": 0.27358490566037735,
+        "blank_acceptance": 0.1,
+        "accepted": 32,
+        "correct": 24,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 18,
+            "correct": 17,
+            "precision": 0.9444444444444444,
+            "recall": 0.4146341463414634,
+            "f1": 0.576271186440678
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 2,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 5,
+            "correct": 1,
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.2
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      },
+      "checks": {
+        "validation": {
+          "l1_accuracy": true,
+          "l1_macro_f1": true,
+          "l1_final_accuracy": true,
+          "l1_coverage": true,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        },
+        "crossfit": {
+          "l1_accuracy": true,
+          "l1_macro_f1": true,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        }
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.3285683393478394,
+            "l2_temperature": 1.5928535461425781,
+            "evidence_temperature": 0.6864855289459229
+          },
+          "gate": {
+            "l1_threshold": 0.5776,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.9,
+              "C2.2": 0.9,
+              "C2.3": 0.9,
+              "C2.4": 0.9,
+              "C2.5": 0.9,
+              "C2.6": 0.8,
+              "C2.7": 0.8,
+              "C2.8": 0.8,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5776,
+              "accepted": 75,
+              "rejected": 15,
+              "coverage": 0.8333333333333334,
+              "selective_accuracy": 0.9066666666666666,
+              "selective_risk": 0.09333333333333338,
+              "accuracy_95ci_wilson": [
+                0.819651161993122,
+                0.9540520606710551
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.9,
+                "C1.2": 0.8,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 25,
+                  "predicted": 8,
+                  "correct": 7,
+                  "precision": 0.875,
+                  "recall": 0.28,
+                  "f1": 0.42424242424242425,
+                  "threshold": 0.9
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 13,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.5,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.8
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.3333333333333333,
+                  "f1": 0.5,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 6,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 4,
+                  "predicted": 4,
+                  "correct": 4,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.13614022731781,
+            "l2_temperature": 1.473845362663269,
+            "evidence_temperature": 1.076493740081787
+          },
+          "gate": {
+            "l1_threshold": 0.5613,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.7,
+            "class_thresholds": {
+              "C2.1": 0.9,
+              "C2.2": 0.9,
+              "C2.3": 0.9,
+              "C2.4": 0.9,
+              "C2.5": 0.9,
+              "C2.6": 0.5,
+              "C2.7": 0.5,
+              "C2.8": 0.5,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5613,
+              "accepted": 83,
+              "rejected": 8,
+              "coverage": 0.9120879120879121,
+              "selective_accuracy": 0.9036144578313253,
+              "selective_risk": 0.09638554216867468,
+              "accuracy_95ci_wilson": [
+                0.8211717868492707,
+                0.9503478535074248
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.9,
+                "C1.2": 0.5,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 29,
+                  "predicted": 14,
+                  "correct": 14,
+                  "precision": 1.0,
+                  "recall": 0.4827586206896552,
+                  "f1": 0.6511627906976745,
+                  "threshold": 0.9
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 16,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 3,
+                  "predicted": 3,
+                  "correct": 2,
+                  "precision": 0.6666666666666666,
+                  "recall": 0.6666666666666666,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.5
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.5,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.5
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 5,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 0.6,
+                  "f1": 0.75,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.404321551322937,
+            "l2_temperature": 1.6184295415878296,
+            "evidence_temperature": 1.394843578338623
+          },
+          "gate": {
+            "l1_threshold": 0.5987,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.8,
+              "C2.2": 0.8,
+              "C2.3": 0.8,
+              "C2.4": 0.8,
+              "C2.5": 0.8,
+              "C2.6": 0.1,
+              "C2.7": 0.1,
+              "C2.8": 0.1,
+              "C2.9": 0.4,
+              "C2.10": 0.4,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5987,
+              "accepted": 81,
+              "rejected": 10,
+              "coverage": 0.8901098901098901,
+              "selective_accuracy": 0.9012345679012346,
+              "selective_risk": 0.09876543209876543,
+              "accuracy_95ci_wilson": [
+                0.8170331024146836,
+                0.9491004924255834
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.8,
+                "C1.2": 0.1,
+                "C1.3": 0.4,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 28,
+                  "predicted": 20,
+                  "correct": 19,
+                  "precision": 0.95,
+                  "recall": 0.6785714285714286,
+                  "f1": 0.7916666666666666,
+                  "threshold": 0.8
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 9,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.1111111111111111,
+                  "f1": 0.2,
+                  "threshold": 0.8
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 5,
+                  "predicted": 5,
+                  "correct": 3,
+                  "precision": 0.6,
+                  "recall": 0.6,
+                  "f1": 0.6,
+                  "threshold": 0.1
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 2,
+                  "correct": 2,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 4,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.25,
+                  "f1": 0.4,
+                  "threshold": 0.4
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.4
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 3,
+                  "predicted": 2,
+                  "correct": 2,
+                  "precision": 1.0,
+                  "recall": 0.6666666666666666,
+                  "f1": 0.8,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "random_forest__parent_pooled": {
+      "model": "random_forest",
+      "gate_style": "parent_pooled",
+      "eligible": false,
+      "validation": {
+        "l1_accuracy": 0.8308823529411765,
+        "l1_macro_f1": 0.7526190476190477,
+        "l1_coverage": 0.8897058823529411,
+        "l1_final_accuracy": 0.8014705882352942,
+        "l2_macro_f1": 0.2817140665241931,
+        "l2_precision": 0.9038461538461539,
+        "l2_coverage": 0.46226415094339623,
+        "blank_acceptance": 0.1,
+        "accepted": 52,
+        "correct": 47,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 38,
+            "correct": 34,
+            "precision": 0.8947368421052632,
+            "recall": 0.8292682926829268,
+            "f1": 0.8607594936708861
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 5,
+            "correct": 4,
+            "precision": 0.8,
+            "recall": 0.21052631578947367,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 2,
+            "correct": 2,
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285714
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8308823529411765,
+        "l1_macro_f1": 0.7526190476190477,
+        "l1_coverage": 0.8529411764705882,
+        "l1_final_accuracy": 0.7647058823529411,
+        "l2_macro_f1": 0.22597402597402597,
+        "l2_precision": 0.7727272727272727,
+        "l2_coverage": 0.36792452830188677,
+        "blank_acceptance": 0.16666666666666666,
+        "accepted": 44,
+        "correct": 34,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 28,
+            "correct": 23,
+            "precision": 0.8214285714285714,
+            "recall": 0.5609756097560976,
+            "f1": 0.6666666666666666
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 5,
+            "correct": 4,
+            "precision": 0.8,
+            "recall": 0.21052631578947367,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 5,
+            "correct": 2,
+            "precision": 0.4,
+            "recall": 0.4,
+            "f1": 0.4
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 2,
+            "correct": 1,
+            "precision": 0.5,
+            "recall": 0.2,
+            "f1": 0.2857142857142857
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 4,
+            "correct": 4,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          }
+        ]
+      },
+      "checks": {
+        "validation": {
+          "l1_accuracy": false,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": true,
+          "l1_coverage": true,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        },
+        "crossfit": {
+          "l1_accuracy": false,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": false
+        }
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.1850249767303467,
+            "l2_temperature": 0.7893442511558533,
+            "evidence_temperature": 1.353232979774475
+          },
+          "gate": {
+            "l1_threshold": 0.6045,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.85,
+            "class_thresholds": {
+              "C2.1": 0.7,
+              "C2.2": 0.7,
+              "C2.3": 0.7,
+              "C2.4": 0.7,
+              "C2.5": 0.7,
+              "C2.6": 0.7,
+              "C2.7": 0.7,
+              "C2.8": 0.7,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6045,
+              "accepted": 72,
+              "rejected": 18,
+              "coverage": 0.8,
+              "selective_accuracy": 0.9027777777777778,
+              "selective_risk": 0.09722222222222221,
+              "accuracy_95ci_wilson": [
+                0.812647509746432,
+                0.9521042887388321
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.7,
+                "C1.2": 0.7,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 25,
+                  "predicted": 22,
+                  "correct": 20,
+                  "precision": 0.9090909090909091,
+                  "recall": 0.8,
+                  "f1": 0.851063829787234,
+                  "threshold": 0.7
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 13,
+                  "predicted": 8,
+                  "correct": 7,
+                  "precision": 0.875,
+                  "recall": 0.5384615384615384,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.7
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.5,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.7
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 6,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 0.8738353252410889,
+            "l2_temperature": 1.055905818939209,
+            "evidence_temperature": 1.331307291984558
+          },
+          "gate": {
+            "l1_threshold": 0.502,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.7,
+              "C2.2": 0.7,
+              "C2.3": 0.7,
+              "C2.4": 0.7,
+              "C2.5": 0.7,
+              "C2.6": 0.7,
+              "C2.7": 0.7,
+              "C2.8": 0.7,
+              "C2.9": 0.5,
+              "C2.10": 0.5,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.502,
+              "accepted": 85,
+              "rejected": 6,
+              "coverage": 0.9340659340659341,
+              "selective_accuracy": 0.9058823529411765,
+              "selective_risk": 0.09411764705882353,
+              "accuracy_95ci_wilson": [
+                0.8251276663627338,
+                0.9515355184515875
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.7,
+                "C1.2": 0.7,
+                "C1.3": 0.5,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 29,
+                  "predicted": 30,
+                  "correct": 28,
+                  "precision": 0.9333333333333333,
+                  "recall": 0.9655172413793104,
+                  "f1": 0.9491525423728814,
+                  "threshold": 0.7
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 16,
+                  "predicted": 9,
+                  "correct": 8,
+                  "precision": 0.8888888888888888,
+                  "recall": 0.5,
+                  "f1": 0.64,
+                  "threshold": 0.7
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 3,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.3333333333333333,
+                  "f1": 0.5,
+                  "threshold": 0.7
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 5,
+                  "predicted": 5,
+                  "correct": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.7079725861549377,
+            "evidence_temperature": 1.6117196083068848
+          },
+          "gate": {
+            "l1_threshold": 0.5525,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 1.0001,
+              "C2.2": 1.0001,
+              "C2.3": 1.0001,
+              "C2.4": 1.0001,
+              "C2.5": 1.0001,
+              "C2.6": 0.3,
+              "C2.7": 0.3,
+              "C2.8": 0.3,
+              "C2.9": 0.6,
+              "C2.10": 0.6,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5525,
+              "accepted": 80,
+              "rejected": 11,
+              "coverage": 0.8791208791208791,
+              "selective_accuracy": 0.9,
+              "selective_risk": 0.09999999999999998,
+              "accuracy_95ci_wilson": [
+                0.8148912101660255,
+                0.9484530008223144
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 1.0001,
+                "C1.2": 0.3,
+                "C1.3": 0.6,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 28,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 9,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 5,
+                  "predicted": 2,
+                  "correct": 2,
+                  "precision": 1.0,
+                  "recall": 0.4,
+                  "f1": 0.5714285714285714,
+                  "threshold": 0.3
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 4,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.25,
+                  "f1": 0.4,
+                  "threshold": 0.3
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.3
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 4,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.25,
+                  "f1": 0.4,
+                  "threshold": 0.6
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 3,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "extra_trees__parent_pooled": {
+      "model": "extra_trees",
+      "gate_style": "parent_pooled",
+      "eligible": false,
+      "validation": {
+        "l1_accuracy": 0.8382352941176471,
+        "l1_macro_f1": 0.775952380952381,
+        "l1_coverage": 0.8455882352941176,
+        "l1_final_accuracy": 0.7647058823529411,
+        "l2_macro_f1": 0.26868686868686864,
+        "l2_precision": 0.9074074074074074,
+        "l2_coverage": 0.4811320754716981,
+        "blank_acceptance": 0.1,
+        "accepted": 54,
+        "correct": 49,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 40,
+            "correct": 36,
+            "precision": 0.9,
+            "recall": 0.8780487804878049,
+            "f1": 0.8888888888888888
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 6,
+            "correct": 5,
+            "precision": 0.8333333333333334,
+            "recall": 0.2631578947368421,
+            "f1": 0.4
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.2,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8382352941176471,
+        "l1_macro_f1": 0.775952380952381,
+        "l1_coverage": 0.8529411764705882,
+        "l1_final_accuracy": 0.7573529411764706,
+        "l2_macro_f1": 0.2107513491075135,
+        "l2_precision": 0.7446808510638298,
+        "l2_coverage": 0.36792452830188677,
+        "blank_acceptance": 0.26666666666666666,
+        "accepted": 47,
+        "correct": 35,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 32,
+            "correct": 25,
+            "precision": 0.78125,
+            "recall": 0.6097560975609756,
+            "f1": 0.684931506849315
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 5,
+            "correct": 4,
+            "precision": 0.8,
+            "recall": 0.21052631578947367,
+            "f1": 0.3333333333333333
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 3,
+            "correct": 1,
+            "precision": 0.3333333333333333,
+            "recall": 0.2,
+            "f1": 0.25
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 3,
+            "correct": 1,
+            "precision": 0.3333333333333333,
+            "recall": 0.2,
+            "f1": 0.25
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 4,
+            "correct": 4,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          }
+        ]
+      },
+      "checks": {
+        "validation": {
+          "l1_accuracy": true,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        },
+        "crossfit": {
+          "l1_accuracy": true,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": false
+        }
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.7011153101921082,
+            "evidence_temperature": 1.1939376592636108
+          },
+          "gate": {
+            "l1_threshold": 0.6822,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.85,
+            "class_thresholds": {
+              "C2.1": 0.7,
+              "C2.2": 0.7,
+              "C2.3": 0.7,
+              "C2.4": 0.7,
+              "C2.5": 0.7,
+              "C2.6": 0.7,
+              "C2.7": 0.7,
+              "C2.8": 0.7,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6822,
+              "accepted": 67,
+              "rejected": 23,
+              "coverage": 0.7444444444444445,
+              "selective_accuracy": 0.9104477611940298,
+              "selective_risk": 0.08955223880597019,
+              "accuracy_95ci_wilson": [
+                0.8180703630060067,
+                0.9583096171186658
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.7,
+                "C1.2": 0.7,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 25,
+                  "predicted": 22,
+                  "correct": 21,
+                  "precision": 0.9545454545454546,
+                  "recall": 0.84,
+                  "f1": 0.8936170212765957,
+                  "threshold": 0.7
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 13,
+                  "predicted": 10,
+                  "correct": 9,
+                  "precision": 0.9,
+                  "recall": 0.6923076923076923,
+                  "f1": 0.782608695652174,
+                  "threshold": 0.7
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 2,
+                  "predicted": 2,
+                  "correct": 1,
+                  "precision": 0.5,
+                  "recall": 0.5,
+                  "f1": 0.5,
+                  "threshold": 0.7
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 6,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.8778416514396667,
+            "evidence_temperature": 1.251719355583191
+          },
+          "gate": {
+            "l1_threshold": 0.4945,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.7,
+              "C2.2": 0.7,
+              "C2.3": 0.7,
+              "C2.4": 0.7,
+              "C2.5": 0.7,
+              "C2.6": 0.7,
+              "C2.7": 0.7,
+              "C2.8": 0.7,
+              "C2.9": 0.5,
+              "C2.10": 0.5,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.4945,
+              "accepted": 84,
+              "rejected": 7,
+              "coverage": 0.9230769230769231,
+              "selective_accuracy": 0.9047619047619048,
+              "selective_risk": 0.09523809523809523,
+              "accuracy_95ci_wilson": [
+                0.8231718131587017,
+                0.9509488768105155
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.7,
+                "C1.2": 0.7,
+                "C1.3": 0.5,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 29,
+                  "predicted": 30,
+                  "correct": 28,
+                  "precision": 0.9333333333333333,
+                  "recall": 0.9655172413793104,
+                  "f1": 0.9491525423728814,
+                  "threshold": 0.7
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 16,
+                  "predicted": 11,
+                  "correct": 9,
+                  "precision": 0.8181818181818182,
+                  "recall": 0.5625,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.7
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 3,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.3333333333333333,
+                  "f1": 0.5,
+                  "threshold": 0.7
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 5,
+                  "predicted": 5,
+                  "correct": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 0.9483724236488342,
+            "l2_temperature": 0.648428738117218,
+            "evidence_temperature": 1.4762706756591797
+          },
+          "gate": {
+            "l1_threshold": 0.6158,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 1.0001,
+              "C2.2": 1.0001,
+              "C2.3": 1.0001,
+              "C2.4": 1.0001,
+              "C2.5": 1.0001,
+              "C2.6": 0.6,
+              "C2.7": 0.6,
+              "C2.8": 0.6,
+              "C2.9": 0.7,
+              "C2.10": 0.7,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6158,
+              "accepted": 75,
+              "rejected": 16,
+              "coverage": 0.8241758241758241,
+              "selective_accuracy": 0.9066666666666666,
+              "selective_risk": 0.09333333333333338,
+              "accuracy_95ci_wilson": [
+                0.819651161993122,
+                0.9540520606710551
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 1.0001,
+                "C1.2": 0.6,
+                "C1.3": 0.7,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 28,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 9,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 5,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 0.6,
+                  "f1": 0.75,
+                  "threshold": 0.6
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 4,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.25,
+                  "f1": 0.4,
+                  "threshold": 0.7
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 3,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "logistic_C0.1__parent_pooled": {
+      "model": "logistic_C0.1",
+      "gate_style": "parent_pooled",
+      "eligible": false,
+      "validation": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8083567299752271,
+        "l1_coverage": 0.875,
+        "l1_final_accuracy": 0.7941176470588235,
+        "l2_macro_f1": 0.14777352904897,
+        "l2_precision": 0.90625,
+        "l2_coverage": 0.29245283018867924,
+        "blank_acceptance": 0.03333333333333333,
+        "accepted": 32,
+        "correct": 29,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 26,
+            "correct": 24,
+            "precision": 0.9230769230769231,
+            "recall": 0.5853658536585366,
+            "f1": 0.7164179104477612
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8455882352941176,
+        "l1_macro_f1": 0.8083567299752271,
+        "l1_coverage": 0.8970588235294118,
+        "l1_final_accuracy": 0.7941176470588235,
+        "l2_macro_f1": 0.14088647670737223,
+        "l2_precision": 0.8285714285714286,
+        "l2_coverage": 0.3018867924528302,
+        "blank_acceptance": 0.1,
+        "accepted": 35,
+        "correct": 29,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 26,
+            "correct": 24,
+            "precision": 0.9230769230769231,
+            "recall": 0.5853658536585366,
+            "f1": 0.7164179104477612
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 2,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 6,
+            "correct": 5,
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334
+          }
+        ]
+      },
+      "checks": {
+        "validation": {
+          "l1_accuracy": true,
+          "l1_macro_f1": true,
+          "l1_final_accuracy": true,
+          "l1_coverage": true,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        },
+        "crossfit": {
+          "l1_accuracy": true,
+          "l1_macro_f1": true,
+          "l1_final_accuracy": true,
+          "l1_coverage": true,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        }
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.1499829292297363,
+            "l2_temperature": 0.9533076882362366,
+            "evidence_temperature": 0.7108614444732666
+          },
+          "gate": {
+            "l1_threshold": 0.6023,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.0,
+            "class_thresholds": {
+              "C2.1": 0.9,
+              "C2.2": 0.9,
+              "C2.3": 0.9,
+              "C2.4": 0.9,
+              "C2.5": 0.9,
+              "C2.6": 0.9,
+              "C2.7": 0.9,
+              "C2.8": 0.9,
+              "C2.9": 0.8,
+              "C2.10": 0.8,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6023,
+              "accepted": 76,
+              "rejected": 14,
+              "coverage": 0.8444444444444444,
+              "selective_accuracy": 0.9078947368421053,
+              "selective_risk": 0.09210526315789469,
+              "accuracy_95ci_wilson": [
+                0.8218709721189175,
+                0.9546665722188714
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.9,
+                "C1.2": 0.9,
+                "C1.3": 0.8,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 25,
+                  "predicted": 10,
+                  "correct": 9,
+                  "precision": 0.9,
+                  "recall": 0.36,
+                  "f1": 0.5142857142857142,
+                  "threshold": 0.9
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 13,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 6,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 4,
+                  "predicted": 4,
+                  "correct": 4,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.8508801460266113,
+            "evidence_temperature": 1.0497785806655884
+          },
+          "gate": {
+            "l1_threshold": 0.5239,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.85,
+            "class_thresholds": {
+              "C2.1": 0.9,
+              "C2.2": 0.9,
+              "C2.3": 0.9,
+              "C2.4": 0.9,
+              "C2.5": 0.9,
+              "C2.6": 0.6,
+              "C2.7": 0.6,
+              "C2.8": 0.6,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5239,
+              "accepted": 86,
+              "rejected": 5,
+              "coverage": 0.945054945054945,
+              "selective_accuracy": 0.9069767441860465,
+              "selective_risk": 0.09302325581395354,
+              "accuracy_95ci_wilson": [
+                0.8270407914425881,
+                0.9521082887162688
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.9,
+                "C1.2": 0.6,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 29,
+                  "predicted": 21,
+                  "correct": 20,
+                  "precision": 0.9523809523809523,
+                  "recall": 0.6896551724137931,
+                  "f1": 0.8,
+                  "threshold": 0.9
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 16,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 3,
+                  "predicted": 3,
+                  "correct": 2,
+                  "precision": 0.6666666666666666,
+                  "recall": 0.6666666666666666,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.6
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 5,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.2,
+                  "f1": 0.3333333333333333,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 0.9118437170982361,
+            "evidence_temperature": 1.3353691101074219
+          },
+          "gate": {
+            "l1_threshold": 0.6164,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.9,
+              "C2.2": 0.9,
+              "C2.3": 0.9,
+              "C2.4": 0.9,
+              "C2.5": 0.9,
+              "C2.6": 1.0001,
+              "C2.7": 1.0001,
+              "C2.8": 1.0001,
+              "C2.9": 0.7,
+              "C2.10": 0.7,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6164,
+              "accepted": 82,
+              "rejected": 9,
+              "coverage": 0.9010989010989011,
+              "selective_accuracy": 0.9024390243902439,
+              "selective_risk": 0.09756097560975607,
+              "accuracy_95ci_wilson": [
+                0.8191260766932333,
+                0.949731912906215
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.9,
+                "C1.2": 1.0001,
+                "C1.3": 0.7,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 28,
+                  "predicted": 20,
+                  "correct": 18,
+                  "precision": 0.9,
+                  "recall": 0.6428571428571429,
+                  "f1": 0.75,
+                  "threshold": 0.9
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 9,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 3,
+                  "predicted": 2,
+                  "correct": 2,
+                  "precision": 1.0,
+                  "recall": 0.6666666666666666,
+                  "f1": 0.8,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "logistic_C10.0__parent_pooled": {
+      "model": "logistic_C10.0",
+      "gate_style": "parent_pooled",
+      "eligible": false,
+      "validation": {
+        "l1_accuracy": 0.8308823529411765,
+        "l1_macro_f1": 0.7871942573555477,
+        "l1_coverage": 0.8602941176470589,
+        "l1_final_accuracy": 0.7794117647058824,
+        "l2_macro_f1": 0.3047826752372207,
+        "l2_precision": 0.9137931034482759,
+        "l2_coverage": 0.5283018867924528,
+        "blank_acceptance": 0.06666666666666667,
+        "accepted": 58,
+        "correct": 53,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 39,
+            "correct": 37,
+            "precision": 0.9487179487179487,
+            "recall": 0.9024390243902439,
+            "f1": 0.925
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 8,
+            "correct": 7,
+            "precision": 0.875,
+            "recall": 0.3684210526315789,
+            "f1": 0.5185185185185185
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 1,
+            "correct": 1,
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 5,
+            "correct": 3,
+            "precision": 0.6,
+            "recall": 0.6,
+            "f1": 0.6
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      },
+      "crossfit": {
+        "l1_accuracy": 0.8308823529411765,
+        "l1_macro_f1": 0.7871942573555477,
+        "l1_coverage": 0.8897058823529411,
+        "l1_final_accuracy": 0.7794117647058824,
+        "l2_macro_f1": 0.1786254893431927,
+        "l2_precision": 0.78,
+        "l2_coverage": 0.41509433962264153,
+        "blank_acceptance": 0.2,
+        "accepted": 50,
+        "correct": 39,
+        "per_class": [
+          {
+            "code": "C2.1",
+            "support": 41,
+            "predicted": 35,
+            "correct": 31,
+            "precision": 0.8857142857142857,
+            "recall": 0.7560975609756098,
+            "f1": 0.8157894736842105
+          },
+          {
+            "code": "C2.2",
+            "support": 4,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.3",
+            "support": 19,
+            "predicted": 6,
+            "correct": 3,
+            "precision": 0.5,
+            "recall": 0.15789473684210525,
+            "f1": 0.24
+          },
+          {
+            "code": "C2.4",
+            "support": 4,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.5",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.6",
+            "support": 5,
+            "predicted": 1,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.7",
+            "support": 7,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.8",
+            "support": 3,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.9",
+            "support": 5,
+            "predicted": 2,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.10",
+            "support": 6,
+            "predicted": 0,
+            "correct": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "code": "C2.11",
+            "support": 6,
+            "predicted": 5,
+            "correct": 5,
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091
+          }
+        ]
+      },
+      "checks": {
+        "validation": {
+          "l1_accuracy": false,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": true
+        },
+        "crossfit": {
+          "l1_accuracy": false,
+          "l1_macro_f1": false,
+          "l1_final_accuracy": false,
+          "l1_coverage": false,
+          "l2_macro_f1_gain": true,
+          "l2_coverage": true,
+          "l2_precision": false,
+          "blank_acceptance": false
+        }
+      },
+      "folds": [
+        {
+          "temperatures": {
+            "l1_temperature": 1.4963198900222778,
+            "l2_temperature": 2.932451009750366,
+            "evidence_temperature": 0.7546118497848511
+          },
+          "gate": {
+            "l1_threshold": 0.5961,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.7,
+            "class_thresholds": {
+              "C2.1": 0.6,
+              "C2.2": 0.6,
+              "C2.3": 0.6,
+              "C2.4": 0.6,
+              "C2.5": 0.6,
+              "C2.6": 0.7,
+              "C2.7": 0.7,
+              "C2.8": 0.7,
+              "C2.9": 0.1,
+              "C2.10": 0.1,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.5961,
+              "accepted": 74,
+              "rejected": 16,
+              "coverage": 0.8222222222222222,
+              "selective_accuracy": 0.9054054054054054,
+              "selective_risk": 0.09459459459459463,
+              "accuracy_95ci_wilson": [
+                0.8173754241201446,
+                0.9534206540694093
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.6,
+                "C1.2": 0.7,
+                "C1.3": 0.1,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 25,
+                  "predicted": 22,
+                  "correct": 21,
+                  "precision": 0.9545454545454546,
+                  "recall": 0.84,
+                  "f1": 0.8936170212765957,
+                  "threshold": 0.6
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 13,
+                  "predicted": 4,
+                  "correct": 2,
+                  "precision": 0.5,
+                  "recall": 0.15384615384615385,
+                  "f1": 0.23529411764705882,
+                  "threshold": 0.6
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.7
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.5,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.7
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.3333333333333333,
+                  "f1": 0.5,
+                  "threshold": 0.1
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 6,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.1
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 4,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 0.75,
+                  "f1": 0.8571428571428571,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 2.570990800857544,
+            "evidence_temperature": 1.204489827156067
+          },
+          "gate": {
+            "l1_threshold": 0.6175,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.7,
+            "class_thresholds": {
+              "C2.1": 0.5,
+              "C2.2": 0.5,
+              "C2.3": 0.5,
+              "C2.4": 0.5,
+              "C2.5": 0.5,
+              "C2.6": 0.9,
+              "C2.7": 0.9,
+              "C2.8": 0.9,
+              "C2.9": 0.6,
+              "C2.10": 0.6,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6175,
+              "accepted": 82,
+              "rejected": 9,
+              "coverage": 0.9010989010989011,
+              "selective_accuracy": 0.9024390243902439,
+              "selective_risk": 0.09756097560975607,
+              "accuracy_95ci_wilson": [
+                0.8191260766932333,
+                0.949731912906215
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.5,
+                "C1.2": 0.9,
+                "C1.3": 0.6,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 29,
+                  "predicted": 29,
+                  "correct": 28,
+                  "precision": 0.9655172413793104,
+                  "recall": 0.9655172413793104,
+                  "f1": 0.9655172413793104,
+                  "threshold": 0.5
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 16,
+                  "predicted": 11,
+                  "correct": 9,
+                  "precision": 0.8181818181818182,
+                  "recall": 0.5625,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.5
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 1,
+                  "correct": 1,
+                  "precision": 1.0,
+                  "recall": 0.5,
+                  "f1": 0.6666666666666666,
+                  "threshold": 0.5
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.5
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.6
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 5,
+                  "predicted": 4,
+                  "correct": 4,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "f1": 0.8888888888888888,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        },
+        {
+          "temperatures": {
+            "l1_temperature": 1.0,
+            "l2_temperature": 2.562556505203247,
+            "evidence_temperature": 1.5658987760543823
+          },
+          "gate": {
+            "l1_threshold": 0.6753,
+            "l2_threshold": 1.0001,
+            "evidence_threshold": 0.5,
+            "class_thresholds": {
+              "C2.1": 0.8,
+              "C2.2": 0.8,
+              "C2.3": 0.8,
+              "C2.4": 0.8,
+              "C2.5": 0.8,
+              "C2.6": 0.9,
+              "C2.7": 0.9,
+              "C2.8": 0.9,
+              "C2.9": 1.0001,
+              "C2.10": 1.0001,
+              "C2.11": 0.1
+            },
+            "l1_choice": {
+              "threshold": 0.6753,
+              "accepted": 81,
+              "rejected": 10,
+              "coverage": 0.8901098901098901,
+              "selective_accuracy": 0.9012345679012346,
+              "selective_risk": 0.09876543209876543,
+              "accuracy_95ci_wilson": [
+                0.8170331024146836,
+                0.9491004924255834
+              ],
+              "selection_rule": "maximum validation coverage subject to accepted L1 accuracy >= 0.90"
+            },
+            "threshold_choice": {
+              "calibration": "parent_pooled",
+              "branch_thresholds": {
+                "C1.1": 0.8,
+                "C1.2": 0.9,
+                "C1.3": 1.0001,
+                "C1.4": 0.1
+              },
+              "pooled_precision_target": 0.9,
+              "blank_acceptance_limit": 0.1,
+              "per_class": {
+                "C2.1": {
+                  "code": "C2.1",
+                  "support": 28,
+                  "predicted": 18,
+                  "correct": 17,
+                  "precision": 0.9444444444444444,
+                  "recall": 0.6071428571428571,
+                  "f1": 0.7391304347826086,
+                  "threshold": 0.8
+                },
+                "C2.2": {
+                  "code": "C2.2",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.3": {
+                  "code": "C2.3",
+                  "support": 9,
+                  "predicted": 3,
+                  "correct": 2,
+                  "precision": 0.6666666666666666,
+                  "recall": 0.2222222222222222,
+                  "f1": 0.3333333333333333,
+                  "threshold": 0.8
+                },
+                "C2.4": {
+                  "code": "C2.4",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.5": {
+                  "code": "C2.5",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.8
+                },
+                "C2.6": {
+                  "code": "C2.6",
+                  "support": 5,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.7": {
+                  "code": "C2.7",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.8": {
+                  "code": "C2.8",
+                  "support": 2,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 0.9
+                },
+                "C2.9": {
+                  "code": "C2.9",
+                  "support": 4,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.10": {
+                  "code": "C2.10",
+                  "support": 3,
+                  "predicted": 0,
+                  "correct": 0,
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "f1": 0.0,
+                  "threshold": 1.0001
+                },
+                "C2.11": {
+                  "code": "C2.11",
+                  "support": 3,
+                  "predicted": 3,
+                  "correct": 3,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0,
+                  "threshold": 0.1
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "limitation": "Calibration crossfit only; model search uses the same validation set, not nested CV.",
+  "enabled": true
+}

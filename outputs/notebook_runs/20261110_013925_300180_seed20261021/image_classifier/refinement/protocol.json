@@ -1,0 +1,112 @@
+{
+  "config": {
+    "epochs": 40,
+    "patience": 10,
+    "min_epochs": 15,
+    "head_epochs": 4,
+    "batch_size": 2,
+    "accumulation": 8,
+    "hidden": 128,
+    "head_lr": 0.0002,
+    "backbone_lr": 5e-06,
+    "weight_decay": 0.0005,
+    "ema_decay": 0.99,
+    "mixture_weights": [
+      0.25,
+      0.5
+    ],
+    "min_precision": 0.925,
+    "calibration_seed": 20261109
+  },
+  "anchor": {
+    "architecture": "current_run_image_ensemble",
+    "name": "resnet18",
+    "run_path": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021",
+    "members": [
+      {
+        "architecture": "resnet18",
+        "seed": 20261021,
+        "checkpoint": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021\\image_classifier\\resnet18_seed20261021\\best_model.pt",
+        "temperatures": {
+          "l1_temperature": 1.0,
+          "l2_temperature": 0.8550888895988464,
+          "evidence_temperature": 3.2105095386505127
+        },
+        "best_epoch": 56,
+        "sha256": "5f93a64e88da641bbfee9fd57594ac8e72e5fed65f79125e96315ce4e24594fd"
+      },
+      {
+        "architecture": "resnet18",
+        "seed": 20261031,
+        "checkpoint": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021\\image_classifier\\resnet18_seed20261031\\best_model.pt",
+        "temperatures": {
+          "l1_temperature": 1.0,
+          "l2_temperature": 1.22734534740448,
+          "evidence_temperature": 2.05863094329834
+        },
+        "best_epoch": 39,
+        "sha256": "162ecb1391f96348fdaf842df47182fe6659eaf4f03706223e3774bdc3ca37d9"
+      },
+      {
+        "architecture": "resnet18",
+        "seed": 20261107,
+        "checkpoint": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021\\image_classifier\\resnet18_seed20261107\\best_model.pt",
+        "temperatures": {
+          "l1_temperature": 1.3819435834884644,
+          "l2_temperature": 1.146073579788208,
+          "evidence_temperature": 1.7439093589782715
+        },
+        "best_epoch": 35,
+        "sha256": "f9e1afb2e4f9e8aa7f1fd85675c633a9dde17ea227de99f32a950798fd1ac0d1"
+      }
+    ],
+    "convnext_members": [
+      {
+        "architecture": "convnext_tiny",
+        "seed": 20261021,
+        "checkpoint": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021\\image_classifier\\convnext_tiny_seed20261021\\best_model.pt",
+        "temperatures": {
+          "l1_temperature": 1.0037750005722046,
+          "l2_temperature": 1.0313916206359863,
+          "evidence_temperature": 2.3977715969085693
+        },
+        "best_epoch": 36,
+        "sha256": "dcddfaee3af45618b836a2088674162cba0b0547adb6efe193bc1e615c3a2d0e"
+      },
+      {
+        "architecture": "convnext_tiny",
+        "seed": 20261031,
+        "checkpoint": "outputs\\notebook_runs\\20261110_013925_300180_seed20261021\\image_classifier\\convnext_tiny_seed20261031\\best_model.pt",
+        "temperatures": {
+          "l1_temperature": 1.0,
+          "l2_temperature": 0.91459721326828,
+          "evidence_temperature": 2.7227108478546143
+        },
+        "best_epoch": 49,
+        "sha256": "42b304eadfe47c31a1dbdf2d99b478fd9eba924d605d1efda405001aa287b1f1"
+      }
+    ],
+    "gate": {
+      "l1_threshold": 0.0,
+      "l2_threshold": 0.0,
+      "evidence_threshold": 0.5,
+      "class_thresholds": {
+        "C2.1": 0.9079823350900244,
+        "C2.2": 1.0001,
+        "C2.3": 0.5008228120062537,
+        "C2.4": 1.0001,
+        "C2.5": 1.0001,
+        "C2.6": 0.46299196499547274,
+        "C2.7": 1.0001,
+        "C2.8": 0.0,
+        "C2.9": 1.0001,
+        "C2.10": 1.0001,
+        "C2.11": 0.0
+      }
+    },
+    "manifest_sha256": "527fd2f85fd60af921e696272ff7ca3bb39dbf7ee41ac1763501330603b71637",
+    "inference_batch_size": 2
+  },
+  "test_used_for_selection": false,
+  "training": "two warm-start branch residual models; heads then last ConvNeXt stage; sqrt train-only weighting; EMA; full-frame flip TTA"
+}

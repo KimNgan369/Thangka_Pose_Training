@@ -1,0 +1,7 @@
+{
+  "source": "outputs\\quality_v2\\20261103_convnext_branches\\test_predictions.csv",
+  "rows": 125,
+  "matching_final_labels": 125,
+  "mismatched_instance_ids": [],
+  "selection_used_test": false
+}

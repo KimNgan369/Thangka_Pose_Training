@@ -1,0 +1,17 @@
+{
+  "calibration": "parent_branches",
+  "validation_l2_f1": 0.4176651631197086,
+  "per_class_crossfit": 0.18219961856325495,
+  "branch_crossfit": 0.3591659986916904,
+  "checks": {
+    "validation_l2_f1": true,
+    "validation_precision": true,
+    "validation_blank": true,
+    "crossfit_precision": true,
+    "crossfit_blank": true,
+    "crossfit_l2_f1": true
+  },
+  "validation_only": true,
+  "old_logits_diagnostic": true,
+  "new_training_quality_not_measured": true
+}

@@ -1,0 +1,34 @@
+﻿method,code,label,support,predicted,correct,precision,recall,f1
+Ảnh,C2.1,Ngồi bắt chéo khóa kín,37,31,30,0.967741935483871,0.8108108108108109,0.8823529411764706
+Ảnh,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Ảnh,C2.3,"Ngồi một chân co, một chân thả",17,10,8,0.8,0.47058823529411764,0.5925925925925926
+Ảnh,C2.4,Ngồi hai chân thả,6,1,1,1.0,0.16666666666666666,0.2857142857142857
+Ảnh,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Ảnh,C2.6,"Đứng thẳng, hai chân trụ",3,5,3,0.6,1.0,0.75
+Ảnh,C2.7,Đứng lệch trọng tâm,7,8,3,0.375,0.42857142857142855,0.4
+Ảnh,C2.8,"Một chân trụ, chân kia co/nâng",3,1,1,1.0,0.3333333333333333,0.5
+Ảnh,C2.9,Bước/chuyển hướng,8,4,1,0.25,0.125,0.16666666666666666
+Ảnh,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Ảnh,C2.11,Nằm nghiêng,8,8,8,1.0,1.0,1.0
+Keypoint,C2.1,Ngồi bắt chéo khóa kín,37,4,4,1.0,0.10810810810810811,0.1951219512195122
+Keypoint,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Keypoint,C2.3,"Ngồi một chân co, một chân thả",17,0,0,0.0,0.0,0.0
+Keypoint,C2.4,Ngồi hai chân thả,6,0,0,0.0,0.0,0.0
+Keypoint,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Keypoint,C2.6,"Đứng thẳng, hai chân trụ",3,0,0,0.0,0.0,0.0
+Keypoint,C2.7,Đứng lệch trọng tâm,7,0,0,0.0,0.0,0.0
+Keypoint,C2.8,"Một chân trụ, chân kia co/nâng",3,0,0,0.0,0.0,0.0
+Keypoint,C2.9,Bước/chuyển hướng,8,0,0,0.0,0.0,0.0
+Keypoint,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Keypoint,C2.11,Nằm nghiêng,8,7,6,0.8571428571428571,0.75,0.8
+Phương án sử dụng,C2.1,Ngồi bắt chéo khóa kín,37,31,30,0.967741935483871,0.8108108108108109,0.8823529411764706
+Phương án sử dụng,C2.2,Ngồi bắt chéo không khóa kín,4,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.3,"Ngồi một chân co, một chân thả",17,10,8,0.8,0.47058823529411764,0.5925925925925926
+Phương án sử dụng,C2.4,Ngồi hai chân thả,6,1,1,1.0,0.16666666666666666,0.2857142857142857
+Phương án sử dụng,C2.5,Quỳ/ngồi trên gót,6,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.6,"Đứng thẳng, hai chân trụ",3,5,3,0.6,1.0,0.75
+Phương án sử dụng,C2.7,Đứng lệch trọng tâm,7,8,3,0.375,0.42857142857142855,0.4
+Phương án sử dụng,C2.8,"Một chân trụ, chân kia co/nâng",3,1,1,1.0,0.3333333333333333,0.5
+Phương án sử dụng,C2.9,Bước/chuyển hướng,8,4,1,0.25,0.125,0.16666666666666666
+Phương án sử dụng,C2.10,Động/múa,4,0,0,0.0,0.0,0.0
+Phương án sử dụng,C2.11,Nằm nghiêng,8,8,8,1.0,1.0,1.0

@@ -1,0 +1,138 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 4.18092848740372,
+    "val_l1_macro_f1": 0.19642857142857145,
+    "val_l2_oracle_macro_f1": 0.31000231165368786,
+    "selection_score": 0.1805297559268821,
+    "training_stage": "head"
+  },
+  {
+    "epoch": 2,
+    "train_loss": 4.038435851826387,
+    "val_l1_macro_f1": 0.19642857142857145,
+    "val_l2_oracle_macro_f1": 0.33830613830613826,
+    "selection_score": 0.18482701675065966,
+    "training_stage": "head"
+  },
+  {
+    "epoch": 3,
+    "train_loss": 3.8919781547745846,
+    "val_l1_macro_f1": 0.30930930930930933,
+    "val_l2_oracle_macro_f1": 0.3670463687559424,
+    "selection_score": 0.25492476392187935,
+    "training_stage": "head"
+  },
+  {
+    "epoch": 4,
+    "train_loss": 3.78208554180619,
+    "val_l1_macro_f1": 0.34909502262443437,
+    "val_l2_oracle_macro_f1": 0.37665694376924325,
+    "selection_score": 0.27991581491928297,
+    "training_stage": "head"
+  },
+  {
+    "epoch": 5,
+    "train_loss": 3.67049718838112,
+    "val_l1_macro_f1": 0.42939896494942364,
+    "val_l2_oracle_macro_f1": 0.35327298963662596,
+    "selection_score": 0.3168985829844175,
+    "training_stage": "head"
+  },
+  {
+    "epoch": 6,
+    "train_loss": 3.39388640176237,
+    "val_l1_macro_f1": 0.7859420289855072,
+    "val_l2_oracle_macro_f1": 0.41048128342245993,
+    "selection_score": 0.5425908751407893,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 7,
+    "train_loss": 2.9058935081257538,
+    "val_l1_macro_f1": 0.7959980237154151,
+    "val_l2_oracle_macro_f1": 0.5198879551820729,
+    "selection_score": 0.5841181326520491,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 8,
+    "train_loss": 2.737728993097941,
+    "val_l1_macro_f1": 0.8072390572390572,
+    "val_l2_oracle_macro_f1": 0.5288919141860318,
+    "selection_score": 0.5909289333198252,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 9,
+    "train_loss": 2.416354150553934,
+    "val_l1_macro_f1": 0.8261386848624452,
+    "val_l2_oracle_macro_f1": 0.5144766997708174,
+    "selection_score": 0.5895333074672762,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 10,
+    "train_loss": 2.2370842703027662,
+    "val_l1_macro_f1": 0.8219410796437767,
+    "val_l2_oracle_macro_f1": 0.532009167303285,
+    "selection_score": 0.6053087540518416,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 11,
+    "train_loss": 2.158873150551241,
+    "val_l1_macro_f1": 0.8027515962298571,
+    "val_l2_oracle_macro_f1": 0.5226540126540127,
+    "selection_score": 0.5821271906715767,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 12,
+    "train_loss": 2.0243196195247126,
+    "val_l1_macro_f1": 0.7778955453149001,
+    "val_l2_oracle_macro_f1": 0.5383444738372012,
+    "selection_score": 0.5961289956257755,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 13,
+    "train_loss": 1.8479490809970431,
+    "val_l1_macro_f1": 0.8572519620388931,
+    "val_l2_oracle_macro_f1": 0.5783624863838767,
+    "selection_score": 0.64007674916591,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 14,
+    "train_loss": 1.8301014424928652,
+    "val_l1_macro_f1": 0.8261677895075591,
+    "val_l2_oracle_macro_f1": 0.5577433199442768,
+    "selection_score": 0.6198993726775344,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 15,
+    "train_loss": 1.6516849916744856,
+    "val_l1_macro_f1": 0.8303575989782886,
+    "val_l2_oracle_macro_f1": 0.6048085901027077,
+    "selection_score": 0.6385248696428231,
+    "training_stage": "upper_blocks"
+  },
+  {
+    "epoch": 16,
+    "train_loss": 1.557907600418415,
+    "val_l1_macro_f1": 0.8302704530087897,
+    "val_l2_oracle_macro_f1": 0.6331819782321934,
+    "selection_score": 0.6556157940066581,
+    "training_stage": "full"
+  },
+  {
+    "epoch": 17,
+    "train_loss": 1.5567652528582057,
+    "val_l1_macro_f1": 0.8489276485788113,
+    "val_l2_oracle_macro_f1": 0.6587336905518724,
+    "selection_score": 0.6798709185052644,
+    "training_stage": "full"
+  }
+]

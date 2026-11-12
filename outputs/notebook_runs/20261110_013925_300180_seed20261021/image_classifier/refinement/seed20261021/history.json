@@ -1,0 +1,114 @@
+[
+  {
+    "epoch": 0,
+    "train_loss": null,
+    "val_score": 0.6706687489217609,
+    "stage": "warm_start",
+    "updates": 0
+  },
+  {
+    "epoch": 1,
+    "train_loss": 0.12987425502121838,
+    "val_score": 0.6749794141019914,
+    "stage": "heads",
+    "updates": 39
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.12949139498222886,
+    "val_score": 0.6749794141019914,
+    "stage": "heads",
+    "updates": 39
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.12919817273231113,
+    "val_score": 0.6803880298764607,
+    "stage": "heads",
+    "updates": 39
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.12921567676357584,
+    "val_score": 0.6803880298764607,
+    "stage": "heads",
+    "updates": 39
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.13236425496832607,
+    "val_score": 0.6803880298764607,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.1356948764958218,
+    "val_score": 0.6803880298764607,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.13376069608223595,
+    "val_score": 0.6602503048274275,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.1343980753684745,
+    "val_score": 0.65110589631543,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.13407506790085166,
+    "val_score": 0.65110589631543,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.13170930302513192,
+    "val_score": 0.65110589631543,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.13091393741565982,
+    "val_score": 0.6622761577623714,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.13413487004688363,
+    "val_score": 0.6622761577623714,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.13327574118777039,
+    "val_score": 0.6508536268049567,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.13124799801438464,
+    "val_score": 0.6508536268049567,
+    "stage": "last_stage",
+    "updates": 39
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.13287562889113924,
+    "val_score": 0.6494889308948062,
+    "stage": "last_stage",
+    "updates": 39
+  }
+]
