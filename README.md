@@ -12,10 +12,8 @@ Dữ liệu và trọng số chỉ dùng nghiên cứu nội bộ theo metadata 
 
 ## Giao diện chạy local
 
-Nhấp đúp `run_local.bat` hoặc chạy `py -3.10 local_app.py` trong thư mục này. Chờ nạp checkpoint, sau đó mở `http://127.0.0.1:7860` nếu trình duyệt không tự mở. Giao diện dùng run đầy đủ mới nhất; có thể khóa một run bằng `py -3.10 local_app.py --run-id 20261112_115255_seed20261021`. Nếu ứng dụng cũ đang mở, nhấn Ctrl+C trong cửa sổ lệnh của nó rồi chạy lại để nạp code mới. Đóng cửa sổ lệnh hoặc nhấn Ctrl+C để tắt.
+Nhấp đúp `run_local.bat` hoặc chạy `py -3.10 local_app.py` trong thư mục này. Chờ nạp checkpoint, sau đó mở `http://127.0.0.1:7860` nếu trình duyệt không tự mở. Giao diện dùng run đầy đủ mới nhất; có thể khóa một run bằng `py -3.10 local_app.py --run-id 20261112_115255_seed20261021`. Đóng cửa sổ lệnh hoặc nhấn Ctrl+C để tắt.
 
-Giao diện dùng trực tiếp ngưỡng L2 tối đa 60%: C2.1–C2.5 từ 70% còn 60%, C2.9–C2.10 từ 65% còn 60%; C2.6–C2.8 vẫn 20%, C2.11 vẫn 10%. Ngưỡng bằng chứng L2 vẫn 50%. Đây là thay đổi quy tắc trả nhãn khi suy luận, không cần huấn luyện lại checkpoint. Cấu hình 60% là thử nghiệm local: trên validation, precision L2 87,2% và tỷ lệ nhận L2 ở ảnh L2 trống 20%, chưa đạt hai mục tiêu 90% và 10% trong notebook.
-
-Tab **Thử ảnh** nhận ảnh từ máy hoặc ảnh test đã gán nhãn. Với ảnh test, ứng dụng dùng crop nhân vật mục tiêu từ manifest để so với kết quả đã lưu. Tab **Phân tích lỗi L2 trên test** tính lại quyết định từ điểm test đã lưu theo ngưỡng 60%, rồi lọc theo loại lỗi và nhãn con. Vì ngưỡng được điều chỉnh sau khi xem test, các số mới chỉ dùng phân tích hậu nghiệm; cần test độc lập mới để kết luận chất lượng. Ảnh ngoài dataset không có nhãn chuẩn nên chỉ hiển thị dự đoán và căn cứ giữ ở L1.
+Tab **Thử ảnh** nhận ảnh từ máy hoặc ảnh test đã gán nhãn. Với ảnh test, ứng dụng dùng crop nhân vật mục tiêu từ manifest để so với kết quả đã lưu. Tab **Phân tích lỗi L2 trên test** lọc các ảnh theo loại lỗi và nhãn con. Đây là công cụ suy luận và xem lại kết quả; không huấn luyện hay điều chỉnh ngưỡng trên test. Ảnh ngoài dataset không có nhãn chuẩn nên chỉ hiển thị dự đoán và căn cứ giữ ở L1.
 
 Phân tích chi tiết lần chạy mới nhất ở `L2_ERROR_ANALYSIS.md`.
